@@ -872,6 +872,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703268248}
   m_CullTransparentMesh: 1
+--- !u!1 &799681584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c046e060441993f4f85c2787ab31f713, type: 3}
+  m_PrefabInstance: {fileID: 1431014737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &799681585
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799681584}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &799681586
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799681584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 73.53296
+  m_Height: 359.5
+  m_Direction: 1
+  m_Center: {x: -0, y: 179.8, z: 0}
+--- !u!114 &799681588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799681584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7cb9478ca08de847a07ad445440b1a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  Hp: 0
+  physicArmor: 0
+  magicArmor: 0
 --- !u!1 &813379387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,7 +1366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -28.526184}
+  m_AnchoredPosition: {x: 0, y: -28.526123}
   m_SizeDelta: {x: 1920, y: 57.0523}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398797307
@@ -1479,15 +1550,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c046e060441993f4f85c2787ab31f713, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2211
+      value: -1606.0736
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c046e060441993f4f85c2787ab31f713, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c046e060441993f4f85c2787ab31f713, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2167
+      value: 1422.4032
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c046e060441993f4f85c2787ab31f713, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1524,7 +1595,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c046e060441993f4f85c2787ab31f713, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 799681586}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c046e060441993f4f85c2787ab31f713, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 799681585}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c046e060441993f4f85c2787ab31f713, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 799681588}
   m_SourcePrefab: {fileID: 100100000, guid: c046e060441993f4f85c2787ab31f713, type: 3}
 --- !u!1 &1468197551
 GameObject:
@@ -2883,7 +2963,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 1, z: 1}
-  m_LocalScale: {x: 500, y: 1, z: 500}
+  m_LocalScale: {x: 400, y: 1, z: 400}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

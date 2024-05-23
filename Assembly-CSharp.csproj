@@ -61,9 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Scripts\GameScript\MouserInteraction.cs" />
+    <Compile Include="Assets\Scripts\GameScript\CamMove.cs" />
     <Compile Include="Assets\Scripts\Login.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+    <Compile Include="Assets\Scripts\GameScript\MobScript.cs" />
     <Compile Include="Assets\Scripts\Lobby.cs" />
     <Compile Include="Assets\Scripts\GameRoom.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
