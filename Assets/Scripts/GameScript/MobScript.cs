@@ -1,92 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Compilation;
 using UnityEngine;
 
 public class MobScript : MonoBehaviour
 {
     int corner = 0;
     Animator animator;
+    AnimatorStateInfo animStateInfo;
     [Header("Status")]
     public float speed;
     public float Hp;
     public float physicArmor;
     public float magicArmor;
     public int turn_speed;
+    public Transform field;
     void Start()
     {
         animator=this.GetComponent<Animator>();
+        animator.SetInteger("status", 1);
         StartCoroutine(MobMove());
+    }
+    private void Update()
+    {
+        animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
     }
 
     // Update is called once per frame
     IEnumerator MobMove()
     {
-        switch (corner % 4)
-        {
-            case 0:
-                transform.position = Vector3.MoveTowards(transform.position, new Vector3(-1607, 6, -1612), speed);
-                break;
-            case 1:
-                transform.position = Vector3.MoveTowards(transform.position, new Vector3(1597, 6, -1612), speed);
-                break;
-            case 2:
-                transform.position = Vector3.MoveTowards(transform.position, new Vector3(1597, 6, 1421), speed);
-                break;
-            case 3:
-                transform.position = Vector3.MoveTowards(transform.position, new Vector3(-1607, 6, 1421), speed);
-                break;
-            default:
-                break;
-        }
+        transform.position = Vector3.MoveTowards(transform.position, field.GetChild(corner).transform.position, speed);
         yield return new WaitForSeconds(0.01f);
         StartCoroutine(IsArrive());
     }
 
     IEnumerator IsArrive()
     {
-        if (transform.position == new Vector3(-1607, 6, -1612))
+        if (transform.position == field.GetChild(corner).transform.position)
         {
-
-            for(int i = 0;i<90/ Mathf.Abs(turn_speed); i++)
+            animator.SetTrigger("turn");
+            yield return new WaitUntil(() => animStateInfo.IsName("Left turn") && animStateInfo.normalizedTime >= 1.0f);
+            if(corner==3)
             {
-                transform.Rotate(new Vector3(0, turn_speed, 0));
-                yield return new WaitForSeconds(0.01f);
+                corner = 0;
+            }
+            else
+            {
+                corner++;
             }
             transform.rotation = Quaternion.Euler(0, 90, 0);
-            corner = 1;
         }
-        else if (transform.position == new Vector3(1597, 6, -1612))
-        {
-            for (int i = 0; i < 90 / Mathf.Abs(turn_speed); i++)
-            {
-                transform.Rotate(new Vector3(0, turn_speed, 0));
-                yield return new WaitForSeconds(0.01f);
-            }
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-            corner = 2;
-        }
-        else if (transform.position == new Vector3(1597, 6, 1421))
-        {
-            for (int i = 0; i < 90 / Mathf.Abs(turn_speed); i++)
-            {
-                transform.Rotate(new Vector3(0, turn_speed, 0));
-                yield return new WaitForSeconds(0.01f);
-            }
-            transform.rotation = Quaternion.Euler(0, 270, 0);
-            corner = 3;
-        }
-        else if (transform.position == new Vector3(-1607, 6, 1421))
-        {
-            for (int i = 0; i < 90 / Mathf.Abs(turn_speed); i++)
-            {
-                transform.Rotate(new Vector3(0, turn_speed * Time.deltaTime, 0));
-                yield return new WaitForSeconds(0.01f);
-            }
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-            corner = 0;
-    }
         StartCoroutine(MobMove());
     }
-    OnAnimation
 
 }
