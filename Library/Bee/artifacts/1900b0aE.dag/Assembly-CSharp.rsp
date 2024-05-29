@@ -388,6 +388,7 @@
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameRoom.cs"
 "Assets/Scripts/GameScript/CamMove.cs"
+"Assets/Scripts/GameScript/Character_.cs"
 "Assets/Scripts/GameScript/MobScript.cs"
 "Assets/Scripts/GameScript/mouseinter.cs"
 "Assets/Scripts/LoadingSceneManager.cs"

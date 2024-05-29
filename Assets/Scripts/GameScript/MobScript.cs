@@ -17,6 +17,8 @@ public class MobScript : MonoBehaviour
     public Transform field;
     void Start()
     {
+        field = GameObject.Find("Player1Field").transform;
+        transform.position=field.GetChild(3).position;
         animator=this.GetComponent<Animator>();
         animator.SetInteger("status", 1);
         StartCoroutine(MobMove());
@@ -48,7 +50,7 @@ public class MobScript : MonoBehaviour
             {
                 corner++;
             }
-            transform.rotation = Quaternion.Euler(0, 90, 0);
+            transform.Rotate(new Vector3(0, -90, 0));
         }
         StartCoroutine(MobMove());
     }
