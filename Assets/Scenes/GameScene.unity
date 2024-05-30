@@ -900,6 +900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63818afdfe09d62438424b5cca89c611, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectedGameObject: []
   minDistance: 0.1
   width: 1
 --- !u!120 &543867574
@@ -1662,7 +1663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Selectable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1780,7 +1781,7 @@ Canvas:
   m_GameObject: {fileID: 1318987046}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1756246821}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1846,7 +1847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9133642385445064230, guid: 13909e69eddc2914f9cfcd2d91eefc62, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1216.4556
+      value: 597
       objectReference: {fileID: 0}
     - target: {fileID: 9133642385445064230, guid: 13909e69eddc2914f9cfcd2d91eefc62, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2173,6 +2174,7 @@ MonoBehaviour:
   nowstatus: 1
   target: {fileID: 0}
   animator: {fileID: 0}
+  speed: 0
 --- !u!54 &1432592264
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2219,8 +2221,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 135.792
-  m_Center: {x: 0, y: 102.23433, z: -6.4762115}
+  m_Radius: 266.4
+  m_Center: {x: 0, y: 102.233765, z: 0}
 --- !u!95 &1432592267
 Animator:
   serializedVersion: 5

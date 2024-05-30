@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.UI.GridLayoutGroup;
 
 public class Character_ : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Character_ : MonoBehaviour
     public Transform target;
     public Animator animator;
     public AnimatorStateInfo animStateInfo;
+    [Header("Status")]
+    public float speed=3;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,10 @@ public class Character_ : MonoBehaviour
     void Update()
     {
         animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        if (target == null)
+        {
+            animator.SetInteger("status", 0);
+        }
     }
     IEnumerator Charac_Anim()
     {
@@ -32,16 +39,11 @@ public class Character_ : MonoBehaviour
             animator.SetInteger("status", 2);
             yield return new WaitUntil(() => animStateInfo.IsName("standing attack") && animStateInfo.normalizedTime >= 1.0f);
         }
-        else if (target == null&&nowstatus == status.idle)
-        {
-            animator.SetInteger("status", 0);
-        }
         yield return new WaitForSeconds(0.1f);
         StartCoroutine(this.Charac_Anim());
     }
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log(other.gameObject.name);
         if (other.gameObject.tag == "mob")
             if (target ==null)
             {
@@ -56,6 +58,18 @@ public class Character_ : MonoBehaviour
             Debug.Log("sdfg");
             target = null;
         }
-
+    }
+    public void Allstop()
+    {
+        StopAllCoroutines();
+    }
+    public IEnumerator Charac_Move(Vector3 target)
+    {
+        nowstatus = status.walking;
+            while(Vector3.Distance(transform.position,target)>0.1f)
+            { 
+            transform.position = Vector3.MoveTowards(transform.position,new Vector3(target.x,transform.position.y,target.z),speed);
+            yield return new WaitForSeconds(0.1f);
+            }
     }
 }
