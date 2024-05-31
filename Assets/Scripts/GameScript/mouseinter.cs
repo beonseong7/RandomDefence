@@ -9,6 +9,7 @@ public class mouseinter : MonoBehaviour
     public List<GameObject> SelectedGameObject=new List<GameObject>();
     private Vector3 previousPosition;
     private Vector3 currentPosition;
+
     [SerializeField]
     private float minDistance = 0.1f;
     [SerializeField]
@@ -24,6 +25,7 @@ public class mouseinter : MonoBehaviour
     private void Update()
     {
         if(Input.GetMouseButtonDown(0)) { 
+            SelectedGameObject.Clear();
             previousPosition= Input.mousePosition;
             previousPosition.z = 0;
         }
@@ -36,6 +38,7 @@ public class mouseinter : MonoBehaviour
         if(Input.GetMouseButtonDown(1)) {
             ObjectMove();
         }
+
     }
 
     void DragOn()
@@ -60,9 +63,10 @@ public class mouseinter : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Vector3 worldPosition = hit.point;
+
             foreach (GameObject obj in SelectedGameObject)
             {
-                StartCoroutine(obj.transform.GetComponent<Character_>().Charac_Move(worldPosition));
+                obj.transform.GetComponent<Character_>().destination = worldPosition;
             }
         }
     }

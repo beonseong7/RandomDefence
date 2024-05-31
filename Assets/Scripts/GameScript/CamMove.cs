@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class CamMove : MonoBehaviour
 {
+    public GameObject Menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +16,12 @@ public class CamMove : MonoBehaviour
    
     void LateUpdate()
     {
-        this.MoveCam();
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Menu.SetActive(!Menu.activeSelf);
+        }
+        if(!Menu.activeSelf) this.MoveCam();
+
 
     }
     void MoveCam()
