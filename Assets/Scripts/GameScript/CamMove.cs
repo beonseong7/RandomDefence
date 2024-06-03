@@ -18,7 +18,7 @@ public class CamMove : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Menu.SetActive(!Menu.activeSelf);
+            InGameManager.instance.Button_Active(Menu);
         }
         if(!Menu.activeSelf) this.MoveCam();
 

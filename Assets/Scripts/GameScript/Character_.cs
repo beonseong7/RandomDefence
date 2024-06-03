@@ -13,6 +13,7 @@ public class Character_ : MonoBehaviour
     public Vector3 destination=Vector3.zero;
     public Animator animator;
     public AnimatorStateInfo animStateInfo;
+    public string owner;
     [Header("Status")]
     public float speed=3;
     // Start is called before the first frame update
@@ -73,14 +74,12 @@ public class Character_ : MonoBehaviour
             if (target ==null)
             {
                 target = other.transform;
-                Debug.Log(target.gameObject.name);
             }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag=="mob"&&other.gameObject.name == target.gameObject.name)
         {
-            Debug.Log("sdfg");
             target = null;
         }
     }

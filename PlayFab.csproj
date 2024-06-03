@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{39ADB5A9-1421-57BB-4026-F5B726367D09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -151,6 +152,7 @@
     <Compile Include="Assets\PlayFabSDK\Shared\Public\PlayFabApiSettings.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".editorconfig" />
     <None Include="Assets\PlayFabSDK\link.xml" />
     <None Include="Assets\PlayFabSDK\PlayFab.asmdef" />
   </ItemGroup>
