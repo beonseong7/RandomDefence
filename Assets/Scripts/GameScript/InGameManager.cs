@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using TMPro;
 using TMPro.EditorUtilities;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -15,6 +16,8 @@ public class InGameManager : MonoBehaviour
     Dictionary<string, string> Character_recipe=new Dictionary<string, string>();
     public static InGameManager instance = null;
     public int choice = 2;
+    public int stage = 1;
+    public GameObject[] UI_Text;
     public GameObject[] Mob;
     public GameObject[] common;
     public GameObject[] Character_;
@@ -63,12 +66,30 @@ public class InGameManager : MonoBehaviour
                 tmp.transform.SetParent(Panels[3].transform);
             tmp.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = recipe.Substring(0,recipe.Length-2);
         }
+        StartCoroutine(summon_Mob());
+    }
+    IEnumerator summon_Mob()
+    {
+        while (stage < 9)
+        {
+            for (int i = 0; i < 40; i++)
+            {
+                Instantiate(Mob[stage - 1]);
+                yield return new WaitForSeconds(1f);
+            }
+            yield return new WaitForSeconds(20f);
+            stage++;
+            choice += 2;
+        }
     }
     public void Random_summon()
     {
         var tmp=GameObject.Find("Player1Field").transform;
         if (choice > 0)
-            Instantiate(common[UnityEngine.Random.Range(0, common.Length - 1)],new Vector3(tmp.position.x+UnityEngine.Random.Range(-10,10), 102,tmp.position.z + UnityEngine.Random.Range(-10, 10)),tmp.rotation);
+        {
+            var obj= Instantiate(common[UnityEngine.Random.Range(0, common.Length - 1)], new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+            obj.transform.GetComponent<Character_>().attack = 10;
+        }
         choice--;
     }
     void check_inventory(string name)
@@ -79,7 +100,11 @@ public class InGameManager : MonoBehaviour
     {
         tmp.SetActive(!tmp.activeSelf);
     }
-    // Update is called once per frame
+    public void OnGUI()
+    {
+        UI_Text[0].transform.GetComponent<TextMeshProUGUI>().text = "º±≈√±« : " + choice.ToString();
+        UI_Text[1].transform.GetComponent<TextMeshProUGUI>().text = "Stage : " + stage.ToString();
+    }
     void Update()
     {
         

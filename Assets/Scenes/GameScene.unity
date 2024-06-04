@@ -355,7 +355,12 @@ MonoBehaviour:
   - {fileID: 1807573741}
   - {fileID: 521808181}
   choice: 2
-  Mob: []
+  stage: 1
+  UI_Text:
+  - {fileID: 1071618606}
+  - {fileID: 523406049}
+  Mob:
+  - {fileID: 8469837097725318300, guid: 13909e69eddc2914f9cfcd2d91eefc62, type: 3}
   common:
   - {fileID: 6400699034332350705, guid: d65a662019dd7e648ae9bc7dfdeccf6b, type: 3}
   Character_: []
@@ -3254,7 +3259,7 @@ Canvas:
   m_GameObject: {fileID: 1318987046}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 1756246821}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -5862,7 +5867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2112445501
 RectTransform:
   m_ObjectHideFlags: 0

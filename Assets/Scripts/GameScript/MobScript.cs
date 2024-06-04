@@ -13,7 +13,6 @@ public class MobScript : MonoBehaviour
     public float Hp;
     public float physicArmor;
     public float magicArmor;
-    public int turn_speed;
     public Transform field;
     void Start()
     {

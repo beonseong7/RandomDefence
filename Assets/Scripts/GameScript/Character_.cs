@@ -15,6 +15,7 @@ public class Character_ : MonoBehaviour
     public AnimatorStateInfo animStateInfo;
     public string owner;
     [Header("Status")]
+    public float attack;
     public float speed=3;
     // Start is called before the first frame update
     void Start()
