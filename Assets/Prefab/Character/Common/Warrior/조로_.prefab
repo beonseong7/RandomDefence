@@ -202,7 +202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       propertyPath: m_Name
-      value: Idle (1)
+      value: "\uC870\uB85C_"
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       propertyPath: m_Layer
@@ -382,9 +382,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6400699034332350705}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -417,6 +417,8 @@ MonoBehaviour:
   target: {fileID: 0}
   destination: {x: 0, y: 0, z: 0}
   animator: {fileID: 0}
+  owner: 
+  attack: 0
   speed: 3
 --- !u!95 &300066479573501767
 Animator:

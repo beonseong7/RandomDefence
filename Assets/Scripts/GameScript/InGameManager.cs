@@ -8,6 +8,8 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Photon.Pun;
+using Photon.Realtime;
 
 public class InGameManager : MonoBehaviour
 {
@@ -20,7 +22,7 @@ public class InGameManager : MonoBehaviour
     public GameObject[] UI_Text;
     public GameObject[] Mob;
     public GameObject[] common;
-    public GameObject[] Character_;
+    public List<GameObject> Character_=new List<GameObject>();
     private void Awake()
     {
         if (instance == null)
@@ -35,6 +37,15 @@ public class InGameManager : MonoBehaviour
     }
         void Start()
     {
+       /*if(PhotonNetwork.IsMasterClient)
+        {
+            int count = 1;
+            foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
+            {
+                GameObject.Find("Player" + count.ToString() + "Field").name = player.NickName.ToString() + "Field";
+                Debug.Log("Player in room: " + player.NickName);
+            }
+        }*/
         string path = Path.Combine(Application.streamingAssetsPath, "recipe.txt");
         if (File.Exists(path))
         {
@@ -57,14 +68,18 @@ public class InGameManager : MonoBehaviour
             
             tmp.onClick.AddListener(() => check_inventory(tmp.name));
             if (recipe.Contains("U_"))
-                tmp.transform.SetParent(Panels[0].transform);
+                tmp.transform.SetParent(Panels[0].transform,true);
             else if (recipe.Contains("R_"))
-                tmp.transform.SetParent(Panels[1].transform);
+                tmp.transform.SetParent(Panels[1].transform, true);
             else if (recipe.Contains("E_"))
-                tmp.transform.SetParent(Panels[2].transform);
+                tmp.transform.SetParent(Panels[2].transform, true);
             else if (recipe.Contains("L_"))
-                tmp.transform.SetParent(Panels[3].transform);
+                tmp.transform.SetParent(Panels[3].transform,true);
+            tmp.GetComponent<RectTransform>().localPosition=new Vector3(tmp.GetComponent<RectTransform>().position.x, tmp.GetComponent<RectTransform>().position.y, 0);
+            tmp.GetComponent<RectTransform>().localRotation = Quaternion.Euler(Vector3.zero);
+            tmp.GetComponent<RectTransform>().localScale = Button.GetComponent<RectTransform>().localScale;
             tmp.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = recipe.Substring(0,recipe.Length-2);
+            
         }
         StartCoroutine(summon_Mob());
     }
@@ -74,7 +89,8 @@ public class InGameManager : MonoBehaviour
         {
             for (int i = 0; i < 40; i++)
             {
-                Instantiate(Mob[stage - 1]);
+                var mob= Instantiate(Mob[stage - 1]);
+                mob.transform.GetComponent<MobScript>().mob_Hp=10.0f;
                 yield return new WaitForSeconds(1f);
             }
             yield return new WaitForSeconds(20f);
@@ -88,7 +104,7 @@ public class InGameManager : MonoBehaviour
         if (choice > 0)
         {
             var obj= Instantiate(common[UnityEngine.Random.Range(0, common.Length - 1)], new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
-            obj.transform.GetComponent<Character_>().attack = 10;
+            obj.transform.GetComponent<Character_>().attack = 5.0f;
         }
         choice--;
     }

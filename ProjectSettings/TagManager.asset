@@ -6,6 +6,7 @@ TagManager:
   tags:
   - mob
   - Selectable
+  - Dead
   layers:
   - Default
   - TransparentFX

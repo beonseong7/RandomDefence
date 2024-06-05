@@ -20,7 +20,12 @@ public class CamMove : MonoBehaviour
         {
             InGameManager.instance.Button_Active(Menu);
         }
-        if(!Menu.activeSelf) this.MoveCam();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            var tmp = GameObject.Find("Canvas");
+            tmp.transform.GetChild(2).gameObject.SetActive(false);
+        }
+        if (!Menu.activeSelf) this.MoveCam();
 
 
     }

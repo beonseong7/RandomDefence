@@ -51,6 +51,7 @@ public class Character_ : MonoBehaviour
                 break;
             case status.attack:
                 transform.LookAt(new Vector3(target.position.x, this.transform.position.y, target.position.z));
+                if (target.GetComponent<MobScript>().mob_Hp <= 0) target = null;
                 break;
             case status.walking:
                 transform.GetComponent<CapsuleCollider>().enabled = false;
@@ -69,19 +70,35 @@ public class Character_ : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
         StartCoroutine(this.Charac_Anim());
     }
+    private void OnCollisionStay(Collision collision)
+    {
+        Rigidbody otherRb = collision.collider.attachedRigidbody;
+
+        if (otherRb != null)
+        {
+            Vector3 pushDirection = collision.transform.position - transform.position;
+            pushDirection.Normalize();
+
+            otherRb.MovePosition(otherRb.transform.position + pushDirection * 2f);
+        }
+    }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "mob")
-            if (target ==null)
+        if (target == null)
+            if (other.gameObject.tag == "mob")
             {
                 target = other.transform;
             }
     }
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag=="mob"&&other.gameObject.name == target.gameObject.name)
-        {
-            target = null;
-        }
+        if (target != null)
+            if (other.gameObject.tag=="mob"&&other.gameObject.name == target.gameObject.name)
+                target = null;
+    }
+    public void Event_Attack()
+    {
+        if (target != null)
+             if(target.GetComponent<MobScript>().Is_Damage(attack)) target=null;
     }
 }

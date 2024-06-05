@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Compilation;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MobScript : MonoBehaviour
 {
@@ -10,12 +11,39 @@ public class MobScript : MonoBehaviour
     AnimatorStateInfo animStateInfo;
     [Header("Status")]
     public float speed;
-    public float Hp;
     public float physicArmor;
     public float magicArmor;
+    private float Hp;
     public Transform field;
+    public Slider HP_Slider;
+    public float mob_Hp
+    {
+        get
+        {
+            return Hp;
+        }
+        set
+        {
+            Hp = value;
+        }
+    }
+
+    public bool Is_Damage(float damage)
+    {
+        Hp -= damage;
+        HP_Slider.value = Hp;
+        if (Hp <= 0)
+        {
+            tag = "Dead";
+            StopAllCoroutines();
+            StartCoroutine(Is_Die());
+            return true;
+        }
+         return false;
+    }
     void Start()
     {
+        HP_Slider.maxValue = Hp;
         field = GameObject.Find("Player1Field").transform;
         transform.position=field.GetChild(3).position;
         animator=this.GetComponent<Animator>();
@@ -25,6 +53,11 @@ public class MobScript : MonoBehaviour
     private void Update()
     {
         animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+    }
+    private void LateUpdate()
+    {
+        animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        HP_Slider.transform.forward=Camera.main.transform.forward;
     }
 
     // Update is called once per frame
@@ -52,6 +85,13 @@ public class MobScript : MonoBehaviour
             transform.Rotate(new Vector3(0, -90, 0));
         }
         StartCoroutine(MobMove());
+    }
+    IEnumerator Is_Die()
+    {
+        
+        animator.SetInteger("status", 4);
+        yield return new WaitUntil(() => animStateInfo.IsName("Dying") && animStateInfo.normalizedTime >= 1.0f);
+        Destroy(this.gameObject);
     }
 
 }
