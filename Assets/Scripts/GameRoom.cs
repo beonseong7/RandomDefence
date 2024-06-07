@@ -137,9 +137,16 @@ public class GameRoom: MonoBehaviourPunCallbacks
     }
     public void Press_Start()
     {
-        photonView.RPC("StartGame", RpcTarget.OthersBuffered);
-        if(PhotonNetwork.IsMasterClient)
+        foreach(Transform tmp in Player_Panel.transform)
+        {
+            Debug.Log(tmp.GetChild(1).GetComponent<TextMeshProUGUI>().text);
+            if (tmp.GetChild(1).GetComponent<TextMeshProUGUI>().text == "WAIT") return;
+        }
+            
+        if (PhotonNetwork.IsMasterClient)
             PhotonNetwork.CurrentRoom.IsOpen = false;
+        photonView.RPC("StartGame", RpcTarget.AllBuffered);
+       
     }
     [PunRPC]
     void StartGame()

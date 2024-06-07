@@ -1,20 +1,21 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Compilation;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MobScript : MonoBehaviour
+public class MobScript : MonoBehaviourPunCallbacks
 {
     int corner = 0;
     Animator animator;
     AnimatorStateInfo animStateInfo;
+    PhotonView local_View;
     [Header("Status")]
     public float speed;
     public float physicArmor;
     public float magicArmor;
     private float Hp;
-    public Transform field;
+    public Transform field=null;
     public Slider HP_Slider;
     public float mob_Hp
     {
@@ -43,12 +44,18 @@ public class MobScript : MonoBehaviour
     }
     void Start()
     {
-        HP_Slider.maxValue = Hp;
-        field = GameObject.Find("Player1Field").transform;
-        transform.position=field.GetChild(3).position;
-        animator=this.GetComponent<Animator>();
+        local_View = GetComponent<PhotonView>();
+        HP_Slider.maxValue = InGameManager.instance.stage*10.0f;
+        Hp= InGameManager.instance.stage * 10.0f;
+        animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);
-        StartCoroutine(MobMove());
+        if(local_View.IsMine) StartCoroutine(MobMove());
+    }
+    [PunRPC]
+    public void SetField(string tmp)
+    {
+        field = GameObject.Find(tmp).transform;
+        transform.position = field.GetChild(3).position;
     }
     private void Update()
     {
@@ -63,6 +70,7 @@ public class MobScript : MonoBehaviour
     // Update is called once per frame
     IEnumerator MobMove()
     {
+        yield return new WaitUntil(()=>field !=null);
         transform.position = Vector3.MoveTowards(transform.position, field.GetChild(corner).transform.position, speed);
         yield return new WaitForSeconds(0.01f);
         StartCoroutine(IsArrive());
@@ -72,9 +80,10 @@ public class MobScript : MonoBehaviour
     {
         if (transform.position == field.GetChild(corner).transform.position)
         {
-            animator.SetTrigger("turn");
+            animator.SetInteger("status", 2);
             yield return new WaitUntil(() => animStateInfo.IsName("Left turn") && animStateInfo.normalizedTime >= 1.0f);
-            if(corner==3)
+            animator.SetInteger("status",1);
+            if (corner==3)
             {
                 corner = 0;
             }

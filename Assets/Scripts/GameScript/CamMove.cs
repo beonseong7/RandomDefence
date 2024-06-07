@@ -22,8 +22,7 @@ public class CamMove : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            var tmp = GameObject.Find("Canvas");
-            tmp.transform.GetChild(2).gameObject.SetActive(false);
+            Menu.transform.GetChild(9).gameObject.SetActive(false);
         }
         if (!Menu.activeSelf) this.MoveCam();
 

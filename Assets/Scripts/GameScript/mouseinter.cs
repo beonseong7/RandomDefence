@@ -11,7 +11,7 @@ public class mouseinter : MonoBehaviour
     private Vector3 currentPosition;
 
     [SerializeField]
-    private float minDistance = 0.1f;
+    private float minDistance = 0f;
     [SerializeField]
     private float width = 0.1f;
     // Start is called before the first frame update
@@ -87,14 +87,14 @@ public class mouseinter : MonoBehaviour
     {
         // 선택된 사각형 영역 안에 오브젝트가 있는지 확인
         Rect selectionRect = GetScreenRect(previousPosition,currentPosition);
-        GameObject[] selectableObjects = GameObject.FindGameObjectsWithTag("Selectable");
-        foreach (GameObject obj in selectableObjects)
+        var selectableObjects = InGameManager.instance.MyCharacter.transform;
+        foreach (Transform obj in selectableObjects)
         {
             Vector3 screenPos = Camera.main.WorldToScreenPoint(obj.transform.position);
             screenPos.y = Screen.height - screenPos.y;
             if (selectionRect.Contains(screenPos))
             {
-                SelectedGameObject.Add(obj);
+                SelectedGameObject.Add(obj.gameObject);
             }
         }
     }

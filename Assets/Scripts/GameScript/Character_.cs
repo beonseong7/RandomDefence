@@ -24,7 +24,6 @@ public class Character_ : MonoBehaviour
         animator = GetComponent<Animator>();
         StartCoroutine(this.Charac_Anim());
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -55,7 +54,7 @@ public class Character_ : MonoBehaviour
                 break;
             case status.walking:
                 transform.GetComponent<CapsuleCollider>().enabled = false;
-                while (Vector3.Distance(transform.position, destination) >110f)
+                while (Vector3.Distance(transform.position, destination) >120f)
                 {
                     transform.LookAt(new Vector3(destination.x, this.transform.position.y, destination.z));
                     transform.position = Vector3.MoveTowards(transform.position, new Vector3(destination.x, transform.position.y, destination.z), speed);
