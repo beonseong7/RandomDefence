@@ -1,3 +1,4 @@
+using Photon.Pun;
 using PlayFab.EconomyModels;
 using System.Collections;
 using System.Collections.Generic;
@@ -23,7 +24,14 @@ public class Character_ : MonoBehaviour
         nowstatus = status.idle;
         animator = GetComponent<Animator>();
         StartCoroutine(this.Charac_Anim());
-    }
+        this.GetComponent<PhotonView>().observableSearch = PhotonView.ObservableSearch.Manual;
+        this.GetComponent<PhotonView>().ObservedComponents.Add(this.animator);
+        this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
+        PhotonTransformViewPositionModel positionModel = this.GetComponent<PhotonTransformViewClassic>().m_PositionModel;
+        PhotonTransformViewRotationModel rotationModell = this.GetComponent<PhotonTransformViewClassic>().m_RotationModel;
+        positionModel.SynchronizeEnabled = true;
+
+     }
     // Update is called once per frame
     void Update()
     {
@@ -98,6 +106,10 @@ public class Character_ : MonoBehaviour
     public void Event_Attack()
     {
         if (target != null)
-             if(target.GetComponent<MobScript>().Is_Damage(attack)) target=null;
+        {
+            target.GetComponent<PhotonView>().RPC("IsDamage", RpcTarget.Others, attack);
+            if (target.GetComponent<MobScript>().Is_Damage(attack)) target = null;
+        }
+             
     }
 }

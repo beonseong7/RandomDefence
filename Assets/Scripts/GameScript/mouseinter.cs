@@ -9,7 +9,8 @@ public class mouseinter : MonoBehaviour
     public List<GameObject> SelectedGameObject=new List<GameObject>();
     private Vector3 previousPosition;
     private Vector3 currentPosition;
-
+    public Material SelectedMaterial;
+    public Material NotSelectedmaterial;
     [SerializeField]
     private float minDistance = 0f;
     [SerializeField]
@@ -26,6 +27,7 @@ public class mouseinter : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0)) { 
             SelectedGameObject.Clear();
+            CheckObjectClear();
             previousPosition= Input.mousePosition;
             previousPosition.z = 0;
         }
@@ -83,6 +85,11 @@ public class mouseinter : MonoBehaviour
     {
         
     }
+    void CheckObjectClear()
+    {
+        foreach(GameObject obj in SelectedGameObject)
+            obj.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().materials[1] = NotSelectedmaterial;
+    }
     void CheckObjectsInSelection()
     {
         // 선택된 사각형 영역 안에 오브젝트가 있는지 확인
@@ -95,6 +102,7 @@ public class mouseinter : MonoBehaviour
             if (selectionRect.Contains(screenPos))
             {
                 SelectedGameObject.Add(obj.gameObject);
+                obj.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().materials[1] = SelectedMaterial;
             }
         }
     }

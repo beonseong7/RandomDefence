@@ -28,7 +28,7 @@ public class MobScript : MonoBehaviourPunCallbacks
             Hp = value;
         }
     }
-
+    [PunRPC]
     public bool Is_Damage(float damage)
     {
         Hp -= damage;
@@ -100,7 +100,7 @@ public class MobScript : MonoBehaviourPunCallbacks
         
         animator.SetInteger("status", 4);
         yield return new WaitUntil(() => animStateInfo.IsName("Dying") && animStateInfo.normalizedTime >= 1.0f);
-        Destroy(this.gameObject);
+        PhotonNetwork.Destroy(this.gameObject);
     }
 
 }

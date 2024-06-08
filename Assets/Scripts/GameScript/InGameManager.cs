@@ -96,10 +96,9 @@ public class InGameManager : MonoBehaviourPunCallbacks
                     {
                         GameObject mob =PhotonNetwork.Instantiate("Mob_Prefab", GameObject.Find(player.NickName + "Field").transform.GetChild(3).position, Mob[stage - 1].transform.rotation);
                         PhotonView Local_photonView = mob.GetComponent<PhotonView>();
-                        Local_photonView.RPC("SetField", RpcTarget.AllBuffered, player.NickName + "Field");
+                        Local_photonView.RPC("SetField", RpcTarget.All, player.NickName + "Field");
                         yield return null;
                     }
-                       
                 }
                 yield return new WaitForSeconds(1f);
             }
@@ -119,7 +118,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
         var tmp=GameObject.Find(GameManager.instance.Nick_Name+"Field").transform;
         if (choice > 0)
         {
-            var obj= Instantiate(common[UnityEngine.Random.Range(0, common.Length - 1)], new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+            var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
             obj.transform.GetComponent<Character_>().attack = 5.0f;
             obj.transform.SetParent(MyCharacter.transform);
             obj.name = obj.name.Split("(Clone)")[0];

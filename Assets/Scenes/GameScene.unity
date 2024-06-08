@@ -1415,6 +1415,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectedGameObject: []
+  SelectedMaterial: {fileID: 2100000, guid: b5ae9da2cb81bbe40837c14517c61008, type: 2}
+  NotSelectedmaterial: {fileID: 2100000, guid: 244bf0610fe33904591fceb58e55fc9a, type: 2}
   minDistance: 0.1
   width: 1
 --- !u!120 &543867574

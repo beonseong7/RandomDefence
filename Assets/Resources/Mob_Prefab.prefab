@@ -3189,9 +3189,6 @@ MonoBehaviour:
   - Type: 3
     SynchronizeType: 1
     Name: status
-  - Type: 4
-    SynchronizeType: 1
-    Name: turn 0
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
