@@ -26,9 +26,8 @@ public class mouseinter : MonoBehaviour
     private void Update()
     {
         if(Input.GetMouseButtonDown(0)) { 
-            SelectedGameObject.Clear();
             CheckObjectClear();
-            previousPosition= Input.mousePosition;
+            previousPosition = Input.mousePosition;
             previousPosition.z = 0;
         }
         if (Input.GetMouseButton(0)) { this.DragOn(); }
@@ -88,7 +87,12 @@ public class mouseinter : MonoBehaviour
     void CheckObjectClear()
     {
         foreach(GameObject obj in SelectedGameObject)
-            obj.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().materials[1] = NotSelectedmaterial;
+        {
+            Material[] materials = obj.transform.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials;
+            materials[0] = NotSelectedmaterial;
+            obj.transform.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials = materials;
+        }
+        SelectedGameObject.Clear();
     }
     void CheckObjectsInSelection()
     {
@@ -102,7 +106,9 @@ public class mouseinter : MonoBehaviour
             if (selectionRect.Contains(screenPos))
             {
                 SelectedGameObject.Add(obj.gameObject);
-                obj.transform.GetChild(0).GetComponent<SkinnedMeshRenderer>().materials[1] = SelectedMaterial;
+                Material[] materials = obj.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials;
+                materials[0] = SelectedMaterial;
+                obj.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials = materials;
             }
         }
     }

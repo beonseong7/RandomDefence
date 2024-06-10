@@ -28,19 +28,26 @@ public class MobScript : MonoBehaviourPunCallbacks
             Hp = value;
         }
     }
-    [PunRPC]
     public bool Is_Damage(float damage)
     {
-        Hp -= damage;
-        HP_Slider.value = Hp;
-        if (Hp <= 0)
+        if (Hp > 0)
+        {
+            Hp -= damage;
+            this.GetComponent<PhotonView>().RPC("View_HP", RpcTarget.All, Hp);
+            return false;
+        }
+        return true;
+    }
+    [PunRPC]
+    public void View_HP(float HP)
+    {
+        HP_Slider.value = HP;
+        if(HP<=0 && this.GetComponent<PhotonView>().IsMine) 
         {
             tag = "Dead";
             StopAllCoroutines();
             StartCoroutine(Is_Die());
-            return true;
         }
-         return false;
     }
     void Start()
     {
@@ -56,6 +63,7 @@ public class MobScript : MonoBehaviourPunCallbacks
     {
         field = GameObject.Find(tmp).transform;
         transform.position = field.GetChild(3).position;
+        transform.SetParent(GameObject.Find("Mobs").transform);
     }
     private void Update()
     {

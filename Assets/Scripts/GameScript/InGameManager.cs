@@ -38,13 +38,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
     }
         void Start()
         {
-             int count = 1;
-             foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
-             {
-                 GameObject.Find("Player" + count.ToString() + "Field").name = player.NickName.ToString() + "Field";
-                 Debug.Log("Player in room: " + player.NickName);
-            count++;
-             }
+             
         SystemMessage.text = "";
         string path = Path.Combine(Application.streamingAssetsPath, "recipe.txt");
         if (File.Exists(path))
@@ -81,7 +75,30 @@ public class InGameManager : MonoBehaviourPunCallbacks
             tmp.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = recipe.Substring(0,recipe.Length-2);
             
         }
+        if (PhotonNetwork.IsMasterClient)
+        {
+            string[] players = new string[PhotonNetwork.CurrentRoom.PlayerCount];
+            int count = 0;
+            foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
+            {
+                players[count] = player.NickName;
+                count++;
+            }
+            photonView.RPC("Field_name", RpcTarget.All, players);
+        }
         StartCoroutine(summon_Mob());
+    }
+    [PunRPC]
+    public void Field_name(string[] tmp)
+    {
+        int count = 1;
+        foreach (string name in tmp)
+        {
+            GameObject.Find("Player" + count.ToString() + "Field").name = name.ToString() + "Field";
+            Debug.Log("Player in room: " + name);
+            count++;
+        }
+        Camera.main.transform.position = new Vector3(GameObject.Find(GameManager.instance.Nick_Name + "Field").transform.position.x, Camera.main.transform.position.y, GameObject.Find(GameManager.instance.Nick_Name + "Field").transform.position.z);
     }
     IEnumerator summon_Mob()
     {
@@ -107,7 +124,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
             choice += 2;
         }
     }
-    IEnumerator SystemMs(string text)
+    public IEnumerator SystemMs(string text)
     {
         SystemMessage.text = text;
         yield return new WaitForSeconds(5f);
@@ -195,6 +212,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
     {
         UI_Text[0].transform.GetComponent<TextMeshProUGUI>().text = "º±≈√±« : " + choice.ToString();
         UI_Text[1].transform.GetComponent<TextMeshProUGUI>().text = "Stage : " + stage.ToString();
+        UI_Text[2].transform.GetComponent<TextMeshProUGUI>().text = GameManager.instance.Nick_Name;
     }
     void Update()
     {

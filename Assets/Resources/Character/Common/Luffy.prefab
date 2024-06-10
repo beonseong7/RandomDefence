@@ -360,7 +360,10 @@ PrefabInstance:
       addedObject: {fileID: 6860028348975635753}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -7051848630428239244}
+      addedObject: {fileID: 146108383340172310}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8823206025188735413}
   m_SourcePrefab: {fileID: 100100000, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
 --- !u!1 &6400699034332350705 stripped
 GameObject:
@@ -431,6 +434,7 @@ MonoBehaviour:
   target: {fileID: 0}
   destination: {x: 0, y: 0, z: 0}
   animator: {fileID: 0}
+  Cha_photonview: {fileID: 6860028348975635753}
   owner: 
   attack: 0
   speed: 3
@@ -495,13 +499,14 @@ MonoBehaviour:
   prefixField: -1
   Synchronization: 3
   OwnershipTransfer: 0
-  observableSearch: 0
+  observableSearch: 2
   ObservedComponents:
-  - {fileID: 0}
+  - {fileID: 146108383340172310}
+  - {fileID: 8823206025188735413}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &-7051848630428239244
+--- !u!114 &146108383340172310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -510,27 +515,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 6400699034332350705}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8efc6b1d64977384eb3405357896c656, type: 3}
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PositionModel:
-    SynchronizeEnabled: 0
-    TeleportEnabled: 1
-    TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 2
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 1
-    ExtrapolateOption: 0
-    ExtrapolateSpeed: 1
-    ExtrapolateIncludingRoundTripTime: 1
-    ExtrapolateNumberOfStoredPositions: 1
-  m_RotationModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 180
-    InterpolateLerpSpeed: 5
-  m_ScaleModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 0
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 0
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 0
+--- !u!114 &8823206025188735413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6400699034332350705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 3
+    SynchronizeType: 0
+    Name: status
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
