@@ -6,6 +6,8 @@ using UnityEngine;
 public class CamMove : MonoBehaviour
 {
     public GameObject Menu;
+    public float base_speed = 2;
+    public float cam_speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,21 +32,22 @@ public class CamMove : MonoBehaviour
     }
     void MoveCam()
     {
+        cam_speed = base_speed * (Screen.width/500);
         if (Input.mousePosition.x > Screen.width - (Screen.width / 30))
         {
-            this.transform.GetComponent<Transform>().Translate(new Vector3(3, 0, 0), Space.World);
+            this.transform.GetComponent<Transform>().Translate(new Vector3(cam_speed, 0, 0), Space.World);
         }
         if (Input.mousePosition.x < (Screen.width / 30))
         {
-            this.transform.GetComponent<Transform>().Translate(new Vector3(-3, 0, 0), Space.World);
+            this.transform.GetComponent<Transform>().Translate(new Vector3(-cam_speed, 0, 0), Space.World);
         }
         if (Input.mousePosition.y > Screen.height - (Screen.height / 30))
         {
-            this.transform.GetComponent<Transform>().Translate(new Vector3(0, 0, 3), Space.World);
+            this.transform.GetComponent<Transform>().Translate(new Vector3(0, 0, cam_speed), Space.World);
         }
         if (Input.mousePosition.y < (Screen.height / 30))
         {
-            this.transform.GetComponent<Transform>().Translate(new Vector3(0, 0, -3), Space.World);
+            this.transform.GetComponent<Transform>().Translate(new Vector3(0, 0, -cam_speed), Space.World);
         }
     }
 }

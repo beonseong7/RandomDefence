@@ -9,7 +9,6 @@ public class MobScript : MonoBehaviourPunCallbacks
     int corner = 0;
     Animator animator;
     AnimatorStateInfo animStateInfo;
-    PhotonView local_View;
     [Header("Status")]
     public float speed;
     public float physicArmor;
@@ -51,20 +50,21 @@ public class MobScript : MonoBehaviourPunCallbacks
     }
     void Start()
     {
-        local_View = GetComponent<PhotonView>();
+        
         HP_Slider.maxValue = InGameManager.instance.stage*10.0f;
         Hp= InGameManager.instance.stage * 10.0f;
         animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);
-        if(local_View.IsMine) StartCoroutine(MobMove());
-    }
-    [PunRPC]
-    public void SetField(string tmp)
-    {
-        field = GameObject.Find(tmp).transform;
-        transform.position = field.GetChild(3).position;
         transform.SetParent(GameObject.Find("Mobs").transform);
+        if (photonView.IsMine)
+        {
+            field = GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform;
+            transform.position = field.GetChild(3).position;
+            StartCoroutine(MobMove());
+        }
+            
     }
+
     private void Update()
     {
         animStateInfo = animator.GetCurrentAnimatorStateInfo(0);

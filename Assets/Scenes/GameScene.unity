@@ -3333,7 +3333,7 @@ Transform:
   m_GameObject: {fileID: 1388292043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 349.96976, y: 633.65735, z: 4.8911834}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4505,6 +4505,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Menu: {fileID: 1398797305}
+  base_speed: 2
+  cam_speed: 0
 --- !u!120 &1756246824
 LineRenderer:
   serializedVersion: 2

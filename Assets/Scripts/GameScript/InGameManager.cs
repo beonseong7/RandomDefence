@@ -75,47 +75,36 @@ public class InGameManager : MonoBehaviourPunCallbacks
             tmp.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = recipe.Substring(0,recipe.Length-2);
             
         }
+        
         if (PhotonNetwork.IsMasterClient)
         {
-            string[] players = new string[PhotonNetwork.CurrentRoom.PlayerCount];
-            int count = 0;
-            foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
+            int count = 1;
+            foreach(Player name in PhotonNetwork.CurrentRoom.Players.Values)
             {
-                players[count] = player.NickName;
+                photonView.RPC("Field_name", RpcTarget.All,count,name.ActorNumber);
                 count++;
             }
-            photonView.RPC("Field_name", RpcTarget.All, players);
         }
-        StartCoroutine(summon_Mob());
+        StartCoroutine(this.Stage_Manage());
     }
     [PunRPC]
-    public void Field_name(string[] tmp)
+    public void Field_name(int count,int actornum)
     {
-        int count = 1;
-        foreach (string name in tmp)
-        {
-            GameObject.Find("Player" + count.ToString() + "Field").name = name.ToString() + "Field";
-            Debug.Log("Player in room: " + name);
-            count++;
-        }
-        Camera.main.transform.position = new Vector3(GameObject.Find(GameManager.instance.Nick_Name + "Field").transform.position.x, Camera.main.transform.position.y, GameObject.Find(GameManager.instance.Nick_Name + "Field").transform.position.z);
+            GameObject.Find("Player" + count.ToString() + "Field").name = actornum.ToString() + "Field";
+        
     }
-    IEnumerator summon_Mob()
+    IEnumerator Stage_Manage()
     {
         yield return new WaitForSeconds(5f);
+        Camera.main.transform.position = new Vector3(GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.position.x, Camera.main.transform.position.y, GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.position.z);
         while (stage < 9)
         {
             for (int i = 0; i < 40; i++)
             {
                 if (PhotonNetwork.IsMasterClient)
                 {
-                    foreach (Player player in PhotonNetwork.CurrentRoom.Players.Values)
-                    {
-                        GameObject mob =PhotonNetwork.Instantiate("Mob_Prefab", GameObject.Find(player.NickName + "Field").transform.GetChild(3).position, Mob[stage - 1].transform.rotation);
-                        PhotonView Local_photonView = mob.GetComponent<PhotonView>();
-                        Local_photonView.RPC("SetField", RpcTarget.All, player.NickName + "Field");
+                        photonView.RPC("Summon_Mob", RpcTarget.All);
                         yield return null;
-                    }
                 }
                 yield return new WaitForSeconds(1f);
             }
@@ -123,6 +112,11 @@ public class InGameManager : MonoBehaviourPunCallbacks
             stage++;
             choice += 2;
         }
+    }
+    [PunRPC]
+    public void Summon_Mob()
+    {
+        GameObject mob = PhotonNetwork.Instantiate("Mob_Prefab", GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.GetChild(3).position, Mob[stage - 1].transform.rotation);
     }
     public IEnumerator SystemMs(string text)
     {
@@ -132,7 +126,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
     }
     public void Random_summon()
     {
-        var tmp=GameObject.Find(GameManager.instance.Nick_Name+"Field").transform;
+        var tmp=GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber+"Field").transform;
         if (choice > 0)
         {
             var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
