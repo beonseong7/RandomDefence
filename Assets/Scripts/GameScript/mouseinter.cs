@@ -1,3 +1,4 @@
+using Photon.Pun;
 using Photon.Pun.Demo.SlotRacer.Utils;
 using System.Collections;
 using System.Collections.Generic;
@@ -103,7 +104,7 @@ public class mouseinter : MonoBehaviour
         {
             Vector3 screenPos = Camera.main.WorldToScreenPoint(obj.transform.position);
             screenPos.y = Screen.height - screenPos.y;
-            if (selectionRect.Contains(screenPos))
+            if (selectionRect.Contains(screenPos) && obj.GetComponent<PhotonView>().IsMine)
             {
                 SelectedGameObject.Add(obj.gameObject);
                 Material[] materials = obj.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials;

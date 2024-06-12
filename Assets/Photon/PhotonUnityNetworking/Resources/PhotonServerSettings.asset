@@ -47,6 +47,7 @@ MonoBehaviour:
   - View_HP
   - Field_name
   - Summon_Mob
+  - Cha_Destroy
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

@@ -20,7 +20,7 @@ public class CamMove : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            InGameManager.instance.Button_Active(Menu);
+            GameManager.instance.Button_Active(Menu);
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -32,7 +32,7 @@ public class CamMove : MonoBehaviour
     }
     void MoveCam()
     {
-        cam_speed = base_speed * (Screen.width/500);
+        cam_speed = base_speed * (Screen.width/300);
         if (Input.mousePosition.x > Screen.width - (Screen.width / 30))
         {
             this.transform.GetComponent<Transform>().Translate(new Vector3(cam_speed, 0, 0), Space.World);

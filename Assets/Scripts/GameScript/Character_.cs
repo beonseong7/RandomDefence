@@ -2,11 +2,13 @@ using Photon.Pun;
 using PlayFab.EconomyModels;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 using static UnityEngine.UI.GridLayoutGroup;
 
-public class Character_ : MonoBehaviour
+public class Character_ : MonoBehaviourPunCallbacks
 {
     public enum status { idle = 0,walking =1,attack=2};
     public status nowstatus;
@@ -14,7 +16,7 @@ public class Character_ : MonoBehaviour
     public Vector3 destination=Vector3.zero;
     public Animator animator;
     public AnimatorStateInfo animStateInfo;
-    public PhotonView Cha_photonview;
+    public TextMeshProUGUI Name;
     public string owner;
     [Header("Status")]
     public float attack;
@@ -25,7 +27,10 @@ public class Character_ : MonoBehaviour
         nowstatus = status.idle;
         animator = GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
-         if (Cha_photonview.IsMine)StartCoroutine(this.Charac_Anim());
+        Name =this.transform.Find("Canvas").transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        Name.text = this.name;
+        Name.color = Color.black;
+        if (photonView.IsMine)StartCoroutine(this.Charac_Anim());
     }
     // Update is called once per frame
     void Update()
@@ -34,7 +39,7 @@ public class Character_ : MonoBehaviour
         {
             target = null;
             }
-        if (Cha_photonview.IsMine)
+        if (photonView.IsMine)
         {
             animStateInfo = animator.GetCurrentAnimatorStateInfo(0);
             if (destination != Vector3.zero)
@@ -50,6 +55,10 @@ public class Character_ : MonoBehaviour
                 nowstatus = status.idle;
             }
         }
+    }
+    public void LateUpdate()
+    {
+        Name.transform.forward = Camera.main.transform.forward;
     }
     IEnumerator Charac_Anim()
     {
@@ -82,7 +91,7 @@ public class Character_ : MonoBehaviour
     }
     private void OnCollisionStay(Collision collision)
     {
-        if (Cha_photonview.IsMine)
+        if (photonView.IsMine)
         {
             Rigidbody otherRb = collision.collider.attachedRigidbody;
 
@@ -97,7 +106,7 @@ public class Character_ : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (target == null&& Cha_photonview.IsMine)
+        if (target == null&& photonView.IsMine)
             if (other.gameObject.tag == "mob")
             {
                 target = other.transform;
@@ -105,17 +114,23 @@ public class Character_ : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (target != null && Cha_photonview.IsMine)
+        if (target != null && photonView.IsMine)
             if (other.gameObject.tag=="mob"&&other.gameObject.name == target.gameObject.name)
                 target = null;
     }
     public void Event_Attack()
     {
-        if (target != null && Cha_photonview.IsMine)
+        if (target != null && photonView.IsMine)
         {
             target.GetComponent<MobScript>().Is_Damage(attack);
-            if (target.GetComponent<MobScript>().mob_Hp<=0)target = null;
+            if (target.GetComponent<MobScript>().mob_Hp <= 0) target = null;
         }
-             
+
+    }
+    [PunRPC]
+    public void Cha_Destroy()
+    {
+        if (photonView.IsMine)
+            PhotonNetwork.Destroy(this.gameObject);
     }
 }

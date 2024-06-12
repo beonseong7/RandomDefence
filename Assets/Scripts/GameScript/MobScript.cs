@@ -53,6 +53,7 @@ public class MobScript : MonoBehaviourPunCallbacks
         
         HP_Slider.maxValue = InGameManager.instance.stage*10.0f;
         Hp= InGameManager.instance.stage * 10.0f;
+        HP_Slider.value = Hp;
         animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);
         transform.SetParent(GameObject.Find("Mobs").transform);
