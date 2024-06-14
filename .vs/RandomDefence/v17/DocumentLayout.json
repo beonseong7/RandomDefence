@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\bsroom\\Unity_Project\\RandomDefence\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|solutionrelative:assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\editor\\duplicatecomponentseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\duplicatecomponentseditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\mouseinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\mouseinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|solutionrelative:assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320B8905-9176-3A9B-853A-A3A512B94744}|PhotonUnityNetworking.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\photon\\photonunitynetworking\\code\\views\\photontransformview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,11 +94,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "DuplicateComponentsEditor.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\DuplicateComponentsEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\DuplicateComponentsEditor.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\DuplicateComponentsEditor.cs",
+              "RelativeToolTip": "Assets\\Editor\\DuplicateComponentsEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T11:23:18.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "InGameManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\InGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\InGameManager.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PhotonTransformView.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\Views\\PhotonTransformView.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\Views\\PhotonTransformView.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "ChatChannel.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
@@ -127,11 +144,12 @@
               "RelativeToolTip": "Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAcwEYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T08:53:58.627Z"
+              "WhenOpened": "2024-06-08T08:53:58.627Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "recipe.txt",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
               "RelativeDocumentMoniker": "Assets\\StreamingAssets\\recipe.txt",
@@ -143,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CamMove.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\CamMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\CamMove.cs",
@@ -155,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "mouseinter.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\mouseinter.cs",
@@ -167,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -179,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GameRoom.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameRoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameRoom.cs",
@@ -191,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MobScript.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\MobScript.cs",
@@ -203,19 +221,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Character_.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Character_.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScript\\Character_.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAASwIUAAAAzAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAASwCsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:15:10.949Z"
+              "WhenOpened": "2024-05-29T09:15:10.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PhotonNetworkPart.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
@@ -227,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Login.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Login.cs",
@@ -239,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "PhotonView.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonView.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonView.cs",
@@ -251,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "LoadingSceneManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\LoadingSceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingSceneManager.cs",
@@ -263,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PhotonNetwork.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
@@ -275,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Lobby.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lobby.cs",
@@ -287,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PlayFabAuthenticator.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\PlayFabAuthenticator.cs",
               "RelativeDocumentMoniker": "Assets\\PlayFabAuthenticator.cs",
@@ -299,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PhotonManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\PhotonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PhotonManager.cs",
@@ -311,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Register.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Register.cs",
@@ -323,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DemoHubManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Demos\\DemoHub\\Scripts\\DemoHubManager.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Demos\\DemoHub\\Scripts\\DemoHubManager.cs",
