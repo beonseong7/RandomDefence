@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 using static UnityEngine.UI.GridLayoutGroup;
@@ -15,9 +17,11 @@ public class Character_ : MonoBehaviourPunCallbacks
     public Transform target;
     public Vector3 destination=Vector3.zero;
     public Animator animator;
+    private bool is_attack=false;
     public AnimatorStateInfo animStateInfo;
     public TextMeshProUGUI Name;
     public string owner;
+    private float previousNormalizedTime;
     [Header("Status")]
     public float attack;
     public float speed=3;
@@ -54,6 +58,21 @@ public class Character_ : MonoBehaviourPunCallbacks
             {
                 nowstatus = status.idle;
             }
+            if (animStateInfo.IsName("standing attack"))
+            {
+                float currentNormalizedTime = animStateInfo.normalizedTime % 1.0f;
+                if (currentNormalizedTime < previousNormalizedTime)
+                {
+                    is_attack = false;
+                }
+                previousNormalizedTime = currentNormalizedTime;
+                if (!is_attack)
+                {
+                    this.Event_Attack();
+                    is_attack = true;
+                }
+       
+            }
         }
     }
     public void LateUpdate()
@@ -70,7 +89,6 @@ public class Character_ : MonoBehaviourPunCallbacks
             case status.attack:
                 if (target!=null)
                     transform.LookAt(new Vector3(target.position.x, this.transform.position.y, target.position.z));
-                
                 break;
             case status.walking:
                 transform.GetComponent<CapsuleCollider>().enabled = false;
