@@ -161,6 +161,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
         Debug.Log("½ÃÀ×ÀÌ¹ß µÆ´Ù");
         var tmp = GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber+"Field").transform;
         var sacrifice = Character_recipe[type].Split(',');
+        GameObject obj;
         foreach (var mob in sacrifice)
         {
             Debug.Log(mob);
@@ -171,12 +172,16 @@ public class InGameManager : MonoBehaviourPunCallbacks
         switch (type.Substring(type.Length - 2, 2))
         {
             case "U_":
-                var obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.GetComponent<Character_>().attack = 20.0f;
                 obj.transform.SetParent(MyCharacter.transform);
                 obj.name = type;
                 break;
             case "R_":
+                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj.transform.GetComponent<Character_>().attack = 100.0f;
+                obj.transform.SetParent(MyCharacter.transform);
+                obj.name = type;
                 break;
             case "E_":
                 break;
