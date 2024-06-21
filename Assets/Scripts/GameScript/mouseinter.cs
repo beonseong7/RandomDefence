@@ -10,8 +10,6 @@ public class mouseinter : MonoBehaviour
     public List<GameObject> SelectedGameObject=new List<GameObject>();
     private Vector3 previousPosition;
     private Vector3 currentPosition;
-    public Material SelectedMaterial;
-    public Material NotSelectedmaterial;
     [SerializeField]
     private float minDistance = 0f;
     [SerializeField]
@@ -89,9 +87,7 @@ public class mouseinter : MonoBehaviour
     {
         foreach(GameObject obj in SelectedGameObject)
         {
-            Material[] materials = obj.transform.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials;
-            materials[0] = NotSelectedmaterial;
-            obj.transform.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials = materials;
+            obj.transform.Find("Canvas").transform.GetChild(1).gameObject.SetActive(false);
         }
         SelectedGameObject.Clear();
     }
@@ -107,9 +103,7 @@ public class mouseinter : MonoBehaviour
             if (selectionRect.Contains(screenPos) && obj.GetComponent<PhotonView>().IsMine)
             {
                 SelectedGameObject.Add(obj.gameObject);
-                Material[] materials = obj.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials;
-                materials[0] = SelectedMaterial;
-                obj.GetChild(0).transform.GetComponent<SkinnedMeshRenderer>().materials = materials;
+                obj.transform.Find("Canvas").transform.GetChild(1).gameObject.SetActive(true);
             }
         }
     }

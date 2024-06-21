@@ -1,28 +1,31 @@
-Shader "Custom/OutlineShader"
+Shader "Custom/Outline"
 {
     Properties
     {
-        _OutlineColor ("Outline Color", Color) = (1,1,1,1)
+        _OutlineColor ("Outline Color", Color) = (0,0,0,1)
         _OutlineWidth ("Outline Width", Range (.002, 0.03)) = .005
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
+        Tags {"Queue" = "Overlay" }
         Pass
         {
             Name "OUTLINE"
             Tags { "LightMode" = "Always" }
 
             Cull Front
+
             ZWrite On
             ZTest LEqual
+            ColorMask RGB
+            Blend SrcAlpha OneMinusSrcAlpha
 
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            struct appdata_t
+            struct appdata
             {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -30,72 +33,31 @@ Shader "Custom/OutlineShader"
 
             struct v2f
             {
-                float4 pos : POSITION;
+                float4 pos : SV_POSITION;
                 float4 color : COLOR;
             };
 
-            uniform float _OutlineWidth;
-            uniform float4 _OutlineColor;
+            float _OutlineWidth;
+            float4 _OutlineColor;
 
-            v2f vert(appdata_t v)
+            v2f vert (appdata v)
             {
                 // just make a copy of incoming vertex data but scaled according to normal direction
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
-                float3 norm = mul((float3x3) UNITY_MATRIX_IT_MV, v.normal);
-                float2 offset = TransformViewToProjection(norm.xy);
-
-                o.pos.xy += offset * _OutlineWidth * o.pos.w;
+                float3 norm = mul((float3x3) unity_ObjectToWorld, v.normal);
+                o.pos.xy += norm.xy * o.pos.w * _OutlineWidth;
                 o.color = _OutlineColor;
                 return o;
             }
 
-            half4 frag(v2f i) : COLOR
+            fixed4 frag (v2f i) : SV_Target
             {
                 return i.color;
             }
             ENDCG
         }
     }
-    SubShader
-    {
-        Tags { "RenderType"="Opaque" }
-        Pass
-        {
-            Name "BASE"
-            Tags { "LightMode" = "Always" }
-            Cull Back
-            ZWrite On
-            ZTest LEqual
-
-            CGPROGRAM
-            #pragma vertex vert
-            #pragma fragment frag
-            #include "UnityCG.cginc"
-
-            struct appdata_t
-            {
-                float4 vertex : POSITION;
-            };
-
-            struct v2f
-            {
-                float4 pos : POSITION;
-            };
-
-            v2f vert(appdata_t v)
-            {
-                v2f o;
-                o.pos = UnityObjectToClipPos(v.vertex);
-                return o;
-            }
-
-            half4 frag(v2f i) : COLOR
-            {
-                return half4(1,1,1,1);
-            }
-            ENDCG
-        }
-    }
+    FallBack "Diffuse"
 }
 

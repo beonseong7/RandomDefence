@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51951
+53111
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16436] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 286283879 [EditorId] 286283879 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16536] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2979427023 [EditorId] 2979427023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16436] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 286283879 [EditorId] 286283879 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16536] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2979427023 [EditorId] 2979427023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 7.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005385 seconds.
-- Loaded All Assemblies, in  0.354 seconds
+Registered in 0.006919 seconds.
+- Loaded All Assemblies, in  0.399 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.313 seconds
-Domain Reload Profiling: 667ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.334 seconds
+Domain Reload Profiling: 733ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (314ms)
+	FinalizeReload (334ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (238ms)
+		SetupLoadedEditorAssemblies (263ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 667ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.685 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.913 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,334 +126,66 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1326ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  1.111 seconds
+Domain Reload Profiling: 2024ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (37ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (443ms)
-		LoadAssemblies (303ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (654ms)
+		LoadAssemblies (394ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (174ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (642ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1112ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (853ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (244ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3478 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (86.5 KB). Loaded Objects now: 3954.
-Memory consumption went from 145.4 MB to 145.3 MB.
-Total: 1.945700 ms (FindLiveObjects: 0.160900 ms CreateObjectMapping: 0.060500 ms MarkObjects: 1.631100 ms  DeleteObjects: 0.092800 ms)
+Unloading 6608 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7092.
+Memory consumption went from 317.6 MB to 314.0 MB.
+Total: 5.506500 ms (FindLiveObjects: 0.886300 ms CreateObjectMapping: 0.361000 ms MarkObjects: 3.514700 ms  DeleteObjects: 0.743000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 14347.985423 seconds.
-  path: Assets/Resources/Character/Legendary/boomer.prefab
-  artifactKey: Guid(d7f0bb211fa34934e805ad0c836a8f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Legendary/boomer.prefab using Guid(d7f0bb211fa34934e805ad0c836a8f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552acdc0668a7faeaa467d371b1058cd') in 0.208611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 329
-========================================================================
-Received Import Request.
-  Time since last request: 22.257418 seconds.
-  path: Assets/Resources/Character/Legendary/Boomer/Walk Forward.dae
-  artifactKey: Guid(516dd517525a0b24c8e8d85bb8adf969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Legendary/Boomer/Walk Forward.dae using Guid(516dd517525a0b24c8e8d85bb8adf969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbaa0de4c3ebe4a5819b493a1318ae8') in 0.250726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 146
-========================================================================
-Received Import Request.
-  Time since last request: 106.578551 seconds.
-  path: Assets/Resources/Character/Epic/Gunner/Walk Forward.dae
-  artifactKey: Guid(f225193b1ebe4c54aabf0232d28e58d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gunner/Walk Forward.dae using Guid(f225193b1ebe4c54aabf0232d28e58d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d123e3667b69597109b844289a57ba') in 0.131729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 144
-========================================================================
-Received Import Request.
-  Time since last request: 645.723878 seconds.
-  path: Assets/Resources/Character/Epic/Rifle Idle.prefab
-  artifactKey: Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Rifle Idle.prefab using Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd69b87a006d18e230f5119c9c3f0f4') in 0.025596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 304
-========================================================================
-Received Import Request.
-  Time since last request: 0.566267 seconds.
-  path: Assets/Resources/Character/Epic/Rifle Idle.prefab
-  artifactKey: Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Rifle Idle.prefab using Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c639ae98b2f9a090decfc2d89e6478b') in 0.018730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 304
-========================================================================
-Received Import Request.
-  Time since last request: 441.900068 seconds.
-  path: Assets/Resources/Character/Epic/Gunner.prefab
-  artifactKey: Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gunner.prefab using Guid(e8de3000dc7a7dd4ba54032a845e1f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14070f1e37a8bdf109c7c81a0e51d7e0') in 0.051543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 304
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.482 seconds
-Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.802 seconds
-Domain Reload Profiling: 1284ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (252ms)
-		LoadAssemblies (308ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (803ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (402ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (59.2 KB). Loaded Objects now: 4004.
-Memory consumption went from 149.0 MB to 149.0 MB.
-Total: 2.886900 ms (FindLiveObjects: 0.400300 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.281100 ms  DeleteObjects: 0.102000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 306.174178 seconds.
-  path: Assets/Resources/Character/Rair
-  artifactKey: Guid(af7ec285e91fc1c42bf3e1a4f252fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair using Guid(af7ec285e91fc1c42bf3e1a4f252fd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03f8349352da3a84fdb00c510fa0b28') in 0.003420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1064.102927 seconds.
-  path: Assets/Resources/Character/Rair/swordshield
-  artifactKey: Guid(cfa442b0dde18214caee0d1b82d20ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield using Guid(cfa442b0dde18214caee0d1b82d20ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6037719e4a10feca6e5eea0e5b94aa3b') in 0.000529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.059088 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Idle.dae
-  artifactKey: Guid(9e6050714e369214eaf33b00ec45d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Idle.dae using Guid(9e6050714e369214eaf33b00ec45d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a371dc1aa0ed703ee68882370a9d60') in 0.155314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Sword And Shield Walk.dae
-  artifactKey: Guid(675038aa0492188439439212785a2c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Sword And Shield Walk.dae using Guid(675038aa0492188439439212785a2c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf341398b6fc613697a72525f9aedd1') in 0.051402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 78.589414 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller
-  artifactKey: Guid(354b5afcd7157c04388d5a63df609bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller using Guid(354b5afcd7157c04388d5a63df609bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ce867706a300c48143d0262a0fb0e3') in 0.001712 seconds
-Number of updated asset objects reloaded before import = 0
+  Time since last request: 23689.444264 seconds.
+  path: Assets/Resources/Effect/Model/SlashTut.shadergraph
+  artifactKey: Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/SlashTut.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea58a03000ff89a15499ce1c67aeffb7') in 0.018735 seconds
+Number of updated asset objects reloaded before import = 1
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 93.049061 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Idle.dae
-  artifactKey: Guid(9e6050714e369214eaf33b00ec45d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Idle.dae using Guid(9e6050714e369214eaf33b00ec45d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef53b007f89138c9a4ad45a52bb1ba31') in 0.075167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 7.930547 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Sword And Shield Walk.dae
-  artifactKey: Guid(675038aa0492188439439212785a2c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Sword And Shield Walk.dae using Guid(675038aa0492188439439212785a2c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c364603f25440ac489991d002fb5f29e') in 0.072686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
-========================================================================
-Received Import Request.
-  Time since last request: 20.011924 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/New Animator Controller.controller
-  artifactKey: Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/New Animator Controller.controller using Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd8f81cf26a03a061bc8dc7ff924ecf') in 0.004171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 1.043519 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller
-  artifactKey: Guid(354b5afcd7157c04388d5a63df609bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller using Guid(354b5afcd7157c04388d5a63df609bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253df1e8d606103cdf75e1c8d283d795') in 0.001187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.433624 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller
-  artifactKey: Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller using Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9885b368355598f979607ea360eb18c4') in 0.003684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 69.227998 seconds.
-  path: Assets/Resources/Character/Rair/Idle.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/Idle.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793840e5ef49d8f5ff6cd43a2ab4fe54') in 0.073271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 7.603346 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a36a5c38ff740ae43ba508b2d945ec') in 0.039077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.493 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.837 seconds
-Domain Reload Profiling: 1330ms
-	BeginReloadAssembly (154ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (261ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (838ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (408ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3456 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (59.1 KB). Loaded Objects now: 4008.
-Memory consumption went from 151.0 MB to 151.0 MB.
-Total: 3.082500 ms (FindLiveObjects: 0.413200 ms CreateObjectMapping: 0.120100 ms MarkObjects: 2.442600 ms  DeleteObjects: 0.105700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
