@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52983
+62688
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8060] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3540541149 [EditorId] 3540541149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27704] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2020239773 [EditorId] 2020239773 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8060] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3540541149 [EditorId] 3540541149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27704] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2020239773 [EditorId] 2020239773 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 11.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005358 seconds.
-- Loaded All Assemblies, in  0.402 seconds
+Registered in 0.005434 seconds.
+- Loaded All Assemblies, in  0.379 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.342 seconds
-Domain Reload Profiling: 744ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 699ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (163ms)
-		LoadAssemblies (124ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (144ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (343ms)
+	FinalizeReload (321ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (272ms)
+		SetupLoadedEditorAssemblies (252ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (193ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 744ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.912 seconds
-Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.876 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.099 seconds
-Domain Reload Profiling: 2010ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  1.064 seconds
+Domain Reload Profiling: 1940ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (38ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (645ms)
-		LoadAssemblies (396ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (379ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (346ms)
-			TypeCache.Refresh (290ms)
-				TypeCache.ScanAssembly (269ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1100ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1064ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (845ms)
+		SetupLoadedEditorAssemblies (817ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (498ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (470ms)
 			ProcessInitializeOnLoadMethodAttributes (239ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6608 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7092.
-Memory consumption went from 319.0 MB to 315.4 MB.
-Total: 7.070300 ms (FindLiveObjects: 0.850900 ms CreateObjectMapping: 0.309000 ms MarkObjects: 5.116100 ms  DeleteObjects: 0.793200 ms)
+Memory consumption went from 317.8 MB to 314.2 MB.
+Total: 7.591100 ms (FindLiveObjects: 0.901400 ms CreateObjectMapping: 0.397800 ms MarkObjects: 5.590000 ms  DeleteObjects: 0.700400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,89 +183,534 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23093.155357 seconds.
-  path: Assets/Resources/Effect/Model/New Shader Graph.shadergraph
-  artifactKey: Guid(c46a3d7f6a8dabc4ab3f352c06e5c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Shader Graph.shadergraph using Guid(c46a3d7f6a8dabc4ab3f352c06e5c89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d1e822e31fa187eb110886b37c07e9') in 1.299126 seconds
+  Time since last request: 52541.725028 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fc73e0ac4b135bdf72b47e68207581') in 0.031189 seconds
 Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 9.075573 seconds.
+  Time since last request: 16.743692 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce8477efee63a0274dd4003a518048c') in 0.002342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d4bd779482ff1889b20dc1518079da') in 0.002693 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 20.318497 seconds.
+  Time since last request: 6.267279 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c6bdc22626e8311ca50b8788e20cbf') in 0.004165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469cfaeaeb427d1c87fe83176a368c9') in 0.002726 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 53.678416 seconds.
-  path: Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph
-  artifactKey: Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695451d3ce85296c64d6101771bc7dad') in 0.004510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 37.294451 seconds.
-  path: Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph
-  artifactKey: Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe823ae98ee0c0e78616e53d06a423c') in 0.001258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.432380 seconds.
+  Time since last request: 171.147346 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61e34b08c92d4ea29fc99b23cd27657') in 0.004221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b71f11a02db45a2329b8243900ff3') in 0.003318 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 1.067361 seconds.
+  Time since last request: 20.933347 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94b363ccc74dc2c74d48d05ed04b799') in 0.001068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c5447b475e0b45b24803e40d4c385') in 0.002843 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 31.788356 seconds.
-  path: Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph
-  artifactKey: Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Shader Graph 1.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd340bcc32c520d759ef48a2cb0d53420') in 0.001240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.222626 seconds.
+  Time since last request: 5.439093 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1dfa3abfb5efa43fa6fee5d8681822') in 0.004437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3a4d08f47c43dd9b1dd1c8cb45ca89') in 0.002950 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 11.852200 seconds.
+  Time since last request: 3.161690 seconds.
   path: Assets/Resources/Effect/Model/Slash_VFX.vfx
   artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8f78614d712aef97c088f7a0c61de2') in 0.004409 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2626d97354deb09545dbe732f485e0e') in 0.002922 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 37.595106 seconds.
+  Time since last request: 12.686347 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5ed89df1104ab833021536007ffffb') in 0.002766 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 17.252029 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71037060b5fa379cb91f6a969a28b8f') in 0.002865 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.324924 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299c9b66196e28c1ab83bccb7ded685a') in 0.002836 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.271356 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beb564785f46d4633eb6ffa50e68306') in 0.002760 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 335.796305 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116855805452f504afe6121e2d17878d') in 0.003198 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.852783 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2871c6ed83469e661f4be1731af67e51') in 0.002922 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 46.559322 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077980381d6f2686fbf4c89b6b0aef1e') in 0.002936 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.873241 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ecee618cb4838c5f5e79177d9b1b84') in 0.002789 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.303858 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdd5893d0801172b1b413d6daa42ab2') in 0.002754 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 40.008205 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd988aa51d9fe3e88827af7fb9758c233') in 0.002613 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.869266 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbebbe1c66d976af9080034cb6b439d4') in 0.002664 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 138.846242 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851818b9fb672eb4ef32934a0b559351') in 0.003370 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.060309 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abea407e1ec253fed150e9e9f40f99d') in 0.002629 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.583035 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d8131c4113ed3eeb980c22faa0fbc5') in 0.002684 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 45.526070 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b66a7ea618b4063dc5758f255209915') in 0.002553 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.961726 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2ffc10946b9df28dcfda5d92c08fbd') in 0.002699 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 21.075693 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9151d2768abd29240b2624e0a3de2a20') in 0.002823 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 21.104041 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d088d05846dfcb0845fe0127e08a07b') in 0.002686 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.195983 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b56690ccb4f6519bce13666a0bcd0') in 0.002946 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.050920 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c28e02d0e617372e3feb6840af27c4a') in 0.002566 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 98.461414 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad51a15269c1df89174d28d86dc486b9') in 0.002943 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 31.016517 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cacda0483093dc869c38a019bccab67') in 0.004273 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 19.825995 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc5c126897fad69a0fed456663f83da') in 0.004157 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 32.963399 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd3ab8b42007a0c0071954afadc480b') in 0.004035 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.461612 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8575938c8f6ed888bc3a0d8ecec2af') in 0.004060 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.093651 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debf1daa83a92f40b4ebb8f58cb16800') in 0.004435 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.533810 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b6d5fe07cee2cedc5119f2360cb311') in 0.003964 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 131.797103 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f3f0d3c8d354ddb61668f1ec61757f') in 0.004214 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.393382 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512d328885ee07ae491f4e389be3396c') in 0.004193 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.851894 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e736731c5152504797ce05e37e325f6') in 0.004214 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.817451 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab87517af9681c76597b063b7e3153e') in 0.004002 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.406761 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbc6875edb06766bfcc70356c00add0') in 0.004228 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 27.163676 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af161ecdafbc0406698b145f8e726c7') in 0.002527 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.356743 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa93884809283e4cf4b84814f50be13') in 0.002574 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.701507 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b94e915d6b7ad353114869b5aa7db82') in 0.003008 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 20.318150 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407054c60de0b5326b396bcee62c29c9') in 0.002928 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 18.650453 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b67bad3e339c5d73bc8153862a342d5') in 0.002662 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.373231 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822235da2c309fa2aa03e0b022b02b5a') in 0.002767 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 46.187283 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b10da5b5dedf6387c51b5366ddb6e0') in 0.002679 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 53.588949 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8571f64d7d54cd49a8adc7367f882f1a') in 0.004229 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 22.477017 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d005ab8c20b4e0096c98b8a4bd96ab') in 0.003935 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 94.379653 seconds.
   path: Assets/Resources/Effect/Model/SlashTut.shadergraph
   artifactKey: Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/SlashTut.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e6bedff639972f815567b48fdec6e7') in 0.001540 seconds
-Number of updated asset objects reloaded before import = 1
+Start importing Assets/Resources/Effect/Model/SlashTut.shadergraph using Guid(4df8c823c70c0f54eac6a68b7d9a5ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e2423ad4faff04af55489b8d866bba') in 0.003164 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.967207 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcacd6afc0a64948e3aa03fffa78e17') in 0.004085 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 33.865867 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a4534212c3389b7ff0b5b803301ce') in 0.003964 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 76.930819 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b15d8e13c3e02f8d9ec3f08f097917') in 0.004367 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 67.113435 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af4c9cd3bbeface9ce8d8d1442ad3b9') in 0.004256 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 15.680895 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0100abdf37646a4c8a802b8dffe8bd') in 0.004559 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.432092 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae020f519c6400da8c8a3ade00aae037') in 0.004077 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 15.704206 seconds.
+  path: Assets/Resources/Effect/Model/Slash_VFX.vfx
+  artifactKey: Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Slash_VFX.vfx using Guid(62d6f390f9e65db4ca0c24a5f967748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188be8133082541cd6b5f7ccb8208ae2') in 0.004060 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 29.380775 seconds.
+  path: Assets/Prefab/Button (Legacy).prefab
+  artifactKey: Guid(845be49e5892b484cb85ff82e9a0c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Button (Legacy).prefab using Guid(845be49e5892b484cb85ff82e9a0c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a4c05ec95b8181f8812b219bce1aa0') in 0.017877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Walking.dae
+  artifactKey: Guid(fe73ddd674fabcf4eac94b5c898eae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Walking.dae using Guid(fe73ddd674fabcf4eac94b5c898eae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f253ef86954dce503861525672c907b7') in 0.006485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 19.507160 seconds.
+  path: Assets/Resources/Character/Common/Buggy.prefab
+  artifactKey: Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Buggy.prefab using Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996f354b5843b2fec36f11b0ab177522') in 1.344510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 337
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Character/Common/Sword.prefab
+  artifactKey: Guid(ad52b2114a39b024b8462fcac5f58594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Sword.prefab using Guid(ad52b2114a39b024b8462fcac5f58594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c722bed91d87634f8c07281792ba0440') in 0.475654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Resources/Character/Common/Nami.prefab
+  artifactKey: Guid(6ff822bcfdb5a8a4c862846b5024b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Nami.prefab using Guid(6ff822bcfdb5a8a4c862846b5024b5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd743d78dbf4b1dca6fd3151fe75625be') in 0.044795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Character/Common/Usopp.prefab
+  artifactKey: Guid(4b434da8ae00f71429da6683f2682171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Usopp.prefab using Guid(4b434da8ae00f71429da6683f2682171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab7d47bb97aab642d876ef01afbe0bf') in 0.275996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.001784 seconds.
+  path: Assets/Resources/Character/Common/Luffy.prefab
+  artifactKey: Guid(be4c11c395fd8864baf54cbff9c7a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Luffy.prefab using Guid(be4c11c395fd8864baf54cbff9c7a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9285eb5c5244abc930b473994cc1bff2') in 0.081289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Character/Common/Zoro.prefab
+  artifactKey: Guid(d65a662019dd7e648ae9bc7dfdeccf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Zoro.prefab using Guid(d65a662019dd7e648ae9bc7dfdeccf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8317bc0f14282cab68e49b52b988e89f') in 0.204149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.003084 seconds.
+  path: Assets/Resources/Character/Common/Sangji.prefab
+  artifactKey: Guid(8b92d87ca0ea78d40b763e037476c64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Sangji.prefab using Guid(8b92d87ca0ea78d40b763e037476c64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571a11b769f437acd008faa68e70fb26') in 0.066584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Character/Common/Gunner.prefab
+  artifactKey: Guid(becabb95d7133dd4fb455aec9bad05cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Common/Gunner.prefab using Guid(becabb95d7133dd4fb455aec9bad05cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb64e5d6f660b8dbf9fd3aa5515ed9a') in 0.141629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 335
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
