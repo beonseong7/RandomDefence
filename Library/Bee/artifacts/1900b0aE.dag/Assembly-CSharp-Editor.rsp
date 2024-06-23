@@ -407,6 +407,7 @@
 -analyzer:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Editor/DuplicateComponentsEditor.cs"
 "Assets/Editor/multiRun.cs"
+"Assets/Editor/ShaderAnimator.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
 -langversion:9.0
 
