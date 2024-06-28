@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51708
+52327
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3661197599 [EditorId] 3661197599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8992] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2574895902 [EditorId] 2574895902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3661197599 [EditorId] 3661197599 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8992] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2574895902 [EditorId] 2574895902 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 12.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,46 +73,46 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006013 seconds.
-- Loaded All Assemblies, in  0.439 seconds
+Registered in 0.004814 seconds.
+- Loaded All Assemblies, in  0.373 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.334 seconds
-Domain Reload Profiling: 773ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 681ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (152ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (139ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (334ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (309ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (264ms)
+		SetupLoadedEditorAssemblies (244ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (186ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (170ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +120,57 @@ Domain Reload Profiling: 773ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.974 seconds
-Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.803 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 1.300 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.442 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.080 seconds
-Domain Reload Profiling: 2054ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1788ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (676ms)
-		LoadAssemblies (394ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (335ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (380ms)
-			TypeCache.Refresh (322ms)
-				TypeCache.ScanAssembly (300ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1081ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (246ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (986ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (795ms)
+		SetupLoadedEditorAssemblies (757ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (476ms)
-			ProcessInitializeOnLoadMethodAttributes (212ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6611 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7099.
-Memory consumption went from 327.8 MB to 324.2 MB.
-Total: 5.750800 ms (FindLiveObjects: 0.836500 ms CreateObjectMapping: 0.234000 ms MarkObjects: 3.997500 ms  DeleteObjects: 0.681500 ms)
+Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7097.
+Memory consumption went from 327.4 MB to 323.8 MB.
+Total: 4.752000 ms (FindLiveObjects: 1.037800 ms CreateObjectMapping: 0.254800 ms MarkObjects: 2.848000 ms  DeleteObjects: 0.610800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,195 +187,191 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11409.538758 seconds.
-  path: Assets/Resources/Effect/Model/Trail.shadergraph
-  artifactKey: Guid(db1be0367605b3447a3efb13ed49d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Trail.shadergraph using Guid(db1be0367605b3447a3efb13ed49d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327070e513f87b26f3b464095209854f') in 2.013974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 420.867626 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3313aa808fc7863fd04e3a199a4dfea') in 0.006185 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 44.348686 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1c3277325d369c0224e842cb4d0dd2') in 0.004852 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.832557 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ad2660ca8d77e4d4e45d5cf5bf54df') in 0.004909 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 341.863538 seconds.
-  path: Assets/Resources/Effect/Model/New Material.mat
-  artifactKey: Guid(9571bbd173f5c6446b555afa98180e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Material.mat using Guid(9571bbd173f5c6446b555afa98180e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75e2f55f26ae5439fdaeb141fe8be29') in 0.106342 seconds
-Number of updated asset objects reloaded before import = 4
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 134.087587 seconds.
-  path: Assets/Resources/Effect/Model/New Material.mat
-  artifactKey: Guid(9571bbd173f5c6446b555afa98180e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/New Material.mat using Guid(9571bbd173f5c6446b555afa98180e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c35a511607c500baf430f72b9adc564') in 5.854496 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 166.072815 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1832b3905d2d76ce1e1f78e89e65d3') in 0.006274 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 9.662224 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cadf76527f5215cab49df4603d0ec6') in 0.005273 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 91.081467 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9f692db6bb80dcaeb3987312f380e6') in 0.005180 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 40.318303 seconds.
-  path: Assets/Resources/Effect/Model/Arrow_VFX.vfx
-  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175a142d8bbc218c7ae0d8a06d9b659b') in 0.005172 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 191.749589 seconds.
-  path: Assets/Resources/Character/Common/Buggy.prefab
-  artifactKey: Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Buggy.prefab using Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51b21b11a9d5dbe586f2b3ce8e16002') in 0.228572 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 38.798042 seconds.
-  path: Assets/Resources/Effect/Model/sdf.kra
-  artifactKey: Guid(ec72a4df4a3c4a9498cbd043b99ac914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/sdf.kra using Guid(ec72a4df4a3c4a9498cbd043b99ac914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe2946ba3f2e25234b96ff9de0343bd') in 0.001372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 870.253822 seconds.
-  path: Assets/Resources/Effect/Model/javier-perianes-smoke-flipbook.png
-  artifactKey: Guid(c729ad4b99b43e34fb6e783a32c6de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/javier-perianes-smoke-flipbook.png using Guid(c729ad4b99b43e34fb6e783a32c6de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c58177d51cd3e90f8be0453ccf31970') in 0.023867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 7.435465 seconds.
-  path: Assets/Resources/Effect/Model/Trail.shadergraph
-  artifactKey: Guid(db1be0367605b3447a3efb13ed49d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Trail.shadergraph using Guid(db1be0367605b3447a3efb13ed49d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966ca36cdcd60963bddf0178155c057f') in 0.083095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 147.437713 seconds.
-  path: Assets/Resources/Effect/Model/Arrow
-  artifactKey: Guid(1815348f0b6a516479d19399ff5e68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow using Guid(1815348f0b6a516479d19399ff5e68ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dde7a7a220d4b0be3e036b7291fe83') in 0.000580 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 43.225305 seconds.
-  path: Assets/Resources/Effect/Model/Arrow/GameObject.prefab
-  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow/GameObject.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2394dad7340637aac10dd253f3aa16') in 0.023272 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 6.595656 seconds.
-  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
-  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f426b1cfa96ae38b9d69484a847f8e') in 0.023955 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 82.244340 seconds.
-  path: Assets/Resources/Effect/Model/Slash
-  artifactKey: Guid(f4958708826db4c40ac75f8d0f0c39f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Slash using Guid(f4958708826db4c40ac75f8d0f0c39f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddde8e99919312ff19c407ef0ed2aea') in 0.001405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 182.842297 seconds.
+  Time since last request: 14521.245952 seconds.
   path: Assets/Resources/Character/Uncommon/archor_.prefab
   artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e61386dfec14bae6fa2ee193fcfda6') in 0.904845 seconds
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.504 ms.
+ -> (artifact id: '88d8d81f6bf03de0ad92e81d55f35918') in 2.179094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 424
+========================================================================
+Received Import Request.
+  Time since last request: 28.644409 seconds.
+  path: Assets/Resources/Character/Uncommon/archor_.prefab
+  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.176 ms.
+ -> (artifact id: '9b9667e64266aa1546a16c1dcfcc6712') in 0.088760 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 363
+Number of asset objects unloaded after import = 391
 ========================================================================
 Received Import Request.
-  Time since last request: 48.271999 seconds.
-  path: Assets/Resources/Character/Uncommon/archor/Take 001.anim
-  artifactKey: Guid(c840a3ab4f6c2b742a89f0be4a0a672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Uncommon/archor/Take 001.anim using Guid(c840a3ab4f6c2b742a89f0be4a0a672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a9db79e68af50c517f70fb34f2e4af') in 0.006890 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 7.944710 seconds.
-  path: Assets/Resources/Character/Uncommon/archor/attack.anim
-  artifactKey: Guid(c840a3ab4f6c2b742a89f0be4a0a672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Uncommon/archor/attack.anim using Guid(c840a3ab4f6c2b742a89f0be4a0a672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfbc863c473fe7e32a94f5bd3c1e338') in 0.004764 seconds
+  Time since last request: 1.483407 seconds.
+  path: Assets/Resources/Character/Uncommon/archor_.prefab
+  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.762 ms.
+ -> (artifact id: 'e64b1295c0e8e8df4be74fca3af88afb') in 0.089299 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 391
 ========================================================================
 Received Import Request.
-  Time since last request: 4.986078 seconds.
-  path: Assets/Resources/Character/Uncommon/archor/New Animator Controller 1.controller
-  artifactKey: Guid(2c0ce277dbd130f4e8347b6b60f4db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Uncommon/archor/New Animator Controller 1.controller using Guid(2c0ce277dbd130f4e8347b6b60f4db1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b33b60cc2914197a2a48fd9c4c7d24') in 0.003667 seconds
+  Time since last request: 3.783618 seconds.
+  path: Assets/Resources/Character/Uncommon/archor_.prefab
+  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.178 ms.
+ -> (artifact id: 'd5d40ac2c79a7b4be6f0819af0122575') in 0.090865 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 391
 ========================================================================
 Received Import Request.
-  Time since last request: 109.693478 seconds.
+  Time since last request: 6.190932 seconds.
+  path: Assets/Resources/Character/Uncommon/archor_.prefab
+  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 4.912 ms.
+ -> (artifact id: '986d9f51a2e18b37e7cf1791bb8a9a85') in 0.089514 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 391
+========================================================================
+Received Import Request.
+  Time since last request: 119.441150 seconds.
+  path: Assets/Resources/Character/Uncommon/archor_.prefab
+  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 9.641 ms.
+ -> (artifact id: '1249f90244a85fbcfbee4cec176f45ce') in 0.102022 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 391
+========================================================================
+Received Import Request.
+  Time since last request: 74.966739 seconds.
   path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
   artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f529677c873992d4e333ce111000141') in 0.021941 seconds
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3fb184a013f7272fce660895bd8694') in 0.020504 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 11.162449 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Anim.anim
+  artifactKey: Guid(7dee06e689c5e164681128b074cc26b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Anim.anim using Guid(7dee06e689c5e164681128b074cc26b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d25917bbff3c5b6546e141ffa782e6') in 0.001951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.487998 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect' must be marked as Legacy.
+The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: '4c53233fa794955fd8f9c9571ce15a58') in 0.022755 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.409194 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect' must be marked as Legacy.
+The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+The AnimationClip 'Arrow_Anim' used by the Animation component 'Arrow_Effect(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.SceneManagement.SceneManager:MoveGameObjectToScene (UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
+UnityEditor.PreviewScene:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.PreviewRenderUtility:AddManagedGO (UnityEngine.GameObject)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2087]
+
+ -> (artifact id: '68a43edb5f8590f9795eb677516ed891') in 0.023129 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 82.997071 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06694ef8219dbc94a7f5e23360270148') in 0.023605 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 54.595286 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47984948ad2f5ec0123e8ef785596b75') in 0.022547 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 19.745728 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_Effect.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5910a92579cfa22f1039c1a4cc74d9ab') in 0.022926 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
