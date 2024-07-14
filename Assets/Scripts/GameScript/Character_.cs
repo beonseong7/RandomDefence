@@ -12,22 +12,22 @@ using static UnityEngine.UI.GridLayoutGroup;
 
 public class Character_ : MonoBehaviourPunCallbacks
 {
-    public enum status { idle = 0,walking =1,attack=2};
-    public status nowstatus;
-    public Transform target;
-    public Vector3 destination=Vector3.zero;
-    public Animator animator;
+    private enum status { idle = 0,walking =1,attack=2};
+    private enum basicType { Melee, Ranged };
+    private status nowstatus;
+    private Transform target;
+    private Vector3 destination=Vector3.zero;
+    private Animator animator;
     private bool is_attack=false;
-    public AnimatorStateInfo animStateInfo;
-    public TextMeshProUGUI Name;
-    public string owner;
+    private AnimatorStateInfo animStateInfo;
+    private TextMeshProUGUI Name;
     private float previousNormalizedTime;
     [Header("Status")]
-    public float attack;
-    public float speed=3;
+    CharacData data;
     // Start is called before the first frame update
     void Start()
     {
+        data = GameManager.instance.charac_Data.Get_Charac_status("Ä¿¸Õ");
         nowstatus = status.idle;
         animator = GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
@@ -140,7 +140,7 @@ public class Character_ : MonoBehaviourPunCallbacks
     {
         if (target != null && photonView.IsMine)
         {
-            target.GetComponent<MobScript>().Is_Damage(attack);
+            target.GetComponent<MobScript>().Is_Damage();
             if (target.GetComponent<MobScript>().mob_Hp <= 0) target = null;
         }
 

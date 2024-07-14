@@ -408,6 +408,8 @@
 "Assets/Scripts/GameRoom.cs"
 "Assets/Scripts/GameScript/CamMove.cs"
 "Assets/Scripts/GameScript/Character_.cs"
+"Assets/Scripts/GameScript/Charac_Data.cs"
+"Assets/Scripts/GameScript/Data_Struct.cs"
 "Assets/Scripts/GameScript/InGameManager.cs"
 "Assets/Scripts/GameScript/MobScript.cs"
 "Assets/Scripts/GameScript/mouseinter.cs"

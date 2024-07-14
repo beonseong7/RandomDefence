@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public AudioClip[] audioClips;
     public Slider[] sliders;
     public AudioSource audioSource;
+    public Charac_Data charac_Data;
     public static GameManager Instance
     {
         get
@@ -43,6 +44,7 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log(process.ProcessName);
         }
+        charac_Data.Set_Status();
     }
     public void SetData(string Key,string curData)
     {

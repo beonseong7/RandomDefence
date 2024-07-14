@@ -142,7 +142,6 @@ public class InGameManager : MonoBehaviourPunCallbacks
         if (choice > 0)
         {
             var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
-            obj.transform.GetComponent<Character_>().attack = 5.0f;
             obj.transform.SetParent(MyCharacter.transform);
             obj.name = obj.name.Split("(Clone)")[0];
             if (Character.ContainsKey(obj.name))
@@ -173,13 +172,11 @@ public class InGameManager : MonoBehaviourPunCallbacks
         {
             case "U_":
                 obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
-                obj.transform.GetComponent<Character_>().attack = 20.0f;
                 obj.transform.SetParent(MyCharacter.transform);
                 obj.name = type;
                 break;
             case "R_":
                 obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
-                obj.transform.GetComponent<Character_>().attack = 100.0f;
                 obj.transform.SetParent(MyCharacter.transform);
                 obj.name = type;
                 break;
