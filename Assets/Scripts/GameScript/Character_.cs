@@ -95,7 +95,7 @@ public class Character_ : MonoBehaviourPunCallbacks
                 while (Vector3.Distance(transform.position, destination) >120f)
                 {
                     transform.LookAt(new Vector3(destination.x, this.transform.position.y, destination.z));
-                    transform.position = Vector3.MoveTowards(transform.position, new Vector3(destination.x, transform.position.y, destination.z), speed);
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector3(destination.x, transform.position.y, destination.z), data.Speed);
                     yield return new WaitForSeconds(0.01f);
                 }
                 transform.GetComponent<CapsuleCollider>().enabled = true;
@@ -140,10 +140,14 @@ public class Character_ : MonoBehaviourPunCallbacks
     {
         if (target != null && photonView.IsMine)
         {
-            target.GetComponent<MobScript>().Is_Damage();
+            target.GetComponent<MobScript>().Is_Damage(data.Damage);
             if (target.GetComponent<MobScript>().mob_Hp <= 0) target = null;
         }
 
+    }
+    public void Set_destination(Vector3 tmp)
+    {
+        destination = tmp;
     }
     [PunRPC]
     public void Cha_Destroy()

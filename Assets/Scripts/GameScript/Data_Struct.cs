@@ -6,11 +6,11 @@ using System;
    public enum skillType { Physical,Magical };
 public struct CharacData
 {
-    string name;
-    float distance;
-    basicType type;
-    float Damage;
-    float Speed;
+    public string name { get; private set; }
+    public float distance { get; private set; }
+    public basicType type { get; private set; }
+    public float Damage { get; private set; }
+    public float Speed { get; private set; }
     public CharacData(string name, float distance, basicType type, float Damage, float Speed)
     {
         this.name = name;

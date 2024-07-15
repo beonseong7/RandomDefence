@@ -66,7 +66,7 @@ public class mouseinter : MonoBehaviour
 
             foreach (GameObject obj in SelectedGameObject)
             {
-                obj.transform.GetComponent<Character_>().destination = worldPosition;
+                obj.transform.GetComponent<Character_>().Set_destination(worldPosition);
             }
         }
     }
