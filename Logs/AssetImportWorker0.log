@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55196
+50970
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10904] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 564453092 [EditorId] 564453092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2824] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 398118273 [EditorId] 398118273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10904] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 564453092 [EditorId] 564453092 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2824] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 398118273 [EditorId] 398118273 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,46 +73,46 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005403 seconds.
-- Loaded All Assemblies, in  0.376 seconds
+Registered in 0.004904 seconds.
+- Loaded All Assemblies, in  0.365 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.316 seconds
-Domain Reload Profiling: 691ms
-	BeginReloadAssembly (113ms)
+Domain Reload Profiling: 680ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (110ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
 	FinalizeReload (316ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (248ms)
+		SetupLoadedEditorAssemblies (249ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +120,57 @@ Domain Reload Profiling: 691ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.844 seconds
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 0.739 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.401 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.005 seconds
-Domain Reload Profiling: 1848ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1858ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (602ms)
-		LoadAssemblies (345ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (342ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (338ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (255ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (1006ms)
+		AnalyzeDomain (344ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1016ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (765ms)
+		SetupLoadedEditorAssemblies (778ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (462ms)
-			ProcessInitializeOnLoadMethodAttributes (197ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (458ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6615 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7106.
-Memory consumption went from 329.4 MB to 325.8 MB.
-Total: 4.926200 ms (FindLiveObjects: 0.803800 ms CreateObjectMapping: 0.217700 ms MarkObjects: 3.176000 ms  DeleteObjects: 0.727900 ms)
+Unloading 6616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7107.
+Memory consumption went from 329.8 MB to 326.2 MB.
+Total: 4.772100 ms (FindLiveObjects: 0.810000 ms CreateObjectMapping: 0.225300 ms MarkObjects: 3.056600 ms  DeleteObjects: 0.679400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,237 +187,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20562.451248 seconds.
-  path: Assets/Resources/Character/Common/Buggy.prefab
-  artifactKey: Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Buggy.prefab using Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9e923adb22ee6fe2a649bcb679cb0a') in 9.117410 seconds
+  Time since last request: 23678.165194 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce95e3aba4c1133a2600b12e89c093b') in 1.839585 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 391
+Number of asset objects unloaded after import = 64
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f47b2e88f0ff48669e0427b0261f3b3') in 0.067298 seconds
+  Time since last request: 1.655121 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e2126d0c8b90b12a7700c9d0fb31f3') in 0.025975 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
+Number of asset objects unloaded after import = 31
 ========================================================================
 Received Import Request.
-  Time since last request: 51.178941 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Take 001.anim
-  artifactKey: Guid(96a41a8e3788c8b44be127b40f453459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Take 001.anim using Guid(96a41a8e3788c8b44be127b40f453459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c5bf73c70f9604d2750bd26b7b5489') in 0.008958 seconds
+  Time since last request: 8.756443 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx
+  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097bea2fcb870cd7fbd9b181e6ca333b') in 0.010446 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 5.495617 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Attack.anim
-  artifactKey: Guid(96a41a8e3788c8b44be127b40f453459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Attack.anim using Guid(96a41a8e3788c8b44be127b40f453459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3dc4ed248c0c9dca8c3769716b9fad6') in 0.006537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.287021 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/textures
-  artifactKey: Guid(14e2bc3464a16034195c1e32823e74bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/textures using Guid(14e2bc3464a16034195c1e32823e74bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709e8030b085c08d3c82d9daad153b33') in 0.000472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.933241 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/textures/Paladin_normal.png
-  artifactKey: Guid(bf90caa6ad7cba74ba269b5dc8cc7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/textures/Paladin_normal.png using Guid(bf90caa6ad7cba74ba269b5dc8cc7577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c58e6911ddae93e8bbd3523886a175') in 0.024371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 93.071209 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/Sword And Shield Slash.dae
-  artifactKey: Guid(3e92e2663a761db4085d77045624d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/Sword And Shield Slash.dae using Guid(3e92e2663a761db4085d77045624d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fafb0a913c73644617d09ca0aa8d546') in 0.200858 seconds
+  Time since last request: 17.094399 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9768511bbbfba093bc53c3c220018983') in 0.025469 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 161
+Number of asset objects unloaded after import = 31
 ========================================================================
 Received Import Request.
-  Time since last request: 2.630912 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b0b560b23f48ce3de29a927ebd94a2') in 0.047924 seconds
+  Time since last request: 99.677319 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea3d268a33cb8a0dde82305c33afb13') in 0.030922 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 31
 ========================================================================
 Received Import Request.
-  Time since last request: 51.639038 seconds.
-  path: Assets/Resources/Character/Rair/Slash.fbx
-  artifactKey: Guid(82ae2d66557b57548bdeed6e0adfe7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/Slash.fbx using Guid(82ae2d66557b57548bdeed6e0adfe7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c25fcb6abd29a76ef8e1d6b73afa1e') in 0.034810 seconds
+  Time since last request: 6.677154 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cae1457a88c321c412b88703f0fb19') in 0.034062 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 31
 ========================================================================
 Received Import Request.
-  Time since last request: 24.190886 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller
-  artifactKey: Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/sword_shield_animator.controller using Guid(b3add24e84cb31c4b8024a40af8a68ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaee5c82991b743be53030bfb3aeabb') in 0.003783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 49.256159 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc91faed744d643cd97e3c527721ca2') in 0.052321 seconds
+  Time since last request: 14.237241 seconds.
+  path: Assets/Resources/Effect/Model/Prefab/Arrow.prefab
+  artifactKey: Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Prefab/Arrow.prefab using Guid(77af1a84ed91ca2459e5eaf44a4d2322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554f1d3633041bce471be42cd1f9a28a') in 0.033488 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 369
-========================================================================
-Received Import Request.
-  Time since last request: 7.386085 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c689304ef5bb5d55cd21c2b0aa7116') in 0.053112 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 369
-========================================================================
-Received Import Request.
-  Time since last request: 65.606791 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8086e899a7e3c43c2adb1457c4dad3a4') in 0.055020 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 5.829705 seconds.
-  path: Assets/Resources/Character/Rair/SlashEffect.prefab
-  artifactKey: Guid(5ba9dd688d197524396c883762078a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/SlashEffect.prefab using Guid(5ba9dd688d197524396c883762078a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc253ffd55729b6c6674ef600c37ab4') in 0.018777 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 10.590950 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c903f7c7260ff362cc206ba898e25829') in 0.060581 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 1.945402 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9af7b3c9ffd0b944a70fdb18ba62eae') in 0.057397 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 10.287356 seconds.
-  path: Assets/Resources/Character/Common/Buggy.prefab
-  artifactKey: Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Buggy.prefab using Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d913b283a9619ee812211be8049e78a') in 0.086813 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 1.508601 seconds.
-  path: Assets/Resources/Character/Common/Buggy.prefab
-  artifactKey: Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Buggy.prefab using Guid(8e1f48594b86fdb4d950fec70e0ddb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5415a022c31753420c33386a4b8b90ff') in 0.067755 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 15.466760 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337d25ffd0c257786ef8901920b6558e') in 0.056228 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 2.126570 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a520560ab2882d9a2e47cf8d190d15') in 0.058588 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 45.789497 seconds.
-  path: Assets/Resources/Character/Common/NewSurfaceShader.shader
-  artifactKey: Guid(bdeeb90909352b24f9639a2a31a29540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/NewSurfaceShader.shader using Guid(bdeeb90909352b24f9639a2a31a29540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf20cfa030d238dd55a39276f0d6b864') in 0.002949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 54.070889 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93480d2835957611724dbf0f5df8793d') in 0.067360 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 1.907554 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aee470b13b9f223be691a8ee70ddbab') in 0.055092 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 1.347669 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ada6ac851df886d92ede61c94941d3') in 0.064248 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 381
-========================================================================
-Received Import Request.
-  Time since last request: 5.790591 seconds.
-  path: Assets/Resources/Character/Rair/SlashEffect.prefab
-  artifactKey: Guid(5ba9dd688d197524396c883762078a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/SlashEffect.prefab using Guid(5ba9dd688d197524396c883762078a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09cf7097d1b76cf07ef78b376394f06') in 0.016611 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 17
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 31

@@ -157,7 +157,6 @@ public class InGameManager : MonoBehaviourPunCallbacks
     }
     IEnumerator Summon(string type)
     {
-        Debug.Log("½ÃÀ×ÀÌ¹ß µÆ´Ù");
         var tmp = GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber+"Field").transform;
         var sacrifice = Character_recipe[type].Split(',');
         GameObject obj;

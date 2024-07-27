@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55196
+50970
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1116] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2899386666 [EditorId] 2899386666 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28556] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 923997668 [EditorId] 923997668 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1116] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2899386666 [EditorId] 2899386666 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28556] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 923997668 [EditorId] 923997668 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,36 +73,36 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005111 seconds.
-- Loaded All Assemblies, in  0.378 seconds
+Registered in 0.005019 seconds.
+- Loaded All Assemblies, in  0.361 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 696ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.314 seconds
+Domain Reload Profiling: 675ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (114ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (132ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (319ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (314ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (249ms)
@@ -110,9 +110,9 @@ Domain Reload Profiling: 696ms
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +120,57 @@ Domain Reload Profiling: 696ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.832 seconds
-Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.836 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 0.722 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 6.464 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.015 seconds
-Domain Reload Profiling: 1847ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  1.024 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (150ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
+	RebuildNativeTypeToScriptingClass (13ms)
 	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (591ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
 		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (327ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (255ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1015ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1025ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (774ms)
+		SetupLoadedEditorAssemblies (784ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (202ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6615 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7106.
-Memory consumption went from 330.0 MB to 326.4 MB.
-Total: 5.061600 ms (FindLiveObjects: 0.861700 ms CreateObjectMapping: 0.245800 ms MarkObjects: 3.263600 ms  DeleteObjects: 0.689700 ms)
+Unloading 6616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (3.6 MB). Loaded Objects now: 7107.
+Memory consumption went from 329.9 MB to 326.3 MB.
+Total: 4.843200 ms (FindLiveObjects: 0.800100 ms CreateObjectMapping: 0.266400 ms MarkObjects: 3.089900 ms  DeleteObjects: 0.685800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,38 +187,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20562.453889 seconds.
-  path: Assets/Resources/Character/Uncommon/archor_.prefab
-  artifactKey: Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Uncommon/archor_.prefab using Guid(12ec121916013684c9448e042c117dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.420 ms.
- -> (artifact id: 'fda8e52fa1ccc8e79b3346c5f92cc089') in 9.875440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 432
+  Time since last request: 23807.357176 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx
+  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328e6dd7884845055fd699a6191d4857') in 0.031844 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 58.322066 seconds.
-  path: Assets/Resources/Character/Rair/swordshield/textures/Paladin_specular.png
-  artifactKey: Guid(f361e092b29f1be42b40e6fce4969f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/swordshield/textures/Paladin_specular.png using Guid(f361e092b29f1be42b40e6fce4969f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9cf8ab9964961fa6dc9f37b84f7917') in 0.031340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+  Time since last request: 6.665433 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx
+  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b7e213140c0d95d28d343c29ff6956') in 0.004811 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 300.266980 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980272d29988c30a6d56204c7ec2aea9') in 0.049155 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
-========================================================================
-Received Import Request.
-  Time since last request: 151.596186 seconds.
-  path: Assets/Resources/Character/Rair/sword_shield.prefab
-  artifactKey: Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Rair/sword_shield.prefab using Guid(a6c9e36630bf17b48b716605d14a3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6a95479f47bb886eef0bba8549b03d') in 0.057959 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 381
+  Time since last request: 14.267192 seconds.
+  path: Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx
+  artifactKey: Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/Model/Arrow/Arrow_VFX.vfx using Guid(2c7b1d70bf436664ba4640ad18b6261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb3323ba773bb0a59a0bd76ab57ae22') in 0.004898 seconds
+Number of updated asset objects reloaded before import = 3
+Number of asset objects unloaded after import = 11

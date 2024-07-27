@@ -3,17 +3,19 @@ using PlayFab.EconomyModels;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.Burst.Intrinsics;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
+using static Unity.Burst.Intrinsics.X86.Avx;
 using static UnityEngine.UI.GridLayoutGroup;
 
 public class Character_ : MonoBehaviourPunCallbacks
 {
     private enum status { idle = 0,walking =1,attack=2};
-    private enum basicType { Melee, Ranged };
+
     private status nowstatus;
     private Transform target;
     private Vector3 destination=Vector3.zero;
@@ -68,7 +70,17 @@ public class Character_ : MonoBehaviourPunCallbacks
                 previousNormalizedTime = currentNormalizedTime;
                 if (!is_attack)
                 {
-                    this.Event_Attack();
+                    switch(data.type)
+                    {
+                        case basicType.Melee:
+                            this.Event_Attack();
+                            break;
+                        case basicType.Ranged:
+                            PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0],this.transform.position,this.transform.rotation);
+                            break;
+                        default:
+                            break;
+                    }
                     is_attack = true;
                 }
        
