@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public AudioClip[] audioClips;
     public Slider[] sliders;
     public AudioSource audioSource;
-    public Charac_Data charac_Data;
+    public Charac_Data charac_Data=new Charac_Data();
     public static GameManager Instance
     {
         get
@@ -40,10 +40,14 @@ public class GameManager : MonoBehaviour
         else if (instance != this) Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
         var processList = DI.Process.GetProcesses();
-        foreach (var process in processList)
+        /*foreach (var process in processList)
         {
             Debug.Log(process.ProcessName);
-        }
+        }*/
+        
+    }
+    private void Start()
+    {
         charac_Data.Set_Status();
     }
     public void SetData(string Key,string curData)

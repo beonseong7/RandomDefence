@@ -31,7 +31,7 @@ public class Character_ : MonoBehaviourPunCallbacks
     {
         data = GameManager.instance.charac_Data.Get_Charac_status("Ä¿¸Õ");
         nowstatus = status.idle;
-        animator = GetComponent<Animator>();
+        animator = this.GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
         Name =this.transform.Find("Canvas").transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         Name.text = this.name;

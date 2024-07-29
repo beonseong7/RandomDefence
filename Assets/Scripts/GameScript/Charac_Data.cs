@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Charac_Data : MonoBehaviour
+public class Charac_Data
 {
-     Dictionary<string,CharacData> Charac_status;
+     Dictionary<string,CharacData> Charac_status= new Dictionary<string, CharacData>();
     public void Set_Status()
     {
         Charac_status["커먼"]= new CharacData("루피", 0.0f, basicType.Melee, 5.0f, 4.0f,new SkillData[] { new SkillData("Arrow", skillType.Physical, 0.0f, 10.0f) });

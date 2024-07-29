@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4701.4565, g: 3104.4868, b: 2402.3635, a: 1}
+  m_IndirectSpecularColor: {r: 4764.7505, g: 3098.9321, b: 2301.3987, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -509,6 +509,13 @@ MonoBehaviour:
   - {fileID: 8469837097725318300, guid: 13909e69eddc2914f9cfcd2d91eefc62, type: 3}
   common:
   - {fileID: 6400699034332350705, guid: 8e1f48594b86fdb4d950fec70e0ddb22, type: 3}
+  - {fileID: 6400699034332350705, guid: cef3b739b1ad04e4db413833ffef963c, type: 3}
+  - {fileID: 6400699034332350705, guid: 570c12de5aa6da94e9b2497fbda49b73, type: 3}
+  - {fileID: 6400699034332350705, guid: 9d5130d9eeb8c59499c2f335fe465101, type: 3}
+  - {fileID: 6400699034332350705, guid: fa32c0a7aa921354dbe477bdb8cd3ca9, type: 3}
+  - {fileID: 6400699034332350705, guid: 8534cc36f19999848a60b956fa552dde, type: 3}
+  - {fileID: 6400699034332350705, guid: 44d768bca6ac98e44ac4c7b0ce4f13bb, type: 3}
+  - {fileID: 6400699034332350705, guid: 60056134b1e51b14ea4f624174dcb714, type: 3}
   Base_Uncommon: {fileID: 3001945972306355020, guid: 12ec121916013684c9448e042c117dcc, type: 3}
   MyCharacter: {fileID: 1538832402}
   Mob_Parents: {fileID: 1388292043}

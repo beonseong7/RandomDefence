@@ -50,3 +50,4 @@
 2024.7.23 mufi 사진  
 2024.7.25 gpt api 분석  
 2024.7.27 RandomDefence 데이터 설계  
+2024.7.27 RandomDefence 데이터 작성  
