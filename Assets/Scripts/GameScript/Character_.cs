@@ -29,7 +29,7 @@ public class Character_ : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        data = GameManager.instance.charac_Data.Get_Charac_status("커먼");
+        data = GameManager.instance.charac_Data.Get_Charac_status("언커먼");
         nowstatus = status.idle;
         animator = this.GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
@@ -76,7 +76,7 @@ public class Character_ : MonoBehaviourPunCallbacks
                             this.Event_Attack();
                             break;
                         case basicType.Ranged:
-                            PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0],this.transform.position,this.transform.rotation);
+                            PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0].name,this.transform.position,this.transform.rotation);
                             break;
                         default:
                             break;

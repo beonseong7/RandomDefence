@@ -25,11 +25,11 @@ public struct CharacData
 }
 public struct SkillData
     {
-        string name;
-        skillType Type;
-        float distance;
-        float Damage;
-        public SkillData(string name,skillType type,float distance,float Damage)
+        public string name { get; private set; }
+    public skillType Type { get; private set; }
+    public float distance { get; private set; }
+    public float Damage { get; private set; }
+    public SkillData(string name,skillType type,float distance,float Damage)
         {
             this.name = name;
             this.distance= distance;
