@@ -53,3 +53,4 @@
 2024.7.28 RandomDefence 데이터 작성  
 2024.8.01 RandomDefence effect 조정  
 2024.8.02 RandomDefence effect 조정  
+2024.8.03 RandomDefence 조합법 조정  
