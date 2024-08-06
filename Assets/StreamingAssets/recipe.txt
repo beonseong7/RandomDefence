@@ -49,7 +49,7 @@ BandaE_ BladeR_,BerserkerR_,SummonerU_,HawkeyeU_,Warload
 AllegroE_ FufuR_,DevilhunterR_,InfighterR_
 BerserkerE_ BerserkerR_,BladeR_,SaltgiantR_
 BattlemasterE_ BattlemasterR_,UgoR_,FufuR_
-CalavasusE_ SoulfistR_,SetinoR_,SpearmanR_
+CalvasusE_ SoulfistR_,SetinoR_,SpearmanR_
 MaurgE_ BladeR_,BladeR_,BrakerR_
 SaikaE_ AporasR_,DevilhunterR_,SoulfistR_
 AdeleE_ AporasR_,LiruR_,SaltgiantR_¸¶¸®
@@ -61,3 +61,27 @@ ArcadiaE_ KnutR_,AporasR_,LiruR_
 MariE_ BlasterR_,BardR_,InfighterR_
 DarcyE_ HawkeyeR_,SaltgiantR_,ArcanaR_
 LaurielE_ LiruR_,WilhelmR_,AntonR_
+SashaE_ MeteorogistR_,KnutR_,BrakerR_
+HabaekE_ SouleaterU_,BladeR_,InfighterR_
+ShanaE_ UgoR_,EoroR_,MeteorogistR_
+OsphereE_ ReaperR_,BardR_,BattlemasterR_
+ShuheritE_ SoulfistR_,EoroR_,ReaperR_
+StrikerE_ StrikerR_,FufuR_,AntonR_
+CainE_ DevilhunterR_,BrakerR_,HawkeyeR_
+KaisterE_ BardR_,SallyR_,LuaveR_
+NiaE_ SallyR_,BerserkerR_,SummonerU_,Hawkeye
+ThanatosE_ LuaveR_,SpearmanR_,StrikerR_
+MorpheE_ ReaperR_,DemonicR_,EoroR_
+ArcanaE_ ArcanaR_,StrikerR_,HawkeyeR_
+HawkeyeE_ HawkeyeR_,LuaveR_,MeteorogistR_
+LahartE_ AntonR_,MeteorogistR_,BartoR_
+ElberhasticE_ SetoR_,LudrickR_,ReaperR_
+SilpherionE_ SetinoR_,AbenR_,LuaveR_
+GenemadnikE_ BerserkerR_,AbenR_,SpearmanR_
+BehemothE_ InfighterR_,UgoR_,DemonicU_
+KungelaniumE_ DemonicR_,SetinoR_,ArcanaR_
+UrnilE_ EoroR_,AporasR_,SetoR_
+GingerwhaleE_ BartoR_,SoulfistR_,AbenR_
+HolyknightE_ HolyknightR_,LiruR_,WilhelmR_
+CardanE_ WilhelmR_,BlasterR_,SallyR_
+SummonerE_ DocheolR_ ,SummonerU_,StrikerR_,SallyR_

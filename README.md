@@ -56,3 +56,4 @@
 2024.8.03 RandomDefence 조합법 조정  
 2024.8.04 RandomDefence 조합법 조정  
 2024.8.05 MUFI 보고서  
+2024.8.06 RandomDefence 조합법 조정  
