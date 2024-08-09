@@ -120,7 +120,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6961320654315452082
 RectTransform:
   m_ObjectHideFlags: 0
@@ -898,7 +898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       propertyPath: m_Name
-      value: Nami
+      value: Meteorogist
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a1e285c3ba39f6245b29239a27924d1b, type: 3}
       propertyPath: m_Layer

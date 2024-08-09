@@ -29,7 +29,8 @@ public class Character_ : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        data = GameManager.instance.charac_Data.Get_Charac_status("¾ðÄ¿¸Õ");
+        this.name = this.name.Split("(Clone)")[0];
+        data = GameManager.instance.charac_Data.Get_Charac_status(this.name.ToString());
         nowstatus = status.idle;
         animator = this.GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);

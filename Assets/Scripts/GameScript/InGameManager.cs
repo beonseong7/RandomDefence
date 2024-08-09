@@ -143,7 +143,6 @@ public class InGameManager : MonoBehaviourPunCallbacks
         {
             var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
             obj.transform.SetParent(MyCharacter.transform);
-            obj.name = obj.name.Split("(Clone)")[0];
             if (Character.ContainsKey(obj.name))
             {
                 Character[obj.name]++;
