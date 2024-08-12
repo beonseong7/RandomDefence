@@ -61,3 +61,4 @@
 2024.8.08 RandomDefence 조합법 조정  
 2024.8.09 RandomDefence 조합법 조정  
 2024.8.11 RandomDefence 조합법 조정  
+2024.8.12 RandomDefence 조합법 조정  

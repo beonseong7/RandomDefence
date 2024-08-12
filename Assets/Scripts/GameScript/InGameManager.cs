@@ -62,13 +62,13 @@ public class InGameManager : MonoBehaviourPunCallbacks
             tmp.name = recipe;
 
             tmp.onClick.AddListener(() => check_inventory(tmp.name));
-            if (recipe.Contains("U_"))
+            if (recipe.Contains("_U"))
                 tmp.transform.SetParent(Panels[0].transform, true);
-            else if (recipe.Contains("R_"))
+            else if (recipe.Contains("_R"))
                 tmp.transform.SetParent(Panels[1].transform, true);
-            else if (recipe.Contains("E_"))
+            else if (recipe.Contains("_E"))
                 tmp.transform.SetParent(Panels[2].transform, true);
-            else if (recipe.Contains("L_"))
+            else if (recipe.Contains("_L"))
                 tmp.transform.SetParent(Panels[3].transform, true);
             tmp.GetComponent<RectTransform>().localPosition = new Vector3(tmp.GetComponent<RectTransform>().position.x, tmp.GetComponent<RectTransform>().position.y, 0);
             tmp.GetComponent<RectTransform>().localRotation = Quaternion.Euler(Vector3.zero);
@@ -168,19 +168,19 @@ public class InGameManager : MonoBehaviourPunCallbacks
         }
         switch (type.Substring(type.Length - 2, 2))
         {
-            case "U_":
+            case "_U":
                 obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 obj.name = type;
                 break;
-            case "R_":
+            case "_R":
                 obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 obj.name = type;
                 break;
-            case "E_":
+            case "_E":
                 break;
-            case "L_":
+            case "_L":
                 break;
             default:
                 break;
@@ -220,6 +220,9 @@ public class InGameManager : MonoBehaviourPunCallbacks
         UI_Text[1].transform.GetComponent<TextMeshProUGUI>().text = "Stage : " + stage.ToString();
         UI_Text[2].transform.GetComponent<TextMeshProUGUI>().text = GameManager.instance.Nick_Name;
         UI_Text[3].transform.GetComponent<TextMeshProUGUI>().text = "Timer : " + timer.ToString();
+        UI_Text[4].transform.GetComponent<TextMeshProUGUI>().text = "MY MOB:" + GameObject.Find("MyMobs").transform.childCount.ToString();
+        if (GameObject.Find("MyMobs").transform.childCount > 54)
+            Debug.Log("GameOVer");
     }
     void Update()
     {

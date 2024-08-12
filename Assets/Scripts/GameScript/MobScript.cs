@@ -56,12 +56,16 @@ public class MobScript : MonoBehaviourPunCallbacks
         HP_Slider.value = Hp;
         animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);
-        transform.SetParent(GameObject.Find("Mobs").transform);
         if (photonView.IsMine)
         {
+            transform.SetParent(GameObject.Find("MyMobs").transform);
             field = GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform;
             transform.position = field.GetChild(3).position;
             StartCoroutine(MobMove());
+        }
+        else
+        {
+            transform.SetParent(GameObject.Find("Mobs").transform);
         }
             
     }
