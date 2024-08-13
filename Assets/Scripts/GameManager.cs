@@ -66,6 +66,8 @@ public class GameManager : MonoBehaviour
         this.GetComponent<AudioSource>().clip = audioClips[1];
         else if(audio=="ingame")
             this.GetComponent<AudioSource>().clip = audioClips[0];
+        else if (audio == "lobby")
+            this.GetComponent<AudioSource>().clip = audioClips[2];
         this.GetComponent<AudioSource>().Play();
     }
     public void OnGUI()

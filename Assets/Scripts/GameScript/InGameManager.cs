@@ -100,30 +100,43 @@ public class InGameManager : MonoBehaviourPunCallbacks
     {
         yield return new WaitForSeconds(5f);
         Camera.main.transform.position = new Vector3(GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.position.x, Camera.main.transform.position.y, GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.position.z);
+        StartCoroutine(this.time());
         while (stage < 9)
         {
-            StopCoroutine(this.time());
-            timer = 55;
-            StartCoroutine(this.time());
-            for (int i = 0; i < 40; i++)
+            if (PhotonNetwork.IsMasterClient)
             {
-                if (PhotonNetwork.IsMasterClient)
+                timer = 55;
+                for (int i = 0; i < 40; i++)
                 {
                     photonView.RPC("Summon_Mob", RpcTarget.All);
                     yield return null;
+                    yield return new WaitForSeconds(1f);
                 }
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(15f);
+                photonView.RPC("Next_Stage", RpcTarget.All);
             }
-            yield return new WaitForSeconds(15f);
-            stage++;
-            choice += 2;
         }
     }
     IEnumerator time()
     {
-        yield return new WaitForSeconds(1.0f);
-        timer--;
-        StartCoroutine(time());
+        if (PhotonNetwork.IsMasterClient)
+        {
+            yield return new WaitForSeconds(1.0f);
+            timer--;
+            photonView.RPC("Set_Timer", RpcTarget.Others, timer);
+            StartCoroutine(time());
+        }
+    }
+    [PunRPC]
+    public void Next_Stage()
+    {
+        stage++;
+        choice += 2;
+    }
+    [PunRPC]
+    public void Set_Timer(int time)
+    {
+        timer = time;
     }
     [PunRPC]
     public void Summon_Mob()
@@ -214,6 +227,18 @@ public class InGameManager : MonoBehaviourPunCallbacks
     {
         tmp.SetActive(!tmp.activeSelf);
     }
+    public void Watching()
+    {
+
+    }
+    public void Lobby()
+    {
+        PhotonNetwork.LeaveRoom();
+    }
+    public override void OnLeftRoom()
+    {
+        PhotonNetwork.LoadLevel(1);
+    }
     public void OnGUI()
     {
         UI_Text[0].transform.GetComponent<TextMeshProUGUI>().text = "º±≈√±« : " + choice.ToString();
@@ -222,7 +247,11 @@ public class InGameManager : MonoBehaviourPunCallbacks
         UI_Text[3].transform.GetComponent<TextMeshProUGUI>().text = "Timer : " + timer.ToString();
         UI_Text[4].transform.GetComponent<TextMeshProUGUI>().text = "MY MOB:" + GameObject.Find("MyMobs").transform.childCount.ToString();
         if (GameObject.Find("MyMobs").transform.childCount > 54)
+        {
+            Panels[4].SetActive(true);
             Debug.Log("GameOVer");
+        }
+            
     }
     void Update()
     {

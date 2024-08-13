@@ -48,6 +48,8 @@ MonoBehaviour:
   - Field_name
   - Summon_Mob
   - Cha_Destroy
+  - Next_Stage
+  - Set_Timer
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

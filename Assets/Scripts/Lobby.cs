@@ -25,10 +25,12 @@ public class Lobby : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        GameManager.instance.Change_Audio("lobby");
         StartCoroutine(this.checkroom());
     }
     IEnumerator checkroom()
     {
+        
         yield return new WaitForSeconds(3.0f);
         Debug.Log( PhotonNetwork.NetworkClientState);
         StartCoroutine(this.checkroom());
@@ -71,7 +73,8 @@ public class Lobby : MonoBehaviourPunCallbacks
             if (p.RemovedFromList )
             {
                 Debug.Log("Successsss");
-                Destroy(Dic_rooms[p.Name]);
+                if(Dic_rooms.ContainsKey(p.Name))
+                    Destroy(Dic_rooms[p.Name]);
                 Dic_rooms.Remove(p.Name);
             }
             else if(p.IsOpen==true && !Dic_rooms.ContainsKey(p.Name))

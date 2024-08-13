@@ -314,6 +314,7 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: fb33b9f6c69fa354b90122be59d09f32, type: 3}
   - {fileID: 8300000, guid: d3326dedc2e31774188c05653692dcd6, type: 3}
+  - {fileID: 8300000, guid: 884339cae698d514ca9d38567c8f0491, type: 3}
   sliders:
   - {fileID: 1498023744}
   audioSource: {fileID: 177608562}
