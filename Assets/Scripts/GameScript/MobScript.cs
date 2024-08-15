@@ -22,7 +22,7 @@ public class MobScript : MonoBehaviourPunCallbacks
         {
             return Hp;
         }
-        set
+        private set
         {
             Hp = value;
         }

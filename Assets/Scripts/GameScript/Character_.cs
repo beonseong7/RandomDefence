@@ -24,6 +24,7 @@ public class Character_ : MonoBehaviourPunCallbacks
     private AnimatorStateInfo animStateInfo;
     private TextMeshProUGUI Name;
     private float previousNormalizedTime;
+    public GameObject RangedCenter;
     [Header("Status")]
     CharacData data;
     // Start is called before the first frame update
@@ -77,7 +78,7 @@ public class Character_ : MonoBehaviourPunCallbacks
                             this.Event_Attack();
                             break;
                         case basicType.Ranged:
-                            PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0].name,this.transform.position,this.transform.rotation);
+                            var tmp=PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0].name, RangedCenter.transform.position,this.transform.rotation);
                             break;
                         default:
                             break;
@@ -153,10 +154,8 @@ public class Character_ : MonoBehaviourPunCallbacks
     {
         if (target != null && photonView.IsMine)
         {
-            target.GetComponent<MobScript>().Is_Damage(data.Damage);
-            if (target.GetComponent<MobScript>().mob_Hp <= 0) target = null;
+            if(target.GetComponent<MobScript>().Is_Damage(data.Damage)) target = null;
         }
-
     }
     public void Set_destination(Vector3 tmp)
     {

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\bsroom\\Unity_Project\\RandomDefence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\scripts\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\charac_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\charac_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\effect_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\effect_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\data_struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\data_struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\mobscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\editor\\shaderanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\shaderanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\charac_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\charac_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\streamingassets\\recipe.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -43,16 +55,8 @@
       "RelativeMoniker": "D:0:0:{320B8905-9176-3A9B-853A-A3A512B94744}|PhotonUnityNetworking.csproj|solutionrelative:assets\\photon\\photonunitynetworking\\code\\punclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\effect_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\effect_script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}|PhotonChat.csproj|solutionrelative:assets\\photon\\photonchat\\code\\chatchannel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\data_struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\data_struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\mouseinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\editor\\shaderanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\shaderanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{708DB38F-D1F7-5708-770B-B21EF70744F6}|Assembly-CSharp-Editor.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\editor\\multirun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,61 +142,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lobby.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lobby.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lobby.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAiwBsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:46:13.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwEQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T15:14:08.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "mouseinter.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\mouseinter.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScript\\mouseinter.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAiwEUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:29:52.811Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Data_Struct.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Data_Struct.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Data_Struct.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Data_Struct.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Data_Struct.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:26:56.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Effect_Script.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Effect_Script.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Effect_Script.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Effect_Script.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Effect_Script.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T11:48:54.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "GameRoom.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameRoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameRoom.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameRoom.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameRoom.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAuwJQAAAAHAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAIwJQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T12:32:16.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "ShaderAnimator.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\ShaderAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\ShaderAnimator.cs",
@@ -232,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Register.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Register.cs",
@@ -244,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ChatChannel.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
@@ -256,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "recipe.txt",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
               "RelativeDocumentMoniker": "Assets\\StreamingAssets\\recipe.txt",
@@ -268,55 +256,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InGameManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\InGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\InGameManager.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\InGameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScript\\InGameManager.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAYwG0AAAARAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwJcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:36:18.725Z"
+              "WhenOpened": "2024-08-08T13:36:18.725Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Character_.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Character_.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScript\\Character_.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwB8AAAAyAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAiwFsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:15:10.949Z"
+              "WhenOpened": "2024-05-29T09:15:10.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MobScript.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\MobScript.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScript\\MobScript.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAAADkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T12:47:49.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Charac_Data.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Charac_Data.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Charac_Data.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Charac_Data.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScript\\Charac_Data.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABSAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T13:29:09.149Z"
+              "WhenOpened": "2024-07-14T13:29:09.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAIwFAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:14:08.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MobScript.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\MobScript.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScript\\MobScript.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T12:47:49.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PunClasses.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PunClasses.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PunClasses.cs",
@@ -328,15 +332,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Effect_Script.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Effect_Script.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Effect_Script.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Effect_Script.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Effect_Script.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
+              "DocumentIndex": 14,
+              "Title": "mouseinter.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\mouseinter.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScript\\mouseinter.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAiwEUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-27T11:48:54.456Z"
+              "WhenOpened": "2024-05-21T12:29:52.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lobby.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lobby.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lobby.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwBsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:46:13.346Z"
             },
             {
               "$type": "Document",
@@ -364,19 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Data_Struct.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Data_Struct.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Data_Struct.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Data_Struct.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Data_Struct.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwB4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T12:26:56.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SGBlackboardCategory.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs",

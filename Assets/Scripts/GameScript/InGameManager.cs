@@ -14,7 +14,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
     public GameObject[] Panels;
     Dictionary<string, string> Character_recipe = new Dictionary<string, string>();
     public static InGameManager instance = null;
-    public int choice = 10;
+    public int choice = 20;
     public int stage = 1;
     private int timer = 0;
     public GameObject[] UI_Text;
@@ -154,15 +154,16 @@ public class InGameManager : MonoBehaviourPunCallbacks
         var tmp=GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber+"Field").transform;
         if (choice > 0)
         {
-            var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+            var obj= PhotonNetwork.Instantiate("Character/Common/"+common[UnityEngine.Random.Range(0, common.Length - 1)].name, new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
             obj.transform.SetParent(MyCharacter.transform);
-            if (Character.ContainsKey(obj.name))
+            var name=obj.name.Split("(Clone)")[0];
+            if (Character.ContainsKey(name))
             {
-                Character[obj.name]++;
+                Character[name]++;
             }
             else
             {
-                Character.Add(obj.name, 1);
+                Character.Add(name, 1);
             }
             choice--;
         }
@@ -182,14 +183,14 @@ public class InGameManager : MonoBehaviourPunCallbacks
         switch (type.Substring(type.Length - 2, 2))
         {
             case "_U":
-                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
-                obj.name = type;
+                //obj.name = type;
                 break;
             case "_R":
-                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 102, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
-                obj.name = type;
+                //obj.name = type;
                 break;
             case "_E":
                 break;
