@@ -414,6 +414,7 @@
 "Assets/Scripts/GameScript/InGameManager.cs"
 "Assets/Scripts/GameScript/MobScript.cs"
 "Assets/Scripts/GameScript/mouseinter.cs"
+"Assets/Scripts/GameScript/RecipeButton.cs"
 "Assets/Scripts/LoadingSceneManager.cs"
 "Assets/Scripts/Lobby.cs"
 "Assets/Scripts/Login.cs"

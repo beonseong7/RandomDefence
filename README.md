@@ -65,3 +65,4 @@
 2024.8.13 RandomDefence UI 조정  
 2024.8.14 RandomDefence UI 조정  
 2024.8.15 RandomDefence UI 조정  
+2024.8.15 RandomDefence UI 조정  

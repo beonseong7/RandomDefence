@@ -60,7 +60,6 @@ public class InGameManager : MonoBehaviourPunCallbacks
         {
             var tmp = Instantiate(Button);
             tmp.name = recipe;
-
             tmp.onClick.AddListener(() => check_inventory(tmp.name));
             if (recipe.Contains("_U"))
                 tmp.transform.SetParent(Panels[0].transform, true);
@@ -143,10 +142,12 @@ public class InGameManager : MonoBehaviourPunCallbacks
     {
         GameObject mob = PhotonNetwork.Instantiate("Mob_Prefab", GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber + "Field").transform.GetChild(3).position, Mob[stage - 1].transform.rotation);
     }
-    public IEnumerator SystemMs(string text)
+    public void SystemMs(string text)
     {
         SystemMessage.text = text;
-        yield return new WaitForSeconds(5f);
+    }
+    public void ClearSystemMs()
+    {
         SystemMessage.text = "";
     }
     public void Random_summon()
@@ -180,6 +181,14 @@ public class InGameManager : MonoBehaviourPunCallbacks
             MyCharacter.transform.Find(mob_tmp).GetComponent<PhotonView>().RPC("Cha_Destroy", RpcTarget.All);
             yield return null;
         }
+        if (Character.ContainsKey(type))
+        {
+            Character[type]++;
+        }
+        else
+        {
+            Character.Add(type, 1);
+        }
         switch (type.Substring(type.Length - 2, 2))
         {
             case "_U":
@@ -200,7 +209,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
                 break;
         }
     }
-    void check_inventory(string name)
+    public void check_inventory(string name)
     {
         var tmp = Character_recipe[name].Split(',');
         foreach (var item in tmp)
@@ -212,13 +221,11 @@ public class InGameManager : MonoBehaviourPunCallbacks
                 if (Character[t_item] < 0)
                 {
                     Character[t_item]++;
-                    StartCoroutine(SystemMs(name + " 조합법 : " + Character_recipe[name]));
                     return;
                 }
             }
             else
             {
-                StartCoroutine(SystemMs(name + " 조합법 : " + Character_recipe[name]));
                 return;
             } 
         }

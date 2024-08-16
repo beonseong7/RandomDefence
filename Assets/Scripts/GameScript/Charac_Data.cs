@@ -11,6 +11,7 @@ public class Charac_Data
     {
         Skill_status["Slash"] = new SkillData("Slash", skillType.Physical, 0.0f, 10.0f);
         Skill_status["Arrow"] = new SkillData("Arrow", skillType.Magical, 0.0f, 10.0f);
+        Skill_status["Groundslash"] = new SkillData("Groundslash", skillType.Magical, 0.0f, 10.0f);
         Charac_status["Braker"]= new CharacData("Braker", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Striker"] = new CharacData("Striker", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Devilhunter"] = new CharacData("Devilhunter", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
@@ -30,6 +31,7 @@ public class Charac_Data
     }
     public SkillData Get_Skill_status(string name)
     {
+        Debug.Log(name);
         return Skill_status[name];
     }
 
