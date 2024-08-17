@@ -7,12 +7,14 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
+using PlayFab.ClientModels;
+using PlayFab;
 
 public class InGameManager : MonoBehaviourPunCallbacks
 {
     public Button Button;
     public GameObject[] Panels;
-    Dictionary<string, string> Character_recipe = new Dictionary<string, string>();
+    public Dictionary<string, string> Character_recipe = new Dictionary<string, string>();
     public static InGameManager instance = null;
     public int choice = 20;
     public int stage = 1;
@@ -102,20 +104,33 @@ public class InGameManager : MonoBehaviourPunCallbacks
         StartCoroutine(this.time());
         while (stage < 9)
         {
-            if (PhotonNetwork.IsMasterClient)
-            {
                 timer = 55;
                 for (int i = 0; i < 40; i++)
                 {
-                    photonView.RPC("Summon_Mob", RpcTarget.All);
-                    yield return null;
-                    yield return new WaitForSeconds(1f);
+                if (PhotonNetwork.IsMasterClient) photonView.RPC("Summon_Mob", RpcTarget.All);
+                yield return new WaitForSeconds(1f);
                 }
                 yield return new WaitForSeconds(15f);
-                photonView.RPC("Next_Stage", RpcTarget.All);
+                if (PhotonNetwork.IsMasterClient) photonView.RPC("Next_Stage", RpcTarget.All);
+        }
+        var request = new GetPlayerStatisticsRequest();
+        PlayFabClientAPI.GetPlayerStatistics(request, GameManager.instance.OnStatisticsReceived, GameManager.instance.OnError);
+        Invoke("GameClear", 3.0f);
+    }
+    void GameClear()
+    {
+        if (GameObject.Find("MyMobs").transform.childCount < 55)
+        {
+            foreach (var stat in GameManager.instance.playerStatistics.Statistics)
+            {
+                if (stat.StatisticName == "ClearCount") GameManager.instance.SetStat(stat.StatisticName, stat.Value + 1);
+
             }
+            Panels[4].SetActive(true);
+            UI_Text[6].transform.GetComponent<TextMeshProUGUI>().text = "저장 완료";
         }
     }
+    
     IEnumerator time()
     {
         if (PhotonNetwork.IsMasterClient)
@@ -124,6 +139,17 @@ public class InGameManager : MonoBehaviourPunCallbacks
             timer--;
             photonView.RPC("Set_Timer", RpcTarget.Others, timer);
             StartCoroutine(time());
+        }
+        else
+        {
+            yield return null;
+        }
+    }
+    public override void OnMasterClientSwitched(Player newMasterClient)
+    {
+        if (PhotonNetwork.IsMasterClient)
+        {
+            StartCoroutine(this.time());
         }
     }
     [PunRPC]
@@ -249,14 +275,21 @@ public class InGameManager : MonoBehaviourPunCallbacks
     }
     public void OnGUI()
     {
+        string character_tt="";
+        foreach(var item in Character)
+        {
+            if(item.Value>0) character_tt += item.Key + " X " + item.Value + "\n";
+        }
         UI_Text[0].transform.GetComponent<TextMeshProUGUI>().text = "선택권 : " + choice.ToString();
         UI_Text[1].transform.GetComponent<TextMeshProUGUI>().text = "Stage : " + stage.ToString();
         UI_Text[2].transform.GetComponent<TextMeshProUGUI>().text = GameManager.instance.Nick_Name;
         UI_Text[3].transform.GetComponent<TextMeshProUGUI>().text = "Timer : " + timer.ToString();
         UI_Text[4].transform.GetComponent<TextMeshProUGUI>().text = "MY MOB:" + GameObject.Find("MyMobs").transform.childCount.ToString();
+        UI_Text[5].transform.GetComponent<TextMeshProUGUI>().text = character_tt;
         if (GameObject.Find("MyMobs").transform.childCount > 54)
         {
             Panels[4].SetActive(true);
+            UI_Text[6].transform.GetComponent<TextMeshProUGUI>().text = "저장 완료";
             Debug.Log("GameOVer");
         }
             

@@ -24,7 +24,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\WebSocket\\websocket-sharp.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonChat.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonRealtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.Demos.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.Utilities.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PlayFab.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\netstandard2.0\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\WebSocket\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\netstandard2.0\\Photon3Unity3D.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\WebSocket\\websocket-sharp.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonChat.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonRealtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.Demos.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PhotonUnityNetworking.Utilities.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\PlayFab.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.Burst.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.RenderPipelines.HighDefinition.Runtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualEffectGraph.Runtime.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Mdb.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Pdb.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.CodeGen\\Unity.Burst.Cecil.Rocks.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.Unsafe.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\netstandard2.0\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonLibs\\WebSocket\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"D:\\ProgramFiles(x64)\\UnityHub\\2022.3.21f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\ScriptAssemblies\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.burst@1.8.12\\Unity.Burst.CodeGen\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.5\\lib\\ReportGenerator\" -s=\"D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -38,13 +38,26 @@
         "Library/ScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "Library/ScriptAssemblies/PlayFab.dll",
         "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -193,6 +206,21 @@
       "File": "Library/Bee/500b0aESkipCompile-inputdata.json"
     },
     {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll"
+    },
+    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
     },
     {
@@ -226,10 +254,34 @@
       "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"

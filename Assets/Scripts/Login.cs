@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
+using TMPro;
 
 public class Login : MonoBehaviourPunCallbacks
 {
@@ -14,7 +15,7 @@ public class Login : MonoBehaviourPunCallbacks
     private string password;
     public InputField ID_Input;
     public InputField PW_Input;
-    public Text ErrorTt;
+    public TextMeshProUGUI ErrorTt;
     private string _playFabPlayerIdCache;
     [Header("Disconnect")]
     public PlayerLeaderboardEntry MyPlayFabInfo;
@@ -32,6 +33,7 @@ public class Login : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        
         PhotonNetwork.AuthValues = new Photon.Realtime.AuthenticationValues();
     }
     public void ID_Value_changed()=> userID = ID_Input.text.ToString();

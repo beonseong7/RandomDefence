@@ -16,17 +16,6 @@ public class MobScript : MonoBehaviourPunCallbacks
     private float Hp;
     public Transform field=null;
     public Slider HP_Slider;
-    public float mob_Hp
-    {
-        get
-        {
-            return Hp;
-        }
-        private set
-        {
-            Hp = value;
-        }
-    }
     public bool Is_Damage(float damage)
     {
         if (Hp > 0)
@@ -51,8 +40,8 @@ public class MobScript : MonoBehaviourPunCallbacks
     void Start()
     {
         
-        HP_Slider.maxValue = InGameManager.instance.stage*10.0f;
-        Hp= InGameManager.instance.stage * 10.0f;
+        HP_Slider.maxValue = InGameManager.instance.stage*50.0f;
+        Hp= InGameManager.instance.stage * 50.0f;
         HP_Slider.value = Hp;
         animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);

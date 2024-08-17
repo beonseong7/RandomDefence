@@ -299,6 +299,10 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 7522749483550247412}
           m_TargetAssemblyTypeName: RecipeButton, Assembly-CSharp
           m_MethodName: OnMouseExit

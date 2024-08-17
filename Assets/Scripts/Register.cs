@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
 using Photon.Realtime;
+using TMPro;
 
 public class Register : MonoBehaviourPunCallbacks
 {
@@ -14,7 +15,7 @@ public class Register : MonoBehaviourPunCallbacks
     public InputField PW_Input;
     public InputField Email_Input;
     public InputField NickName_Input;
-    public Text ErrorText;
+    public TextMeshProUGUI ErrorText;
     private string userID;
     private string password;
     private string email;
@@ -33,14 +34,10 @@ public class Register : MonoBehaviourPunCallbacks
     public void R_Register()
     {
         var request = new RegisterPlayFabUserRequest { Username = userID, Password = password, DisplayName=nickname,Email=email};
-        PlayFabClientAPI.RegisterPlayFabUser(request, (result) => { print("회원가입 성공");SetStat(); GameManager.instance.SetData("Home", "Disconnect") ; }, (error)=>RegisterFailure(error));
+        PlayFabClientAPI.RegisterPlayFabUser(request, (result) => { ErrorText.text="Register Success";GameManager.instance.SetStat("ClearCount",0); GameManager.instance.SetData("Home", "Disconnect") ; }, (error)=>RegisterFailure(error));
     }
 
-    void SetStat()
-    {
-        var request = new UpdatePlayerStatisticsRequest { Statistics = new List<StatisticUpdate> { new StatisticUpdate { StatisticName = "IDINfo", Value = 0 } } };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, (result) => { }, (error) => print("값 저장실패"));
-    }
+
     
     private void RegisterFailure(PlayFabError error)
     {

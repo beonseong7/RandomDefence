@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public AudioClip[] audioClips;
     public Slider[] sliders;
     public AudioSource audioSource;
+    public GetPlayerStatisticsResult playerStatistics;
     public Charac_Data charac_Data=new Charac_Data();
     public static GameManager Instance
     {
@@ -77,6 +78,20 @@ public class GameManager : MonoBehaviour
     public void Button_Active(GameObject tmp)
     {
         tmp.SetActive(!tmp.activeSelf);
+    }
+    public void SetStat(string StatisticName,int Value)
+    {
+        var request = new UpdatePlayerStatisticsRequest { Statistics = new List<StatisticUpdate> { new StatisticUpdate { StatisticName = StatisticName, Value = Value } } };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, (result) => { }, (error) => print("값 저장실패"));
+    }
+    public void OnStatisticsReceived(GetPlayerStatisticsResult result)
+    {
+        Debug.Log("통계 데이터를 성공적으로 가져왔습니다.");
+        playerStatistics = result;
+    }
+    public void OnError(PlayFabError error)
+    {
+        Debug.LogError("통계 데이터를 가져오는 중 오류 발생: " + error.GenerateErrorReport());
     }
     // Update is called once per frame
     void Update()

@@ -7,7 +7,7 @@ public class RecipeButton : MonoBehaviour
 {
     public void OnMouseEnter()
     {
-        InGameManager.instance.SystemMs(this.gameObject.name);
+        InGameManager.instance.SystemMs(InGameManager.instance.Character_recipe[this.gameObject.name]);
     }
     public void OnMouseExit()
     {
