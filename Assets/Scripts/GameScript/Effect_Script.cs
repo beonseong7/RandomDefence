@@ -46,6 +46,7 @@ public class Effect_Script : MonoBehaviourPunCallbacks
         if (other.gameObject.tag == "mob")
         {
             var tmp = other.GetComponent<MobScript>().Is_Damage(Damage);
+            if (this.gameObject.name == "Arrow") PhotonNetwork.Destroy(this.gameObject);
         }
     }
 }

@@ -20,6 +20,7 @@ public class CamMove : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
+            Menu.transform.GetChild(9).gameObject.SetActive(false);
             GameManager.instance.Button_Active(Menu);
         }
         if (Input.GetKeyDown(KeyCode.Escape))

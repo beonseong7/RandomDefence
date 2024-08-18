@@ -39,9 +39,8 @@ public class MobScript : MonoBehaviourPunCallbacks
     }
     void Start()
     {
-        
-        HP_Slider.maxValue = InGameManager.instance.stage*50.0f;
-        Hp= InGameManager.instance.stage * 50.0f;
+        Hp = InGameManager.instance.stage * 30.0f;
+        HP_Slider.maxValue = Hp;
         HP_Slider.value = Hp;
         animator =this.GetComponent<Animator>();
         animator.SetInteger("status", 1);

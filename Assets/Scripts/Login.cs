@@ -13,8 +13,8 @@ public class Login : MonoBehaviourPunCallbacks
 {
     private string userID;
     private string password;
-    public InputField ID_Input;
-    public InputField PW_Input;
+    public TMP_InputField ID_Input;
+    public TMP_InputField PW_Input;
     public TextMeshProUGUI ErrorTt;
     private string _playFabPlayerIdCache;
     [Header("Disconnect")]
@@ -33,7 +33,7 @@ public class Login : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameManager.instance.Change_Audio("main");
         PhotonNetwork.AuthValues = new Photon.Realtime.AuthenticationValues();
     }
     public void ID_Value_changed()=> userID = ID_Input.text.ToString();

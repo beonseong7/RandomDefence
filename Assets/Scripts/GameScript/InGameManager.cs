@@ -9,6 +9,7 @@ using Photon.Pun;
 using Photon.Realtime;
 using PlayFab.ClientModels;
 using PlayFab;
+using static UnityEditor.Progress;
 
 public class InGameManager : MonoBehaviourPunCallbacks
 {
@@ -195,17 +196,18 @@ public class InGameManager : MonoBehaviourPunCallbacks
             choice--;
         }
     }
-    IEnumerator Summon(string type)
+    void Summon(string type)
     {
         var tmp = GameObject.Find(PhotonNetwork.LocalPlayer.ActorNumber+"Field").transform;
         var sacrifice = Character_recipe[type].Split(',');
         GameObject obj;
+        
         foreach (var mob in sacrifice)
         {
             Debug.Log(mob);
             var mob_tmp = mob.Trim();
             MyCharacter.transform.Find(mob_tmp).GetComponent<PhotonView>().RPC("Cha_Destroy", RpcTarget.All);
-            yield return null;
+
         }
         if (Character.ContainsKey(type))
         {
@@ -218,12 +220,12 @@ public class InGameManager : MonoBehaviourPunCallbacks
         switch (type.Substring(type.Length - 2, 2))
         {
             case "_U":
-                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 //obj.name = type;
                 break;
             case "_R":
-                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 //obj.name = type;
                 break;
@@ -238,24 +240,25 @@ public class InGameManager : MonoBehaviourPunCallbacks
     public void check_inventory(string name)
     {
         var tmp = Character_recipe[name].Split(',');
+        Dictionary<string, int> charac_tmp = new Dictionary<string, int>(Character);
         foreach (var item in tmp)
         {
             string t_item = item.Trim();
-            if (Character.ContainsKey(t_item))
+            if (charac_tmp.ContainsKey(t_item))
             {
-                Character[t_item]--;
-                if (Character[t_item] < 0)
+                if (charac_tmp[t_item] <= 0)
                 {
-                    Character[t_item]++;
                     return;
                 }
+                charac_tmp[t_item]--;
             }
             else
             {
                 return;
-            } 
+            }
         }
-        StartCoroutine(this.Summon(name));
+        Character = charac_tmp;
+        this.Summon(name);
     }
     public void Button_Active(GameObject tmp)
     {

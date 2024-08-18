@@ -11,10 +11,10 @@ using TMPro;
 
 public class Register : MonoBehaviourPunCallbacks
 {
-    public InputField ID_Input;
-    public InputField PW_Input;
-    public InputField Email_Input;
-    public InputField NickName_Input;
+    public TMP_InputField ID_Input;
+    public TMP_InputField PW_Input;
+    public TMP_InputField Email_Input;
+    public TMP_InputField NickName_Input;
     public TextMeshProUGUI ErrorText;
     private string userID;
     private string password;

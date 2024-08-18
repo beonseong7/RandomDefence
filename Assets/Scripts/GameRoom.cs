@@ -9,8 +9,8 @@ using TMPro;
 using PlayFab.ClientModels;
 public class GameRoom: MonoBehaviourPunCallbacks
 {
-    public Text Chat;
-    public InputField Chatfield;
+    public TextMeshProUGUI Chat;
+    public TMP_InputField Chatfield;
     public ScrollRect scroll_rect;
     public Transform Player_Panel;
     public GameObject Player_img;
