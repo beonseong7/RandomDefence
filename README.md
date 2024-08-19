@@ -68,3 +68,4 @@
 2024.8.16 RandomDefence UI 조정  
 2024.8.17 RandomDefence UI 조정  
 2024.8.18 RandomDefence UI 조정  
+2024.8.19 병가  
