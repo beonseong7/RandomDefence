@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
-using PlayFab;
-using PlayFab.ClientModels;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {

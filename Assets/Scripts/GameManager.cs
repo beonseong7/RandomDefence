@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using PlayFab;
-using PlayFab.ClientModels;
 using DI = System.Diagnostics;
 using System;
 using UnityEngine.UI;
@@ -15,7 +13,6 @@ public class GameManager : MonoBehaviour
     public AudioClip[] audioClips;
     public Slider[] sliders;
     public AudioSource audioSource;
-    public GetPlayerStatisticsResult playerStatistics;
     public Charac_Data charac_Data=new Charac_Data();
     public static GameManager Instance
     {
@@ -51,15 +48,6 @@ public class GameManager : MonoBehaviour
     {
         charac_Data.Set_Status();
     }
-    public void SetData(string Key,string curData)
-    {
-        var request = new UpdateUserDataRequest()
-        {
-            Data = new Dictionary<string, string>() { { Key, curData } },
-            Permission = UserDataPermission.Public
-        };
-        PlayFabClientAPI.UpdateUserData(request, (result) => { }, (error) => print("데이터 저장 실패"));
-    }
     public void Change_Audio(string audio)
     {
         this.GetComponent<AudioSource>().Stop();
@@ -79,20 +67,7 @@ public class GameManager : MonoBehaviour
     {
         tmp.SetActive(!tmp.activeSelf);
     }
-    public void SetStat(string StatisticName,int Value)
-    {
-        var request = new UpdatePlayerStatisticsRequest { Statistics = new List<StatisticUpdate> { new StatisticUpdate { StatisticName = StatisticName, Value = Value } } };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, (result) => { }, (error) => print("값 저장실패"));
-    }
-    public void OnStatisticsReceived(GetPlayerStatisticsResult result)
-    {
-        Debug.Log("통계 데이터를 성공적으로 가져왔습니다.");
-        playerStatistics = result;
-    }
-    public void OnError(PlayFabError error)
-    {
-        Debug.LogError("통계 데이터를 가져오는 중 오류 발생: " + error.GenerateErrorReport());
-    }
+
     // Update is called once per frame
     void Update()
     {

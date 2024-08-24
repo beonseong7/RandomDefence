@@ -7,9 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
-using PlayFab.ClientModels;
-using PlayFab;
 using static UnityEditor.Progress;
+using UnityEngine.Networking;
 
 public class InGameManager : MonoBehaviourPunCallbacks
 {
@@ -42,7 +41,6 @@ public class InGameManager : MonoBehaviourPunCallbacks
     }
     void Start()
     {
-
         SystemMessage.text = "";
         string path = Path.Combine(Application.streamingAssetsPath, "recipe.txt");
         if (File.Exists(path))
@@ -114,19 +112,29 @@ public class InGameManager : MonoBehaviourPunCallbacks
                 yield return new WaitForSeconds(15f);
                 if (PhotonNetwork.IsMasterClient) photonView.RPC("Next_Stage", RpcTarget.All);
         }
-        var request = new GetPlayerStatisticsRequest();
-        PlayFabClientAPI.GetPlayerStatistics(request, GameManager.instance.OnStatisticsReceived, GameManager.instance.OnError);
-        Invoke("GameClear", 3.0f);
+        StartCoroutine(this.Save());
+        if (GameObject.Find("MyMobs").transform.childCount < 55)
+            Invoke("GameClear", 3.0f);
+    }
+    IEnumerator Save()
+    {
+        using (UnityWebRequest www = UnityWebRequest.Get("http://beonseong7.dothome.co.kr/php/Update_ClearDt.php?NickName=" + GameManager.instance.Nick_Name))
+        {
+            yield return www.SendWebRequest();
+            if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
+            {
+                Debug.Log(www.error);
+            }
+            else
+            {
+                Debug.Log(www.downloadHandler.text);
+            }
+        }
     }
     void GameClear()
     {
         if (GameObject.Find("MyMobs").transform.childCount < 55)
         {
-            foreach (var stat in GameManager.instance.playerStatistics.Statistics)
-            {
-                if (stat.StatisticName == "ClearCount") GameManager.instance.SetStat(stat.StatisticName, stat.Value + 1);
-
-            }
             Panels[4].SetActive(true);
             UI_Text[6].transform.GetComponent<TextMeshProUGUI>().text = "저장 완료";
         }
@@ -293,7 +301,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
         {
             Panels[4].SetActive(true);
             UI_Text[6].transform.GetComponent<TextMeshProUGUI>().text = "저장 완료";
-            Debug.Log("GameOVer");
+            Debug.Log("GameOver");
         }
             
     }

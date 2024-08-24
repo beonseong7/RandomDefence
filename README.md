@@ -1,3 +1,4 @@
+RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.html
 2024.5.22 RandomDefence 업로드  
 2024.5.23 몹네비게이션 제작  
 2024.5.24 몹애니메이션 제작  
@@ -73,3 +74,4 @@
 2024.8.21 컴퓨터 수리  
 2024.8.22 RandomDefence UI 조정  
 2024.8.23 RandomDefence 웹페이지제작  
+2024.8.24 RandomDefence 웹페이지제작  

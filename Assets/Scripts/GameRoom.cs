@@ -6,7 +6,6 @@ using Photon.Pun;
 using Photon.Realtime;
 
 using TMPro;
-using PlayFab.ClientModels;
 public class GameRoom: MonoBehaviourPunCallbacks
 {
     public TextMeshProUGUI Chat;

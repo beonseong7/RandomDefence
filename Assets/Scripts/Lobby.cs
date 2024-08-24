@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PlayFab;
-using PlayFab.ClientModels;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using Photon.Pun;
@@ -107,7 +105,6 @@ public class Lobby : MonoBehaviourPunCallbacks
     }
     public void Logout()
     {
-        GameManager.instance.SetData("Home", "Disconnect");
         PhotonNetwork.Disconnect();
         PhotonNetwork.LoadLevel(0);
     }

@@ -822,8 +822,6 @@ MonoBehaviour:
   sliders:
   - {fileID: 1498023744}
   audioSource: {fileID: 177608562}
-  playerStatistics:
-    Statistics: []
 --- !u!4 &177608561
 Transform:
   m_ObjectHideFlags: 0
@@ -2333,28 +2331,6 @@ MonoBehaviour:
   ID_Input: {fileID: 299733105}
   PW_Input: {fileID: 1848072477}
   ErrorTt: {fileID: 564785552}
-  MyPlayFabInfo:
-    DisplayName: 
-    PlayFabId: 
-    Position: 0
-    Profile:
-      AdCampaignAttributions: []
-      AvatarUrl: 
-      ContactEmailAddresses: []
-      DisplayName: 
-      ExperimentVariants: []
-      LinkedAccounts: []
-      Locations: []
-      Memberships: []
-      PlayerId: 
-      PublisherId: 
-      PushNotificationRegistrations: []
-      Statistics: []
-      Tags: []
-      TitleId: 
-      ValuesToDate: []
-    StatValue: 0
-  PlayFabUserList: []
   EmailInput: {fileID: 0}
   PasswordInput: {fileID: 0}
   UsernameInput: {fileID: 0}

@@ -1164,10 +1164,6 @@
       <Project>{6D213714-C3D4-402E-EE9C-8BFC6F2F081F}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
-    <ProjectReference Include="PlayFab.csproj">
-      <Project>{39ADB5A9-1421-57BB-4026-F5B726367D09}</Project>
-      <Name>PlayFab</Name>
-    </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
       <Project>{320B8905-9176-3A9B-853A-A3A512B94744}</Project>
       <Name>PhotonUnityNetworking</Name>
@@ -1175,10 +1171,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{B200642F-380E-6AAC-3F99-6362DFAFD687}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PlayFabSDKEditor.csproj">
-      <Project>{FED8102E-5B64-ECA2-00CF-A21DBA837361}</Project>
-      <Name>PlayFabSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
       <Project>{9945BD13-2B42-05C8-D5F7-8D6B1F936B04}</Project>
