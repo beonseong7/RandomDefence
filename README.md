@@ -75,3 +75,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.8.22 RandomDefence UI 조정  
 2024.8.23 RandomDefence 웹페이지제작  
 2024.8.24 RandomDefence 웹페이지제작  
+2024.8.25 RandomDefence 웹페이지제작  
