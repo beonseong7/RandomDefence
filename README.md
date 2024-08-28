@@ -78,3 +78,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.8.25 RandomDefence 웹페이지제작  
 2024.8.26 RandomDefence 웹페이지제작  
 2024.8.27 MUFI 자동문서화 작업  
+2024.8.28 MUFI 자동문서화 작업  
