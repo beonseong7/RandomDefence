@@ -1,0 +1,37 @@
+Inanna_L Holyknight_E,Arcadia_E,Kaishur_E
+Illiakan_L Maurg_E,Banda_E,Summoner_E
+KoukuSaton_L Battlemaster_E,Adele_E,Calvasus_E
+Meteorogist_L Shana_E,Habaek_E,Summoner_E
+Evergrace_L Lahart_E,Arcana_E,Spearman_E
+GuardianLou_L Habaek_E,Mochamocha_E,Thanatos_E
+Darren Aman_L
+Berserker_L
+Ninav_L
+Kamen_L
+GwanBraker_L
+SuraBraker_L
+Cardan_L
+Gingerwhale_L
+Esthershien_L
+Echidna_L
+Byakis_L
+Striker_L
+Estherlutheran_L
+Cillian_L
+Esthergalatour_L
+Summoner_L
+Baltan_L
+Blade_L
+Reaper_L
+Reaper_L
+Destroyer_L
+Beatrice_L
+Way_L
+Holyknight_L
+Infighter_L
+Battlemaster_L
+Spearman_L
+Hawkeye_L
+Barkan_L
+Warload_L
+Sorceress_L

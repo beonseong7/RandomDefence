@@ -250,7 +250,23 @@
         242,
         243,
         244,
-        245
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -304,18 +320,6 @@
       "DebugActionIndex": 4
     },
     {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/level0.resS",
-      "DisplayName": "Copying level0.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/level0.resS"
-      ],
-      "Outputs": [
-        "subdir/RandomDefence_Data/level0.resS"
-      ],
-      "DebugActionIndex": 5
-    },
-    {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/level1",
       "DisplayName": "Copying level1",
       "ActionType": "CopyFiles",
@@ -325,19 +329,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/level1"
       ],
-      "DebugActionIndex": 6
-    },
-    {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/level1.resS",
-      "DisplayName": "Copying level1.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/level1.resS"
-      ],
-      "Outputs": [
-        "subdir/RandomDefence_Data/level1.resS"
-      ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 5
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/level2",
@@ -349,19 +341,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/level2"
       ],
-      "DebugActionIndex": 8
-    },
-    {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/level2.resS",
-      "DisplayName": "Copying level2.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/level2.resS"
-      ],
-      "Outputs": [
-        "subdir/RandomDefence_Data/level2.resS"
-      ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 6
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/level3",
@@ -373,19 +353,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/level3"
       ],
-      "DebugActionIndex": 10
-    },
-    {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/level3.resS",
-      "DisplayName": "Copying level3.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/level3.resS"
-      ],
-      "Outputs": [
-        "subdir/RandomDefence_Data/level3.resS"
-      ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 7
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/resources.assets",
@@ -397,7 +365,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/resources.assets"
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/resources.assets.resS",
@@ -409,7 +377,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/resources.assets.resS"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Resources/unity_builtin_extra",
@@ -421,7 +389,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/RuntimeInitializeOnLoads.json",
@@ -433,7 +401,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/ScriptingAssemblies.json",
@@ -445,7 +413,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets0.assets",
@@ -457,7 +425,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets0.assets.resS",
@@ -469,7 +437,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets0.assets.resS"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets0.resource",
@@ -481,7 +449,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets0.resource"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets1.assets",
@@ -493,7 +461,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets1.assets"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets1.assets.resS",
@@ -505,7 +473,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets1.assets.resS"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets2.assets",
@@ -517,7 +485,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets2.assets"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets2.assets.resS",
+      "DisplayName": "Copying sharedassets2.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets2.assets.resS"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/sharedassets2.assets.resS"
+      ],
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets3.assets",
@@ -529,7 +509,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets3.assets"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/sharedassets3.assets.resS",
@@ -541,20 +521,20 @@
       "Outputs": [
         "subdir/RandomDefence_Data/sharedassets3.assets.resS"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16705,
+      "PayloadLength": 17636,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -567,13 +547,9 @@
         "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets",
         "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets.resS",
         "Library/PlayerDataCache/Win64/Data/level0",
-        "Library/PlayerDataCache/Win64/Data/level0.resS",
         "Library/PlayerDataCache/Win64/Data/level1",
-        "Library/PlayerDataCache/Win64/Data/level1.resS",
         "Library/PlayerDataCache/Win64/Data/level2",
-        "Library/PlayerDataCache/Win64/Data/level2.resS",
         "Library/PlayerDataCache/Win64/Data/level3",
-        "Library/PlayerDataCache/Win64/Data/level3.resS",
         "Library/PlayerDataCache/Win64/Data/resources.assets",
         "Library/PlayerDataCache/Win64/Data/resources.assets.resS",
         "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra",
@@ -585,6 +561,7 @@
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets2.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets2.assets.resS",
         "Library/PlayerDataCache/Win64/Data/sharedassets3.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets3.assets.resS",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
@@ -656,22 +633,31 @@
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PlayFab.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "D:/bsroom/Unity_Project/RandomDefence/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
         "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
@@ -734,12 +720,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        25
+        22
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/boot.config",
@@ -752,9 +738,9 @@
         "subdir/RandomDefence_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        26
+        23
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/StreamingAssets/recipe.txt",
@@ -766,7 +752,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/StreamingAssets/recipe.txt"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AIModule.dll",
@@ -778,7 +764,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ARModule.dll",
@@ -790,7 +776,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -802,7 +788,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -814,7 +800,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -826,7 +812,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -838,7 +824,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AudioModule.dll",
@@ -850,7 +836,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClothModule.dll",
@@ -862,7 +848,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -874,7 +860,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -886,7 +872,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -898,7 +884,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.CoreModule.dll",
@@ -910,7 +896,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -922,7 +908,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -934,7 +920,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -946,7 +932,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GIModule.dll",
@@ -958,7 +944,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -970,7 +956,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GridModule.dll",
@@ -982,7 +968,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -994,7 +980,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1006,7 +992,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -1018,7 +1004,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1030,7 +1016,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.InputModule.dll",
@@ -1042,7 +1028,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1054,7 +1040,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1066,7 +1052,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1078,7 +1064,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1090,7 +1076,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1102,7 +1088,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1114,7 +1100,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1126,7 +1112,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1138,7 +1124,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -1150,7 +1136,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1162,7 +1148,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1174,7 +1160,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1186,7 +1172,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1198,7 +1184,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1210,7 +1196,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1222,7 +1208,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1234,7 +1220,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1246,7 +1232,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1258,7 +1244,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1270,7 +1256,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1282,7 +1268,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1294,7 +1280,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1306,7 +1292,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1318,7 +1304,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1330,7 +1316,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1342,7 +1328,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UIModule.dll",
@@ -1354,7 +1340,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1366,7 +1352,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1378,7 +1364,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1390,7 +1376,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1402,7 +1388,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1414,7 +1400,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1426,7 +1412,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1438,7 +1424,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1450,7 +1436,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1462,7 +1448,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1474,7 +1460,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1486,7 +1472,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1498,7 +1484,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VRModule.dll",
@@ -1510,7 +1496,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1522,7 +1508,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1534,7 +1520,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1546,7 +1532,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.WindModule.dll",
@@ -1558,7 +1544,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.XRModule.dll",
@@ -1570,7 +1556,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.dll",
@@ -1582,7 +1568,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Assembly-CSharp.dll",
@@ -1593,6 +1579,42 @@
       ],
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+      "DisplayName": "Copying Unity.VisualEffectGraph.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.VisualEffectGraph.Runtime.dll"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll"
       ],
       "DebugActionIndex": 97
     },
@@ -1609,6 +1631,18 @@
       "DebugActionIndex": 98
     },
     {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Burst.dll",
+      "DisplayName": "Copying Unity.Burst.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.Burst.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Core.dll",
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
@@ -1618,7 +1652,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UI.dll",
@@ -1630,7 +1664,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1642,7 +1676,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonRealtime.dll",
@@ -1654,7 +1688,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonRealtime.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonChat.dll",
@@ -1666,7 +1700,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonChat.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Timeline.dll",
@@ -1678,19 +1712,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PlayFab.dll",
-      "DisplayName": "Copying PlayFab.dll",
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PlayFab.dll"
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll"
       ],
       "Outputs": [
-        "subdir/RandomDefence_Data/Managed/PlayFab.dll"
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.dll",
@@ -1702,7 +1736,31 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.ShaderLibrary.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Mathematics.dll",
+      "DisplayName": "Copying Unity.Mathematics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.Mathematics.dll"
+      ],
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Demos.dll",
@@ -1714,7 +1772,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Demos.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Utilities.dll",
@@ -1726,7 +1784,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Utilities.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.TextMeshPro.dll",
@@ -1738,7 +1796,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1750,7 +1808,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll",
+      "DisplayName": "Copying Unity.RenderPipelines.HighDefinition.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll"
+      ],
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/websocket-sharp.dll",
@@ -1762,7 +1832,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/websocket-sharp.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1774,7 +1844,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Photon3Unity3D.dll",
@@ -1786,7 +1856,31 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Photon3Unity3D.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Burst.Unsafe.dll",
+      "DisplayName": "Copying Unity.Burst.Unsafe.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.Burst.Unsafe.dll"
+      ],
+      "DebugActionIndex": 118
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Runtime.dll",
+      "DisplayName": "Copying System.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/System.Runtime.dll"
+      ],
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/netstandard.dll",
@@ -1798,7 +1892,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Mono.Security.dll",
@@ -1810,7 +1904,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1822,7 +1916,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Configuration.dll",
@@ -1834,7 +1928,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Core.dll",
@@ -1846,7 +1940,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1858,7 +1952,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Data.dll",
@@ -1870,7 +1964,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Drawing.dll",
@@ -1882,7 +1976,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.EnterpriseServices.dll",
@@ -1894,7 +1988,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1906,7 +2000,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.IO.Compression.dll",
@@ -1918,7 +2012,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Net.Http.dll",
@@ -1930,7 +2024,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Numerics.dll",
@@ -1942,7 +2036,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Runtime.Serialization.dll",
@@ -1954,7 +2048,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Security.dll",
@@ -1966,7 +2060,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1978,7 +2072,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Transactions.dll",
@@ -1990,7 +2084,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Xml.Linq.dll",
@@ -2002,7 +2096,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.Xml.dll",
@@ -2014,7 +2108,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/System.dll",
@@ -2026,7 +2120,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/mscorlib.dll",
@@ -2038,7 +2132,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AIModule.pdb",
@@ -2050,7 +2144,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AIModule.pdb"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ARModule.pdb",
@@ -2062,7 +2156,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ARModule.pdb"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AccessibilityModule.pdb",
@@ -2074,7 +2168,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AccessibilityModule.pdb"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -2086,7 +2180,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AnimationModule.pdb",
@@ -2098,7 +2192,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AnimationModule.pdb"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AssetBundleModule.pdb",
@@ -2110,7 +2204,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.AudioModule.pdb",
@@ -2122,7 +2216,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.AudioModule.pdb"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClothModule.pdb",
@@ -2134,7 +2228,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClothModule.pdb"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClusterInputModule.pdb",
@@ -2146,7 +2240,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClusterInputModule.pdb"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
@@ -2158,7 +2252,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ContentLoadModule.pdb",
@@ -2170,7 +2264,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ContentLoadModule.pdb"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.CoreModule.pdb",
@@ -2182,7 +2276,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.CoreModule.pdb"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.CrashReportingModule.pdb",
@@ -2194,7 +2288,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.CrashReportingModule.pdb"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.DSPGraphModule.pdb",
@@ -2206,7 +2300,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.DSPGraphModule.pdb"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.DirectorModule.pdb",
@@ -2218,7 +2312,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.DirectorModule.pdb"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GIModule.pdb",
@@ -2230,7 +2324,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GIModule.pdb"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GameCenterModule.pdb",
@@ -2242,7 +2336,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GameCenterModule.pdb"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.GridModule.pdb",
@@ -2254,7 +2348,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.GridModule.pdb"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.HotReloadModule.pdb",
@@ -2266,7 +2360,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.HotReloadModule.pdb"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.IMGUIModule.pdb",
@@ -2278,7 +2372,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.IMGUIModule.pdb"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -2290,7 +2384,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ImageConversionModule.pdb"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -2302,7 +2396,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.InputLegacyModule.pdb"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.InputModule.pdb",
@@ -2314,7 +2408,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.InputModule.pdb"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -2326,7 +2420,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.LocalizationModule.pdb",
@@ -2338,7 +2432,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.LocalizationModule.pdb"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.NVIDIAModule.pdb",
@@ -2350,7 +2444,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.NVIDIAModule.pdb"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -2362,7 +2456,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
@@ -2374,7 +2468,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.Physics2DModule.pdb",
@@ -2386,7 +2480,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.Physics2DModule.pdb"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PhysicsModule.pdb",
@@ -2398,7 +2492,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PhysicsModule.pdb"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ProfilerModule.pdb",
@@ -2410,7 +2504,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ProfilerModule.pdb"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.PropertiesModule.pdb",
@@ -2422,7 +2516,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.PropertiesModule.pdb"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
@@ -2434,7 +2528,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
@@ -2446,7 +2540,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -2458,7 +2552,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
@@ -2470,7 +2564,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -2482,7 +2576,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.StreamingModule.pdb",
@@ -2494,7 +2588,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.StreamingModule.pdb"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SubstanceModule.pdb",
@@ -2506,7 +2600,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SubstanceModule.pdb"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -2518,7 +2612,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.SubsystemsModule.pdb"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TLSModule.pdb",
@@ -2530,7 +2624,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TLSModule.pdb"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TerrainModule.pdb",
@@ -2542,7 +2636,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TerrainModule.pdb"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
@@ -2554,7 +2648,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -2566,7 +2660,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -2578,7 +2672,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -2590,7 +2684,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TextRenderingModule.pdb"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.TilemapModule.pdb",
@@ -2602,7 +2696,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.TilemapModule.pdb"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UIElementsModule.pdb",
@@ -2614,7 +2708,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UIElementsModule.pdb"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UIModule.pdb",
@@ -2626,7 +2720,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UIModule.pdb"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UmbraModule.pdb",
@@ -2638,7 +2732,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UmbraModule.pdb"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -2650,7 +2744,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -2662,7 +2756,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityConnectModule.pdb",
@@ -2674,7 +2768,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityConnectModule.pdb"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityCurlModule.pdb",
@@ -2686,7 +2780,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityCurlModule.pdb"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
@@ -2698,7 +2792,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
@@ -2710,7 +2804,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
@@ -2722,7 +2816,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -2734,7 +2828,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -2746,7 +2840,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
@@ -2758,7 +2852,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VFXModule.pdb",
@@ -2770,7 +2864,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VFXModule.pdb"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VRModule.pdb",
@@ -2782,7 +2876,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VRModule.pdb"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VehiclesModule.pdb",
@@ -2794,7 +2888,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VehiclesModule.pdb"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VideoModule.pdb",
@@ -2806,7 +2900,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VideoModule.pdb"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
@@ -2818,7 +2912,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.WindModule.pdb",
@@ -2830,7 +2924,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.WindModule.pdb"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.XRModule.pdb",
@@ -2842,7 +2936,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.XRModule.pdb"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.pdb",
@@ -2854,7 +2948,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.pdb"
       ],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Assembly-CSharp.pdb",
@@ -2866,7 +2960,43 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 209
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
+      ],
+      "DebugActionIndex": 210
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualEffectGraph.Runtime.pdb",
+      "DisplayName": "Copying Unity.VisualEffectGraph.Runtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.VisualEffectGraph.Runtime.pdb"
+      ],
+      "DebugActionIndex": 211
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.Runtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb"
+      ],
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.AI.Navigation.pdb",
@@ -2878,7 +3008,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.AI.Navigation.pdb"
       ],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 213
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Burst.pdb",
+      "DisplayName": "Copying Unity.Burst.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Burst.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.Burst.pdb"
+      ],
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -2890,7 +3032,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/UnityEngine.UI.pdb",
@@ -2902,7 +3044,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -2914,7 +3056,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonRealtime.pdb",
@@ -2926,7 +3068,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonRealtime.pdb"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonChat.pdb",
@@ -2938,7 +3080,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonChat.pdb"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Timeline.pdb",
@@ -2950,19 +3092,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 220
     },
     {
-      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PlayFab.pdb",
-      "DisplayName": "Copying PlayFab.pdb",
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PlayFab.pdb"
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb"
       ],
       "Outputs": [
-        "subdir/RandomDefence_Data/Managed/PlayFab.pdb"
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.pdb",
@@ -2974,7 +3116,31 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.pdb"
       ],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 222
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.Core.ShaderLibrary.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb"
+      ],
+      "DebugActionIndex": 223
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.Mathematics.pdb",
+      "DisplayName": "Copying Unity.Mathematics.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.Mathematics.pdb"
+      ],
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Demos.pdb",
@@ -2986,7 +3152,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Demos.pdb"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Utilities.pdb",
@@ -2998,7 +3164,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
       ],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.TextMeshPro.pdb",
@@ -3010,7 +3176,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -3022,7 +3188,19 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 228
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.pdb",
+      "DisplayName": "Copying Unity.RenderPipelines.HighDefinition.Runtime.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.pdb"
+      ],
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Managed/Photon3Unity3D.pdb",
@@ -3034,20 +3212,210 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Managed/Photon3Unity3D.pdb"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 230
+    },
+    {
+      "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+      "DisplayName": "Running Burst Compiler",
+      "ActionType": "RunRPCCommand",
+      "PayloadOffset": 17842,
+      "PayloadLength": 16137,
+      "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
+      "Action": "GenerateNativePluginsForAssemblies",
+      "Inputs": [
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "ProjectSettings/BurstAotSettings_StandaloneWindows.json",
+        "Library/BurstCache/AotSettings_StandaloneWindows.hash",
+        "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.burst@1.8.12/.Runtime/bcl.exe"
+      ],
+      "Outputs": [],
+      "TargetDirectories": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+      ],
+      "OverwriteOutputs": false,
+      "StatSignatures": [
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64"
+        },
+        {
+          "File": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+        }
+      ],
+      "GlobSignatures": [
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker"
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 231
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Plugins/x86_64/lib_burst_generated.dll",
+      "DisplayName": "Copying lib_burst_generated.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64/lib_burst_generated.dll"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Plugins/x86_64/lib_burst_generated.dll"
+      ],
+      "ToBuildDependencies": [
+        231
+      ],
+      "DebugActionIndex": 232
+    },
+    {
+      "Annotation": "CopyFiles subdir/RandomDefence_Data/Plugins/x86_64/lib_burst_generated.pdb",
+      "DisplayName": "Copying lib_burst_generated.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker/x86_64/lib_burst_generated.pdb"
+      ],
+      "Outputs": [
+        "subdir/RandomDefence_Data/Plugins/x86_64/lib_burst_generated.pdb"
+      ],
+      "ToBuildDependencies": [
+        231
+      ],
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16877,
+      "PayloadOffset": 34068,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "DefaultCompany\nRandomDefence",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/app.info",
@@ -3060,9 +3428,9 @@
         "subdir/RandomDefence_Data/app.info"
       ],
       "ToBuildDependencies": [
-        218
+        234
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence_Data/Resources/unity default resources",
@@ -3074,7 +3442,7 @@
       "Outputs": [
         "subdir/RandomDefence_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "CopyFiles subdir/RandomDefence.exe",
@@ -3086,7 +3454,7 @@
       "Outputs": [
         "subdir/RandomDefence.exe"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -3098,7 +3466,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -3110,7 +3478,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -3122,7 +3490,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -3134,7 +3502,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -3146,7 +3514,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -3158,7 +3526,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -3170,7 +3538,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -3182,7 +3550,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -3194,7 +3562,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -3206,7 +3574,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -3218,7 +3586,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -3230,7 +3598,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -3242,7 +3610,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -3254,7 +3622,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -3266,7 +3634,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -3278,7 +3646,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -3290,7 +3658,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -3302,7 +3670,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/config",
@@ -3314,7 +3682,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "CopyFiles subdir/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -3326,7 +3694,7 @@
       "Outputs": [
         "subdir/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "CopyFiles subdir/UnityCrashHandler64.exe",
@@ -3338,7 +3706,7 @@
       "Outputs": [
         "subdir/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "CopyFiles subdir/UnityPlayer.dll",
@@ -3350,7 +3718,7 @@
       "Outputs": [
         "subdir/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "CopyFiles subdir/WinPixEventRuntime.dll",
@@ -3362,7 +3730,7 @@
       "Outputs": [
         "subdir/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "Player",
@@ -3391,9 +3759,9 @@
         19,
         20,
         21,
-        22,
-        23,
         24,
+        25,
+        26,
         27,
         28,
         29,
@@ -3585,6 +3953,7 @@
         215,
         216,
         217,
+        218,
         219,
         220,
         221,
@@ -3597,10 +3966,8 @@
         228,
         229,
         230,
-        231,
         232,
         233,
-        234,
         235,
         236,
         237,
@@ -3610,10 +3977,26 @@
         241,
         242,
         243,
-        244
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 245
+      "DebugActionIndex": 261
     }
   ],
   "FileSignatures": [
@@ -3758,16 +4141,37 @@
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
     },
     {
-      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/PlayFab.pdb"
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
     },
     {
-      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Burst.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.Runtime.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Config.Runtime.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.HighDefinition.Runtime.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
     },
     {
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
     },
     {
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+    },
+    {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualEffectGraph.Runtime.pdb"
     },
     {
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
@@ -3782,10 +4186,16 @@
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
     },
     {
+      "File": "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.pdb"
+    },
+    {
       "File": "D:/bsroom/Unity_Project/RandomDefence/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
     },
     {
       "File": "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.pdb"
+    },
+    {
+      "File": "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.pdb"
     },
     {
       "File": "D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.pdb"
@@ -4130,9 +4540,13 @@
   "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
   "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
   "EmitDataForBeeWhy": 0,
+  "DirectoriesCausingImplicitDependencies": [
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
+    "Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinkerSymbols"
+  ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 245
+          "Player": 261
         }
 ,  "DefaultNodes": [
     0

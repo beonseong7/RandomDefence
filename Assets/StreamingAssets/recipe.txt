@@ -52,7 +52,7 @@ Battlemaster_E Battlemaster_R,Ugo_R,Fufu_R
 Calvasus_E Soulfist_R,Setino_R,Spearman_R
 Maurg_E Blade_R,Blade_R,Braker_R
 Saika_E Aporas_R,Devilhunter_R,Soulfist_R
-Adele_E Aporas_R,Liru_R,Saltgiant_R¸¶¸®
+Adele_E Aporas_R,Liru_R,Saltgiant_R
 Braker_E Braker_R,Seto_R,Arcana_R
 Mochamocha_E Aben_R,Knut_R,Blaster_R
 Kaishur_E Ludrick_R,Battlemaster_R,Devilhunter_R

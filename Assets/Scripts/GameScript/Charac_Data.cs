@@ -11,6 +11,7 @@ public class Charac_Data
         Skill_status["Slash"] = new SkillData("Slash", skillType.Physical, 0.0f, 10.0f);
         Skill_status["Arrow"] = new SkillData("Arrow", skillType.Magical, 0.0f, 10.0f);
         Skill_status["Groundslash"] = new SkillData("Groundslash", skillType.Magical, 0.0f, 10.0f);
+        Skill_status["(Opt)Effect_01_SwordCrash(ForEffectScene)"] = new SkillData("(Opt)Effect_01_SwordCrash(ForEffectScene)", skillType.Magical, 0.0f, 10.0f);
         Charac_status["Braker"]= new CharacData("Braker", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Striker"] = new CharacData("Striker", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Devilhunter"] = new CharacData("Devilhunter", 0.0f, basicType.Melee, 5.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
@@ -20,7 +21,7 @@ public class Charac_Data
         Charac_status["Holyknight"] = new CharacData("Holyknight", 0.0f, basicType.Melee, 20.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Berserker"] = new CharacData("Berserker", 0.0f, basicType.Melee, 20.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
         Charac_status["Hawkeye"] = new CharacData("Hawkeye", 0.0f, basicType.Melee, 20.0f, 4.0f, new SkillData[] { Skill_status["Slash"] });
-        Charac_status["archor_"] = new CharacData("archor_", 0.0f, basicType.Ranged, 20.0f, 4.0f, new SkillData[] { Skill_status["Arrow"] });
+        Charac_status["archor_"] = new CharacData("archor_", 0.0f, basicType.Ranged, 20.0f, 4.0f, new SkillData[] { Skill_status["(Opt)Effect_01_SwordCrash(ForEffectScene)"] });
         Charac_status["sword_shield"] = new CharacData("sword_shield", 0.0f, basicType.Ranged, 20.0f, 4.0f, new SkillData[] { Skill_status["Groundslash"] });
         Charac_status["에픽"] = new CharacData("루피", 0.0f, basicType.Ranged, 40.0f, 4.0f, new SkillData[] { new SkillData("Arrow", skillType.Physical, 0.0f, 10.0f) });
         Charac_status["레전더리"] = new CharacData("루피", 0.0f, basicType.Ranged, 80.0f, 4.0f, new SkillData[] { new SkillData("Arrow", skillType.Physical, 0.0f, 10.0f) });

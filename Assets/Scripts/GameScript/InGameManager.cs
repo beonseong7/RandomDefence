@@ -7,7 +7,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
-using static UnityEditor.Progress;
 using UnityEngine.Networking;
 
 public class InGameManager : MonoBehaviourPunCallbacks
@@ -228,12 +227,12 @@ public class InGameManager : MonoBehaviourPunCallbacks
         switch (type.Substring(type.Length - 2, 2))
         {
             case "_U":
-                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 //obj.name = type;
                 break;
             case "_R":
-                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Rair/sword_shield", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 //obj.name = type;
                 break;

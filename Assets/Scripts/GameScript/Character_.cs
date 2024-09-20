@@ -76,7 +76,7 @@ public class Character_ : MonoBehaviourPunCallbacks
                             this.Event_Attack();
                             break;
                         case basicType.Ranged:
-                            var tmp=PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0].name, RangedCenter.transform.position, this.transform.rotation);
+                            var tmp=PhotonNetwork.Instantiate("Effect/Model/Prefab/" + data.skills[0].name,target.transform.position, Quaternion.identity);
                             break;
                         default:
                             break;

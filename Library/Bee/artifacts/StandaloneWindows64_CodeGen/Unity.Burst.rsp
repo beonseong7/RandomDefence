@@ -29,6 +29,8 @@
 -define:UNITY_2022_1_OR_NEWER
 -define:UNITY_2022_2_OR_NEWER
 -define:UNITY_2022_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
 -define:UNITY_INCLUDE_TESTS
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
@@ -328,6 +330,10 @@
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/PackageCache/com.unity.burst@1.8.12/Unity.Burst.Unsafe.dll"
@@ -391,7 +397,7 @@
 -langversion:9.0
 /unsafe+
 /deterministic
-/optimize+
+/optimize-
 /debug:portable
 /nologo
 /RuntimeMetadataVersion:v4.0.30319

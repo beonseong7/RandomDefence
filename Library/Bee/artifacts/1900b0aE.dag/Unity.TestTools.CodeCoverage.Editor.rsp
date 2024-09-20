@@ -119,6 +119,7 @@
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CONDITIONAL_IGNORE_SUPPORTED
 -define:BURST_INSTALLED
 -define:TEST_FRAMEWORK_1_1_18_OR_NEWER
@@ -211,6 +212,10 @@
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
