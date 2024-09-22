@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51203
+51720
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3625471771 [EditorId] 3625471771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27012] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3178256287 [EditorId] 3178256287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15192] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3625471771 [EditorId] 3625471771 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27012] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3178256287 [EditorId] 3178256287 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,48 +73,48 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005431 seconds.
-- Loaded All Assemblies, in  0.314 seconds
+Registered in 0.006071 seconds.
+- Loaded All Assemblies, in  0.372 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 253 ms
+Android Extension - Scanning For ADB Devices 262 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.629 seconds
-Domain Reload Profiling: 942ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (72ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (629ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (631ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (565ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (374ms)
+			InitializePlatformSupportModulesInManaged (380ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (133ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
 			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 942ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.831 seconds
-Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.821 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,49 +132,49 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 2.458 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.993 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.028 seconds
-Domain Reload Profiling: 1859ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 1800ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (609ms)
-		LoadAssemblies (358ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (577ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (321ms)
-			TypeCache.Refresh (269ms)
-				TypeCache.ScanAssembly (247ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (242ms)
 			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1028ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (979ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (797ms)
+		SetupLoadedEditorAssemblies (752ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (467ms)
-			ProcessInitializeOnLoadMethodAttributes (209ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7204.
-Memory consumption went from 364.4 MB to 359.1 MB.
-Total: 4.847500 ms (FindLiveObjects: 0.804100 ms CreateObjectMapping: 0.221000 ms MarkObjects: 2.932600 ms  DeleteObjects: 0.888900 ms)
+Memory consumption went from 364.5 MB to 359.2 MB.
+Total: 5.047300 ms (FindLiveObjects: 0.817900 ms CreateObjectMapping: 0.272600 ms MarkObjects: 3.057200 ms  DeleteObjects: 0.898500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,57 +189,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3787.685734 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Scripts/Object/DelayObjectMake.cs
-  artifactKey: Guid(15b34ff232254a54b963f6c878c0d9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Scripts/Object/DelayObjectMake.cs using Guid(15b34ff232254a54b963f6c878c0d9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3dd2c4aa0347eda36d7bffe5e67d9d') in 0.001843 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8781.885569 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_SpearsAttack(ForEffectScene).prefab
-  artifactKey: Guid(0c3625f39bac0f641a3a28f34285c3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_SpearsAttack(ForEffectScene).prefab using Guid(0c3625f39bac0f641a3a28f34285c3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7e1f6642a9ce035fdbedfa5cbede19') in 0.396536 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 142
-========================================================================
-Received Import Request.
-  Time since last request: 3.305623 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_Spear_2.prefab
-  artifactKey: Guid(f218e382629978c42a7fe498682aa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_Spear_2.prefab using Guid(f218e382629978c42a7fe498682aa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cde71c4be8cb73fc10f9c9fed6e0cd') in 2.157871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_SpearHole.prefab
-  artifactKey: Guid(dde8b99a37d6e7e4a8cd11ba087af218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_SpearHole.prefab using Guid(dde8b99a37d6e7e4a8cd11ba087af218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.053 ms.
-d3d12: upload buffer was full! Waited for COPY queue for 1.534 ms.
- -> (artifact id: '955a5730b865a264a37c96f76f077e08') in 0.082661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_SpearSpawn_2.prefab
-  artifactKey: Guid(3cc93ec307c1cc842bec7cd42902087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_CustomParts/(Opt)Effect_02_SpearSpawn_2.prefab using Guid(3cc93ec307c1cc842bec7cd42902087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3150ecaa5d28cec9d52f1e36f450cd') in 0.021153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 3.498639 seconds.
-  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_EffectMakePoints/(Opt)Effect_02_Spear_2_Make.prefab
-  artifactKey: Guid(da6dcb645953e8a43a67b832234db311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_02/(Opt)Effect_02_EffectMakePoints/(Opt)Effect_02_Spear_2_Make.prefab using Guid(da6dcb645953e8a43a67b832234db311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b8a5fca9557b45294a782029eb0388') in 0.005215 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22

@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9e1c52e0a2c68c74cbf54104f14a69dd, type: 3}
       propertyPath: m_Name
-      value: Rifle Idle
+      value: Gunner
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -105,7 +105,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 266.4
+  m_Radius: 1000
   m_Center: {x: 0, y: 102.233765, z: 0}
 --- !u!54 &2076045117599679487
 Rigidbody:
@@ -146,14 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb790abdcb48e0469f11acdae643102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nowstatus: 1
-  target: {fileID: 0}
-  destination: {x: 0, y: 0, z: 0}
-  animator: {fileID: 5899989496837022088}
-  Name: {fileID: 0}
-  owner: 
-  attack: 0
-  speed: 3
+  RangedCenter: {fileID: 0}
 --- !u!95 &5899989496837022088
 Animator:
   serializedVersion: 5
