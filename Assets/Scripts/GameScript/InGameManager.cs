@@ -227,7 +227,7 @@ public class InGameManager : MonoBehaviourPunCallbacks
         switch (type.Substring(type.Length - 2, 2))
         {
             case "_U":
-                obj = PhotonNetwork.Instantiate("Character/Uncommon/archor_", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
+                obj = PhotonNetwork.Instantiate("Character/Epic/Maurg_E", new Vector3(tmp.position.x + UnityEngine.Random.Range(-10, 10), 5, tmp.position.z + UnityEngine.Random.Range(-10, 10)), tmp.rotation);
                 obj.transform.SetParent(MyCharacter.transform);
                 //obj.name = type;
                 break;

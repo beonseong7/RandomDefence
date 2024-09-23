@@ -28,14 +28,17 @@ public class Character_ : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        this.gameObject.tag = "Selectable";
+        this.gameObject.layer = 2;
         this.name = this.name.Split("(Clone)")[0];
-        data = GameManager.instance.charac_Data.Get_Charac_status(this.name.ToString());
+        data = GameManager.instance.charac_Data.Get_Charac_status("archor_");
         nowstatus = status.idle;
         animator = this.GetComponent<Animator>();
         this.GetComponent<PhotonAnimatorView>().SetParameterSynchronized("status", PhotonAnimatorView.ParameterType.Int, PhotonAnimatorView.SynchronizeType.Continuous);
         Name =this.transform.Find("Canvas").transform.GetChild(0).GetComponent<TextMeshProUGUI>();
         Name.text = this.name;
         Name.color = Color.black;
+
         if (photonView.IsMine)StartCoroutine(this.Charac_Anim());
     }
     // Update is called once per frame
