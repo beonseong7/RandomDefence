@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54676
+52349
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25532] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2475432349 [EditorId] 2475432349 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14648] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1787520835 [EditorId] 1787520835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25532] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 2475432349 [EditorId] 2475432349 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14648] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1787520835 [EditorId] 1787520835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 12.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,49 +73,49 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006811 seconds.
-- Loaded All Assemblies, in  0.418 seconds
+Registered in 0.006132 seconds.
+- Loaded All Assemblies, in  0.379 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 294 ms
+Android Extension - Scanning For ADB Devices 276 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 1080ms
-	BeginReloadAssembly (129ms)
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 1028ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (129ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (156ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (662ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (649ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (590ms)
+		SetupLoadedEditorAssemblies (585ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (408ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (395ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 1080ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.954 seconds
-Refreshing native plugins compatible for Editor in 4.59 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.904 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,51 +132,49 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 0.660 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.549 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.112 seconds
-Domain Reload Profiling: 2065ms
+- Finished resetting the current domain, in  1.174 seconds
+Domain Reload Profiling: 2077ms
 	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (38ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (694ms)
-		LoadAssemblies (431ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (645ms)
+		LoadAssemblies (407ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (298ms)
-				TypeCache.ScanAssembly (271ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1112ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (257ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1174ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (856ms)
+		SetupLoadedEditorAssemblies (939ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (234ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (212ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-database is locked
-database is locked
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7204.
-Memory consumption went from 365.0 MB to 359.7 MB.
-Total: 5.764600 ms (FindLiveObjects: 0.902800 ms CreateObjectMapping: 0.397500 ms MarkObjects: 3.476100 ms  DeleteObjects: 0.986500 ms)
+Memory consumption went from 365.2 MB to 359.9 MB.
+Total: 5.328800 ms (FindLiveObjects: 0.962200 ms CreateObjectMapping: 0.399200 ms MarkObjects: 3.059900 ms  DeleteObjects: 0.906200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -193,83 +191,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5945.843510 seconds.
-  path: Assets/Resources/Character/Common/Gunslinger.prefab
-  artifactKey: Guid(cef3b739b1ad04e4db413833ffef963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Gunslinger.prefab using Guid(cef3b739b1ad04e4db413833ffef963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efff7a6b4d058be6d9b8fb488c4b76f9') in 2.193730 seconds
+  Time since last request: 8562.736550 seconds.
+  path: Assets/Resources/Character/Epic/Arcadia_E.prefab
+  artifactKey: Guid(f6bd022e767fde84c85ad4a0217f7e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Arcadia_E.prefab using Guid(f6bd022e767fde84c85ad4a0217f7e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.354 ms.
+ -> (artifact id: '1b0af2716a149bd6a6ac123dbafbace2') in 2.239219 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 391
+Number of asset objects unloaded after import = 604
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Resources/Character/Common/Meteorogist.prefab
-  artifactKey: Guid(9d5130d9eeb8c59499c2f335fe465101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Common/Meteorogist.prefab using Guid(9d5130d9eeb8c59499c2f335fe465101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd548fefed3521837f8bed8cf2f0df165') in 0.075830 seconds
+  Time since last request: 1234.966192 seconds.
+  path: Assets/Resources/Character/Epic/Darcy_E/Idle.dae
+  artifactKey: Guid(dee2624069dee544b954038f4204d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Darcy_E/Idle.dae using Guid(dee2624069dee544b954038f4204d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07b94d6a29f7f230477854789add786') in 0.298120 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 358
+Number of asset objects unloaded after import = 163
 ========================================================================
 Received Import Request.
-  Time since last request: 1087.594668 seconds.
-  path: Assets/Resources/Character/Epic/Adele_E/Standing 2H Magic Area Attack 01.dae
-  artifactKey: Guid(a66cebd51fc6cd74286335d5c98dc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Adele_E/Standing 2H Magic Area Attack 01.dae using Guid(a66cebd51fc6cd74286335d5c98dc7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e43fd5d2c4379c724c43ee7b5c6895') in 0.011399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Resources/Character/Epic/Adele_E/Walking.dae
-  artifactKey: Guid(bf76cca4a66189b43b59b291a8af0ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Adele_E/Walking.dae using Guid(bf76cca4a66189b43b59b291a8af0ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed503c664706a680ee623d2de9b1d6b4') in 0.004084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 128.633137 seconds.
-  path: Assets/Resources/Character/Epic/Braker_E
-  artifactKey: Guid(e47d95740d9898046958c1c09da9918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Braker_E using Guid(e47d95740d9898046958c1c09da9918c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb10418346e4fd19b6c5cfc4e0f1718') in 0.000514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Resources/Character/Epic/Braker_E/Punch Combo.dae
-  artifactKey: Guid(1419a60ba82871e479de5bc73da94788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Braker_E/Punch Combo.dae using Guid(1419a60ba82871e479de5bc73da94788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08cb6e78a3f0c1d205a9bd040877c44') in 0.004658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/Character/Epic/Braker_E/Walking.dae
-  artifactKey: Guid(d0f6ef9477225634f9c0e48f4944cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Braker_E/Walking.dae using Guid(d0f6ef9477225634f9c0e48f4944cc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cddae94e212855b8ffda65ee374e33') in 0.004311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Resources/Character/Epic/Braker_E/Idle.dae
-  artifactKey: Guid(4b31bb98250800b4c8afc2fd4a053a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Braker_E/Idle.dae using Guid(4b31bb98250800b4c8afc2fd4a053a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4864f8bcec5e96a37bccec2ef3797477') in 0.167775 seconds
+  Time since last request: 242.485361 seconds.
+  path: Assets/Resources/Character/Epic/Lauriel_E/Standing Melee Combo Attack Ver. 1.dae
+  artifactKey: Guid(7061f3c4681e16a488c3237a77fab974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lauriel_E/Standing Melee Combo Attack Ver. 1.dae using Guid(7061f3c4681e16a488c3237a77fab974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd600fc2354194c310f11b152ccc24490') in 0.076240 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 145
+Number of asset objects unloaded after import = 143
 ========================================================================
 Received Import Request.
-  Time since last request: 44.246015 seconds.
-  path: Assets/Resources/Character/Epic/Braker_E/textures/ely-vanguardsoldier-kerwinatienza_normal.png
-  artifactKey: Guid(8ebb4140d93b1654a8bcd80adb405578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Braker_E/textures/ely-vanguardsoldier-kerwinatienza_normal.png using Guid(8ebb4140d93b1654a8bcd80adb405578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe30ac861afc86c13745b8387e4a4f19') in 0.022736 seconds
+  Time since last request: 159.633900 seconds.
+  path: Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Glossiness.png
+  artifactKey: Guid(b1f5ff29bd86b5443a0a97b42d610a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Glossiness.png using Guid(b1f5ff29bd86b5443a0a97b42d610a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6349fe88af507e25952a3f34b49845') in 0.037456 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Normal.png
+  artifactKey: Guid(ecd8d28509c550a4797683bf9ce576ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Normal.png using Guid(ecd8d28509c550a4797683bf9ce576ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15ff9e4cc582718cad7349eb2c587dc') in 0.023674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Specular.png
+  artifactKey: Guid(5554d42082047f84897fe341eaede25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1001_Specular.png using Guid(5554d42082047f84897fe341eaede25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732c068487c79e871dc03d9f88050c5b') in 0.020552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1002_Specular.png
+  artifactKey: Guid(a3e2085c94f51b84790ed9be14bda171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lauriel_E/textures/Ch11_1002_Specular.png using Guid(a3e2085c94f51b84790ed9be14bda171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80998ecd9ae366eec7ea7a3f7587910') in 0.020889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.787433 seconds.
+  path: Assets/Resources/Character/Epic/Sasha_E/Walking.dae
+  artifactKey: Guid(c08d37d337403564584156f49c6767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Sasha_E/Walking.dae using Guid(c08d37d337403564584156f49c6767e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1221ab96c12250948c1bf948d025b9c') in 0.005111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
