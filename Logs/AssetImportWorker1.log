@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52966
+52834
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28132] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3234576480 [EditorId] 3234576480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9244] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3701001907 [EditorId] 3701001907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28132] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3234576480 [EditorId] 3234576480 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9244] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3701001907 [EditorId] 3701001907 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 10.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,49 +73,49 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006172 seconds.
-- Loaded All Assemblies, in  0.389 seconds
+Registered in 0.006164 seconds.
+- Loaded All Assemblies, in  0.376 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 281 ms
+Android Extension - Scanning For ADB Devices 302 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.653 seconds
-Domain Reload Profiling: 1043ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1067ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (119ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (654ms)
+	FinalizeReload (692ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (579ms)
+		SetupLoadedEditorAssemblies (626ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (391ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (423ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 1043ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.852 seconds
-Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.825 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,49 +132,49 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 3.092 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.917 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.014 seconds
-Domain Reload Profiling: 1866ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1783ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (607ms)
-		LoadAssemblies (363ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (588ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (271ms)
+		AnalyzeDomain (319ms)
+			TypeCache.Refresh (270ms)
 				TypeCache.ScanAssembly (250ms)
 			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1015ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (959ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (783ms)
+		SetupLoadedEditorAssemblies (745ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (459ms)
-			ProcessInitializeOnLoadMethodAttributes (208ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (193ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7204.
-Memory consumption went from 365.4 MB to 360.1 MB.
-Total: 5.209800 ms (FindLiveObjects: 0.858100 ms CreateObjectMapping: 0.328800 ms MarkObjects: 3.088600 ms  DeleteObjects: 0.933300 ms)
+Memory consumption went from 365.3 MB to 360.0 MB.
+Total: 4.654700 ms (FindLiveObjects: 0.764900 ms CreateObjectMapping: 0.217500 ms MarkObjects: 2.812500 ms  DeleteObjects: 0.858700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,26 +191,99 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11187.993583 seconds.
-  path: Assets/Resources/Character/Epic/Shana_E/Standing 2H Magic Area Attack 01.dae
-  artifactKey: Guid(165ecf395b8588749a48604fdbc787e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Shana_E/Standing 2H Magic Area Attack 01.dae using Guid(165ecf395b8588749a48604fdbc787e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d4776c89bbcbdc4f0586a2cc06529b') in 0.046291 seconds
+  Time since last request: 14532.310640 seconds.
+  path: Assets/Resources/Character/Epic/Nia_E/Spin In Place.dae
+  artifactKey: Guid(de3000edf549ad946ad8d7f41b46ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Nia_E/Spin In Place.dae using Guid(de3000edf549ad946ad8d7f41b46ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db7ba471d1dc8bbca434c708abad8cd') in 0.053484 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 179
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Resources/Character/Epic/Shana_E/Walking.dae
-  artifactKey: Guid(36d9b8ab4aea7ec4097c67dfe76a4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Shana_E/Walking.dae using Guid(36d9b8ab4aea7ec4097c67dfe76a4e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eadc6db49a9b577d3be792e611948f1') in 0.004557 seconds
+  path: Assets/Resources/Character/Epic/Nia_E/Walking.dae
+  artifactKey: Guid(8a17db83c4dd8b641b56904d86be4063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Nia_E/Walking.dae using Guid(8a17db83c4dd8b641b56904d86be4063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8177110b4ddb8512fbb27a65590c8d85') in 0.005554 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
+Number of asset objects unloaded after import = 179
 ========================================================================
 Received Import Request.
-  Time since last request: 92.143780 seconds.
-  path: Assets/Resources/Character/Epic/Darcy_E.prefab
-  artifactKey: Guid(b19da6ddf16b7cf48b1761a2c19629b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Darcy_E.prefab using Guid(b19da6ddf16b7cf48b1761a2c19629b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.424 ms.
- -> (artifact id: '78f8c67ad38ee8c87ca2fdd5ca66039d') in 2.068538 seconds
+  Time since last request: 87.451794 seconds.
+  path: Assets/Resources/Character/Epic/Thanatos_E/Standing 1H Magic Attack 02.dae
+  artifactKey: Guid(02ca9e46a29c4b542bb4532d02c7df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Thanatos_E/Standing 1H Magic Attack 02.dae using Guid(02ca9e46a29c4b542bb4532d02c7df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '416fb79a213f74117ba12348c3cc475a') in 0.007010 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 398
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Character/Epic/Thanatos_E/Walking.dae
+  artifactKey: Guid(6054534eeb5e4584785886f378f124e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Thanatos_E/Walking.dae using Guid(6054534eeb5e4584785886f378f124e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8aa66ca1eaaf083a4f69d973d865b4') in 0.005486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 175.047618 seconds.
+  path: Assets/Resources/Character/Epic/Morphe_E/Standing 2H Magic Attack 05.dae
+  artifactKey: Guid(b55a5c6833279eb4f99b16b04b70786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Morphe_E/Standing 2H Magic Attack 05.dae using Guid(b55a5c6833279eb4f99b16b04b70786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ec37f9c0789c4b8296ab7e2d5e6edc') in 0.006035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Character/Epic/Morphe_E/Walking.dae
+  artifactKey: Guid(a355316da918e2e46b59608a4b6f42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Morphe_E/Walking.dae using Guid(a355316da918e2e46b59608a4b6f42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3879cab0f14e86624c3802b79c1483bb') in 0.004965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 125.583909 seconds.
+  path: Assets/Resources/Character/Epic/Arcana_E/Standing 2H Magic Attack 05.dae
+  artifactKey: Guid(bfa6de6e8a5f32e47a9a486e8e19042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Arcana_E/Standing 2H Magic Attack 05.dae using Guid(bfa6de6e8a5f32e47a9a486e8e19042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c761526760a262e01482f83971a1ad') in 0.006422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Character/Epic/Arcana_E/Walking.dae
+  artifactKey: Guid(cc1d0a3a62c29e942a530b7a18fe72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Arcana_E/Walking.dae using Guid(cc1d0a3a62c29e942a530b7a18fe72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086682788701c5f655e8d07e7589eac2') in 0.005625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 155
+========================================================================
+Received Import Request.
+  Time since last request: 105.548853 seconds.
+  path: Assets/Resources/Character/Epic/Hawkeye_E/Standing Draw Arrow.dae
+  artifactKey: Guid(274de9711ac21fa4caaf138498d3a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Hawkeye_E/Standing Draw Arrow.dae using Guid(274de9711ac21fa4caaf138498d3a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edffb1feb38bb4eb1547672ffb781e52') in 0.004901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Character/Epic/Hawkeye_E/Walking.dae
+  artifactKey: Guid(e5dd6da5c017548499265b33043f959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Hawkeye_E/Walking.dae using Guid(e5dd6da5c017548499265b33043f959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5b052009dc075204fc615b45af48ab') in 0.006473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 81.786423 seconds.
+  path: Assets/Resources/Character/Epic/Hawkeye_E.prefab
+  artifactKey: Guid(2f0fd8c46fac41a40ab8501a2bc8e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Hawkeye_E.prefab using Guid(2f0fd8c46fac41a40ab8501a2bc8e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8ad1c9cff0f74c80cde05ffefdcb71') in 2.595891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 361
+========================================================================
+Received Import Request.
+  Time since last request: 8.983656 seconds.
+  path: Assets/Resources/Character/Epic/Nia_E.prefab
+  artifactKey: Guid(7b1fa36656eaa1a4aa5569bed769a98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Nia_E.prefab using Guid(7b1fa36656eaa1a4aa5569bed769a98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3575ca6060fbb2728676954cdc994d1a') in 0.173279 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 441

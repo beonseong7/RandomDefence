@@ -166,21 +166,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Character_.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Character_.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Character_.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAIwCUAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T09:15:10.949Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -227,8 +214,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameScript\\InGameManager.cs",
               "ViewState": "AQIAANcAAAAAAAAAAAAiwOcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:36:18.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T13:36:18.725Z"
             },
             {
               "$type": "Document",
@@ -241,6 +227,19 @@
               "ViewState": "AQIAADcAAAAAAAAAAAAcwEYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T08:53:58.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "recipe.txt",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
+              "RelativeDocumentMoniker": "Assets\\StreamingAssets\\recipe.txt",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
+              "RelativeToolTip": "Assets\\StreamingAssets\\recipe.txt",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-06T06:00:56.068Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -268,6 +267,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character_.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Character_.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameScript\\Character_.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCUAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T09:15:10.949Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Charac_Data.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Charac_Data.cs",
@@ -289,19 +300,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T12:59:34.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "recipe.txt",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
-              "RelativeDocumentMoniker": "Assets\\StreamingAssets\\recipe.txt",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
-              "RelativeToolTip": "Assets\\StreamingAssets\\recipe.txt",
-              "ViewState": "AQIAADgAAAAAAAAAAAAAAEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-06T06:00:56.068Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
