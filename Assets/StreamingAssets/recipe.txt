@@ -84,4 +84,4 @@ Urnil_E Eoro_R,Aporas_R,Seto_R
 Gingerwhale_E Barto_R,Soulfist_R,Aben_R
 Holyknight_E Holyknight_R,Liru_R,Wilhelm_R
 Cardan_E Wilhelm_R,Blaster_R,Sally_R
-Summoner_E Docheol_R ,Summoner_U,Striker_R,Sally_R
+Summoner_E Docheol_R,Summoner_U,Striker_R,Sally_R

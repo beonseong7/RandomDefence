@@ -88,3 +88,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.9.24 RandomDefence 캐릭터 추가  
 2024.9.25 RandomDefence 캐릭터 추가  
 2024.9.26 RandomDefence 캐릭터 추가  
+2024.9.27 RandomDefence 캐릭터 추가  
