@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52834
+52000
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33580] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1463431301 [EditorId] 1463431301 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24612] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 163766051 [EditorId] 163766051 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [33580] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1463431301 [EditorId] 1463431301 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24612] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 163766051 [EditorId] 163766051 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 8.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,22 +73,22 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005197 seconds.
-- Loaded All Assemblies, in  0.334 seconds
+Registered in 0.005090 seconds.
+- Loaded All Assemblies, in  0.339 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2422 ms
+Android Extension - Scanning For ADB Devices 2363 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.777 seconds
-Domain Reload Profiling: 3112ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  2.707 seconds
+Domain Reload Profiling: 3046ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -97,25 +97,25 @@ Domain Reload Profiling: 3112ms
 	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (98ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (2778ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2708ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2716ms)
+		SetupLoadedEditorAssemblies (2648ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2536ms)
+			InitializePlatformSupportModulesInManaged (2476ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (122ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 3112ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.831 seconds
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,49 +132,49 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 0.747 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.688 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.041 seconds
-Domain Reload Profiling: 1872ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.060 seconds
+Domain Reload Profiling: 1891ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (34ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (596ms)
-		LoadAssemblies (356ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (345ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (325ms)
-			TypeCache.Refresh (273ms)
-				TypeCache.ScanAssembly (251ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
 			ResolveRequiredComponents (16ms)
-	FinalizeReload (1042ms)
+	FinalizeReload (1060ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (811ms)
+		SetupLoadedEditorAssemblies (820ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (491ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7204.
-Memory consumption went from 365.1 MB to 359.8 MB.
-Total: 4.906300 ms (FindLiveObjects: 0.759900 ms CreateObjectMapping: 0.259000 ms MarkObjects: 3.020700 ms  DeleteObjects: 0.865500 ms)
+Memory consumption went from 365.3 MB to 360.0 MB.
+Total: 5.222000 ms (FindLiveObjects: 0.839900 ms CreateObjectMapping: 0.369800 ms MarkObjects: 3.058100 ms  DeleteObjects: 0.952700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,302 +191,289 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13355.892266 seconds.
-  path: Assets/Resources/Character/Epic/Kaister_E.prefab
-  artifactKey: Guid(4ff1a2c04d2c3c64e9056cd045778d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kaister_E.prefab using Guid(4ff1a2c04d2c3c64e9056cd045778d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.039 ms.
- -> (artifact id: '401c6336a4037cd737ee1e87fb2e1f0e') in 2.041936 seconds
+  Time since last request: 7210.614270 seconds.
+  path: Assets/Resources/Character/Epic/Hawkeye_E.prefab
+  artifactKey: Guid(2f0fd8c46fac41a40ab8501a2bc8e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Hawkeye_E.prefab using Guid(2f0fd8c46fac41a40ab8501a2bc8e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8a87461dcaa04064986ce682e6caad') in 2.098648 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 363
+Number of asset objects unloaded after import = 361
 ========================================================================
 Received Import Request.
-  Time since last request: 1174.346029 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E/Idle.dae
-  artifactKey: Guid(db47be977f4b31749b35d8e704b6e5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E/Idle.dae using Guid(db47be977f4b31749b35d8e704b6e5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04ee4afdad00fe7eb0d3ce164f240ba') in 0.430117 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 3625.303970 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E
+  artifactKey: Guid(29c3bd347246d1e4ab9fc69b072f1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E using Guid(29c3bd347246d1e4ab9fc69b072f1b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb30bfbf4999be8bf39cb9bba574db0') in 0.015237 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 201
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.713393 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E/Animator.controller
-  artifactKey: Guid(c1106debfc9c9244881b127c6d7a5c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E/Animator.controller using Guid(c1106debfc9c9244881b127c6d7a5c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502844c7c0c29b56dc7b254273346f42') in 0.004051 seconds
+  Time since last request: 0.000793 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Magic Heal.dae
+  artifactKey: Guid(8897545b90a156447982e357d4dcef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Magic Heal.dae using Guid(8897545b90a156447982e357d4dcef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667e7f4fcec8a3d611a45fd9638364f9') in 0.150902 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 137
 ========================================================================
 Received Import Request.
-  Time since last request: 3.583829 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E/Idle.dae
-  artifactKey: Guid(db47be977f4b31749b35d8e704b6e5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E/Idle.dae using Guid(db47be977f4b31749b35d8e704b6e5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6058affccefb19ddf7a3a0c48686b0ea') in 0.189258 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Walking.dae
+  artifactKey: Guid(1db1125840c7c4643bff710cf4532793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Walking.dae using Guid(1db1125840c7c4643bff710cf4532793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f19de326cbf066c7d24ac5e864afa') in 0.007339 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 201
+Number of asset objects unloaded after import = 137
 ========================================================================
 Received Import Request.
-  Time since last request: 4.107617 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E/Spin In Place.dae
-  artifactKey: Guid(de3000edf549ad946ad8d7f41b46ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E/Spin In Place.dae using Guid(de3000edf549ad946ad8d7f41b46ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f420f610e73d1d7a27108c54a8646966') in 0.063306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 179
-========================================================================
-Received Import Request.
-  Time since last request: 4.908691 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E/Walking.dae
-  artifactKey: Guid(8a17db83c4dd8b641b56904d86be4063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E/Walking.dae using Guid(8a17db83c4dd8b641b56904d86be4063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8538c2ba7e6702a8940d2e8f23e1d34') in 0.005462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 179
-========================================================================
-Received Import Request.
-  Time since last request: 73.403782 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E/Idle.dae
-  artifactKey: Guid(611ff358eb815e54dab1770cf5eb3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E/Idle.dae using Guid(611ff358eb815e54dab1770cf5eb3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb7a1417f0af06a4fe69e735be6579a') in 0.216863 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
-========================================================================
-Received Import Request.
-  Time since last request: 1.975814 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E/Animator.controller
-  artifactKey: Guid(0e01f9b1e915af74892a328d7551e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E/Animator.controller using Guid(0e01f9b1e915af74892a328d7551e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131dabe579db95ee6d10e288ed6b6949') in 0.009024 seconds
+  Time since last request: 8.612736 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Animator.controller
+  artifactKey: Guid(a1b4ea05c5e923448b702540df906c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Animator.controller using Guid(a1b4ea05c5e923448b702540df906c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6357d9b2f2f1fba59e63620d0ac7b1') in 0.012102 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 5.030067 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E/Idle.dae
-  artifactKey: Guid(611ff358eb815e54dab1770cf5eb3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E/Idle.dae using Guid(611ff358eb815e54dab1770cf5eb3e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10a4cd2f532600a8a100f03aff1879f') in 0.204318 seconds
+  Time since last request: 62.362537 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Idle.dae
+  artifactKey: Guid(b595629676f8b9646b91ba4c6d54d3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Idle.dae using Guid(b595629676f8b9646b91ba4c6d54d3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e8c0294d890037fa137ae398978ef1') in 0.497122 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 154
+Number of asset objects unloaded after import = 151
 ========================================================================
 Received Import Request.
-  Time since last request: 2.792325 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E/Standing 1H Magic Attack 02.dae
-  artifactKey: Guid(02ca9e46a29c4b542bb4532d02c7df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E/Standing 1H Magic Attack 02.dae using Guid(02ca9e46a29c4b542bb4532d02c7df15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc2b8f2e7750a0c1412aefb9be62ee3') in 0.005060 seconds
+  Time since last request: 2.577958 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Magic Heal.dae
+  artifactKey: Guid(8897545b90a156447982e357d4dcef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Magic Heal.dae using Guid(8897545b90a156447982e357d4dcef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6579a4e82dffec5d59e83570b4cef5') in 0.006404 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
+Number of asset objects unloaded after import = 137
 ========================================================================
 Received Import Request.
-  Time since last request: 2.747430 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E/Walking.dae
-  artifactKey: Guid(6054534eeb5e4584785886f378f124e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E/Walking.dae using Guid(6054534eeb5e4584785886f378f124e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f95fb1a5d136ed3ca817c7490d75b1c') in 0.005215 seconds
+  Time since last request: 3.337169 seconds.
+  path: Assets/Resources/Character/Epic/Lahart_E/Walking.dae
+  artifactKey: Guid(1db1125840c7c4643bff710cf4532793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E/Walking.dae using Guid(1db1125840c7c4643bff710cf4532793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f815560c4b3cd9e731688d6fcfcac9e') in 0.005456 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
+Number of asset objects unloaded after import = 137
 ========================================================================
 Received Import Request.
-  Time since last request: 161.981313 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E/Idle.dae
-  artifactKey: Guid(91d83e625c82b7245a7d382fc1c9a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E/Idle.dae using Guid(91d83e625c82b7245a7d382fc1c9a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b6e5cde34ba13b54d7d4f20bff47e') in 0.306445 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 1.498554 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E/Animator.controller
-  artifactKey: Guid(69326d8cac474dd4d94655c6c91ab316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E/Animator.controller using Guid(69326d8cac474dd4d94655c6c91ab316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be1c8ada2761df996fee88e01f5034f') in 0.003840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 4.376044 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E/Idle.dae
-  artifactKey: Guid(91d83e625c82b7245a7d382fc1c9a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E/Idle.dae using Guid(91d83e625c82b7245a7d382fc1c9a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0f5453d796c83cd8f32e63511c9566') in 0.187464 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 2.771635 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E/Standing 2H Magic Attack 05.dae
-  artifactKey: Guid(b55a5c6833279eb4f99b16b04b70786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E/Standing 2H Magic Attack 05.dae using Guid(b55a5c6833279eb4f99b16b04b70786c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3454938b578ef4b45b6035874c9ea236') in 0.005315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 2.254340 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E/Walking.dae
-  artifactKey: Guid(a355316da918e2e46b59608a4b6f42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E/Walking.dae using Guid(a355316da918e2e46b59608a4b6f42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027659813b37deb364b978c25b1e99be') in 0.004704 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 113.962016 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E/Idle.dae
-  artifactKey: Guid(9c178ebd3054572499bce490a6a7e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E/Idle.dae using Guid(9c178ebd3054572499bce490a6a7e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebc0dc8b41401ff3fe794b24ed69d6') in 0.089460 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 4.863988 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E/Animator.controller
-  artifactKey: Guid(a9d513ef6c205a04491583cb16d34e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E/Animator.controller using Guid(a9d513ef6c205a04491583cb16d34e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d24450d0155be405d3851c662bf62') in 0.004668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 6.285092 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E/Idle.dae
-  artifactKey: Guid(9c178ebd3054572499bce490a6a7e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E/Idle.dae using Guid(9c178ebd3054572499bce490a6a7e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953473e5a3fb7f9a6f8125636a12eab') in 0.091370 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 163
-========================================================================
-Received Import Request.
-  Time since last request: 3.160341 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E/Standing 2H Magic Attack 05.dae
-  artifactKey: Guid(bfa6de6e8a5f32e47a9a486e8e19042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E/Standing 2H Magic Attack 05.dae using Guid(bfa6de6e8a5f32e47a9a486e8e19042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ead6b0df72e0a22d75452639e0094') in 0.006029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 2.348853 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E/Walking.dae
-  artifactKey: Guid(cc1d0a3a62c29e942a530b7a18fe72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E/Walking.dae using Guid(cc1d0a3a62c29e942a530b7a18fe72a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26950a2b9f07599a79dbc5c1d76d270b') in 0.005901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 155
-========================================================================
-Received Import Request.
-  Time since last request: 88.616593 seconds.
-  path: Assets/Resources/Character/Epic/Hawkeye_E/Idle.dae
-  artifactKey: Guid(c1057279938b59b46aee45a72eabe1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Hawkeye_E/Idle.dae using Guid(c1057279938b59b46aee45a72eabe1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd702978193f5f37e59219f6f5d33a04a') in 0.076000 seconds
+  Time since last request: 34.911470 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E/Idle.dae
+  artifactKey: Guid(191d8ca7f5ab1db4e978a61499ac9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E/Idle.dae using Guid(191d8ca7f5ab1db4e978a61499ac9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19534a5d64952022e45bd3ee2d0391e') in 0.064344 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 141
 ========================================================================
 Received Import Request.
-  Time since last request: 0.824691 seconds.
-  path: Assets/Resources/Character/Epic/Hawkeye_E/Animator.controller
-  artifactKey: Guid(a19e0441fb477894893e0f111d0bc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Hawkeye_E/Animator.controller using Guid(a19e0441fb477894893e0f111d0bc15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b92657f6072ac86b52a266e8f8cfa3b') in 0.004066 seconds
+  Time since last request: 1.329637 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E/Animator.controller
+  artifactKey: Guid(383ea2ea0e88c9d4281c4731146f73d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E/Animator.controller using Guid(383ea2ea0e88c9d4281c4731146f73d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeda75bef3f02fd9060f4993a2f988c') in 0.007702 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 5.200355 seconds.
-  path: Assets/Resources/Character/Epic/Hawkeye_E/Idle.dae
-  artifactKey: Guid(c1057279938b59b46aee45a72eabe1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Hawkeye_E/Idle.dae using Guid(c1057279938b59b46aee45a72eabe1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d185b62700e89168065ec7c08895565') in 0.060366 seconds
+  Time since last request: 7.928461 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E/Idle.dae
+  artifactKey: Guid(191d8ca7f5ab1db4e978a61499ac9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E/Idle.dae using Guid(191d8ca7f5ab1db4e978a61499ac9331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1e20e636f93ea046f764365c0277ec') in 0.208209 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 141
 ========================================================================
 Received Import Request.
-  Time since last request: 2.299339 seconds.
-  path: Assets/Resources/Character/Epic/Hawkeye_E/Standing Draw Arrow.dae
-  artifactKey: Guid(274de9711ac21fa4caaf138498d3a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Hawkeye_E/Standing Draw Arrow.dae using Guid(274de9711ac21fa4caaf138498d3a75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f503154d97d52862426c4c1c7569060') in 0.005210 seconds
+  Time since last request: 2.472344 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E/Standing 1H Magic Attack 02.dae
+  artifactKey: Guid(f1b4397a8d9a3d2468ace7f5db626696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E/Standing 1H Magic Attack 02.dae using Guid(f1b4397a8d9a3d2468ace7f5db626696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea159128eb1949810f13467d7d8ec08f') in 0.005624 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 135
 ========================================================================
 Received Import Request.
-  Time since last request: 2.387540 seconds.
-  path: Assets/Resources/Character/Epic/Hawkeye_E/Walking.dae
-  artifactKey: Guid(e5dd6da5c017548499265b33043f959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Hawkeye_E/Walking.dae using Guid(e5dd6da5c017548499265b33043f959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b9c431383680437ce49b082f37d97') in 0.005788 seconds
+  Time since last request: 2.912931 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E/Walking.dae
+  artifactKey: Guid(6c993eab3107bef43a054ec91ea0ab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E/Walking.dae using Guid(6c993eab3107bef43a054ec91ea0ab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47042bfae2cb965b552c40febf6c41a5') in 0.005883 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 135
 ========================================================================
 Received Import Request.
-  Time since last request: 70.765619 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E.prefab
-  artifactKey: Guid(b32c8ad9413a9aa4b911c9d24548759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E.prefab using Guid(b32c8ad9413a9aa4b911c9d24548759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d208064021eae3ccfc1312cc54b7fe') in 0.165822 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 69.910426 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Header Soccerball.dae
+  artifactKey: Guid(35f8110a2d557154588a7ad18f2d7f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Header Soccerball.dae using Guid(35f8110a2d557154588a7ad18f2d7f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedda40b4d31b4707a04d4d548c2597e') in 0.005068 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 370
+Number of asset objects unloaded after import = 119
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/Character/Epic/Nia_E.prefab
-  artifactKey: Guid(7b1fa36656eaa1a4aa5569bed769a98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Nia_E.prefab using Guid(7b1fa36656eaa1a4aa5569bed769a98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7febcffe671ce13dce97d4e2e15e54b') in 0.065211 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Walking.dae
+  artifactKey: Guid(11af6263aba095649917d41d165b47c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Walking.dae using Guid(11af6263aba095649917d41d165b47c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5d217c44932ad1fa0a55c1a48df4ed') in 0.005204 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 441
+Number of asset objects unloaded after import = 119
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E.prefab
-  artifactKey: Guid(3d76aded9dd1d5146af2a7fa42445f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E.prefab using Guid(3d76aded9dd1d5146af2a7fa42445f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.334 ms.
- -> (artifact id: '7125b197265ad629577b3eaafec21393') in 0.095388 seconds
+  Time since last request: 8.149036 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Idle.dae
+  artifactKey: Guid(b0d1b4fd1923326438a49305b7b1b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Idle.dae using Guid(b0d1b4fd1923326438a49305b7b1b97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02142fe834c5b7f0076144889da8eaa') in 0.111179 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 347
+Number of asset objects unloaded after import = 125
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E.prefab
-  artifactKey: Guid(036dd0ada454bf24e9fd60d1c4bd1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E.prefab using Guid(036dd0ada454bf24e9fd60d1c4bd1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01760b2f589987e710f29ba6d46db9e') in 0.089616 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 2.404464 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Header Soccerball.dae
+  artifactKey: Guid(35f8110a2d557154588a7ad18f2d7f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Header Soccerball.dae using Guid(35f8110a2d557154588a7ad18f2d7f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22afc14b152f9a1a9a00197bee60579a') in 0.008387 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 365
+Number of asset objects unloaded after import = 119
 ========================================================================
 Received Import Request.
-  Time since last request: 6.835931 seconds.
-  path: Assets/Resources/Character/Epic/Arcana_E.prefab
-  artifactKey: Guid(b32c8ad9413a9aa4b911c9d24548759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Arcana_E.prefab using Guid(b32c8ad9413a9aa4b911c9d24548759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44f6c58339019fac523eda67155dce') in 0.059866 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 2.629163 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Walking.dae
+  artifactKey: Guid(11af6263aba095649917d41d165b47c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Walking.dae using Guid(11af6263aba095649917d41d165b47c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb145db0471cadadc7235fd2467f17f') in 0.004456 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 370
+Number of asset objects unloaded after import = 119
 ========================================================================
 Received Import Request.
-  Time since last request: 4.263194 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E.prefab
-  artifactKey: Guid(036dd0ada454bf24e9fd60d1c4bd1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E.prefab using Guid(036dd0ada454bf24e9fd60d1c4bd1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8056c6109071606f50e60cf16ebc6c69') in 0.079495 seconds
+  Time since last request: 24.809238 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E/Animator.controller
+  artifactKey: Guid(6bd69edb15410e9468d7373956cf92dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E/Animator.controller using Guid(6bd69edb15410e9468d7373956cf92dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf890f4bf38082c2ef8af842da176d') in 0.004668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 28.232401 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E/Idle.dae
+  artifactKey: Guid(3c82e57d7a69ad847b39a641d8943cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E/Idle.dae using Guid(3c82e57d7a69ad847b39a641d8943cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8134aeae6b03dd001b6bbc41c7750450') in 0.084184 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 365
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 10.035702 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E/Idle.dae
+  artifactKey: Guid(3c82e57d7a69ad847b39a641d8943cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E/Idle.dae using Guid(3c82e57d7a69ad847b39a641d8943cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11e692c0a8b874b6e97fb5f9cddb66d') in 0.093774 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 2.604887 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E/Walking.dae
+  artifactKey: Guid(2ee242197e5298647b25ed15170ce516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E/Walking.dae using Guid(2ee242197e5298647b25ed15170ce516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bee3afbcf3f035f6b280b5ddcb0ba9') in 0.004734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 2.392519 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E/Zombie Punching.dae
+  artifactKey: Guid(1982fb5ce7abd764482e2d0fe5864354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E/Zombie Punching.dae using Guid(1982fb5ce7abd764482e2d0fe5864354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1700dd8f04481555da60cf06ac3cff4e') in 0.005344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 35.571888 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E/Animator.controller
+  artifactKey: Guid(59de1664fd161134d884af28672ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E/Animator.controller using Guid(59de1664fd161134d884af28672ea7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a7459ad47f1103cf64894386453c47') in 0.004096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 48.077210 seconds.
+  path: Assets/Resources/Character/Epic/Behemoth_E/Idle.dae
+  artifactKey: Guid(0cdfdb29c5027144da73e41b3b75e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Behemoth_E/Idle.dae using Guid(0cdfdb29c5027144da73e41b3b75e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c8f358738694b893e2a8beeaa55353') in 0.089823 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 1.274192 seconds.
+  path: Assets/Resources/Character/Epic/Behemoth_E/Animator.controller
+  artifactKey: Guid(13d0027e3244c1444b2e7cac649059a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Behemoth_E/Animator.controller using Guid(13d0027e3244c1444b2e7cac649059a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f269d72133bc69ca0bf855ea5e0a95f') in 0.005086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 37.383372 seconds.
+  path: Assets/Resources/Character/Epic/Behemoth_E/Idle.dae
+  artifactKey: Guid(0cdfdb29c5027144da73e41b3b75e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Behemoth_E/Idle.dae using Guid(0cdfdb29c5027144da73e41b3b75e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda0d5e8ad9ea4832aa39c9d6bb60b88') in 0.120981 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 2.663944 seconds.
+  path: Assets/Resources/Character/Epic/Behemoth_E/One Hand Sword Combo.dae
+  artifactKey: Guid(2408186d18503a940b363f25c241f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Behemoth_E/One Hand Sword Combo.dae using Guid(2408186d18503a940b363f25c241f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b724c097900774c7412d1e80797b5aae') in 0.006344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 3.448559 seconds.
+  path: Assets/Resources/Character/Epic/Behemoth_E/Walking.dae
+  artifactKey: Guid(ce817148e3d814b449508d0a92a32547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Behemoth_E/Walking.dae using Guid(ce817148e3d814b449508d0a92a32547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fa71525226b886692611d14cdfab60') in 0.004715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 55.215503 seconds.
+  path: Assets/Resources/Character/Epic/Silpherion_E.prefab
+  artifactKey: Guid(cdfd6f491604b8444afc80744e2a6489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Silpherion_E.prefab using Guid(cdfd6f491604b8444afc80744e2a6489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8b10f333cf8b672bed6c1acd39d491') in 0.211165 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/Resources/Character/Epic/Thanatos_E.prefab
-  artifactKey: Guid(3d76aded9dd1d5146af2a7fa42445f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Thanatos_E.prefab using Guid(3d76aded9dd1d5146af2a7fa42445f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 1.351 ms.
- -> (artifact id: '6e2db02ed083c8901cb490a7792a9764') in 0.088851 seconds
+  path: Assets/Resources/Character/Epic/Lahart_E.prefab
+  artifactKey: Guid(d10515420cf9b0441bbf6d8349a14896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Lahart_E.prefab using Guid(d10515420cf9b0441bbf6d8349a14896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6b58729610f82d2876fab42b34ed76') in 0.070671 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 347
+Number of asset objects unloaded after import = 346
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Character/Epic/Genemadnik_E.prefab
+  artifactKey: Guid(312358c29fed93b4f839faf5575ad9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Genemadnik_E.prefab using Guid(312358c29fed93b4f839faf5575ad9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bde2d6820067a8371ec8ccb431c174') in 0.057037 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 336
+========================================================================
+Received Import Request.
+  Time since last request: 10.073425 seconds.
+  path: Assets/Resources/Character/Epic/Elberhastic_E.prefab
+  artifactKey: Guid(c17386e4a812a4642bf354bd3888419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Character/Epic/Elberhastic_E.prefab using Guid(c17386e4a812a4642bf354bd3888419f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44994a5b431884fb642ac2779cad34ae') in 0.081920 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 328
