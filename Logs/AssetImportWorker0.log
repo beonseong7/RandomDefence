@@ -15,7 +15,7 @@ D:/bsroom/Unity_Project/RandomDefence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50786
+51600
 Successfully changed project path to: D:/bsroom/Unity_Project/RandomDefence
 D:/bsroom/Unity_Project/RandomDefence
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/bsroom/Unity_Project/RandomDefence
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8148] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 275604550 [EditorId] 275604550 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20740] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3942110604 [EditorId] 3942110604 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8148] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 275604550 [EditorId] 275604550 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20740] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3942110604 [EditorId] 3942110604 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-E68K21O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -73,48 +73,48 @@ Initialize mono
 Mono path[0] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/ProgramFiles(x64)/UnityHub/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005052 seconds.
-- Loaded All Assemblies, in  0.358 seconds
+Registered in 0.007005 seconds.
+- Loaded All Assemblies, in  0.387 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2316 ms
+Android Extension - Scanning For ADB Devices 261 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.671 seconds
-Domain Reload Profiling: 3029ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 1028ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (106ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (142ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (129ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (2671ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (641ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2610ms)
+		SetupLoadedEditorAssemblies (574ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2428ms)
+			InitializePlatformSupportModulesInManaged (383ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadAttributes (132ms)
 			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 3029ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.870 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,49 +132,49 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-d3d12: upload buffer was full! Waited for COPY queue for 0.658 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.896 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.037 seconds
-Domain Reload Profiling: 1907ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  1.049 seconds
+Domain Reload Profiling: 1890ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (20ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (630ms)
-		LoadAssemblies (364ms)
+	LoadAllAssembliesAndSetupDomain (607ms)
+		LoadAssemblies (357ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (297ms)
-				TypeCache.ScanAssembly (271ms)
-			ScanForSourceGeneratedMonoScriptInfo (42ms)
+		AnalyzeDomain (329ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (254ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (1038ms)
+	FinalizeReload (1050ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (799ms)
+		SetupLoadedEditorAssemblies (811ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (474ms)
-			ProcessInitializeOnLoadMethodAttributes (198ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6718 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7204.
-Memory consumption went from 365.5 MB to 360.2 MB.
-Total: 5.369100 ms (FindLiveObjects: 0.805700 ms CreateObjectMapping: 0.247700 ms MarkObjects: 3.418800 ms  DeleteObjects: 0.895800 ms)
+Unloading 6719 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 119 unused Assets / (5.3 MB). Loaded Objects now: 7205.
+Memory consumption went from 366.0 MB to 360.7 MB.
+Total: 5.405300 ms (FindLiveObjects: 0.811500 ms CreateObjectMapping: 0.265100 ms MarkObjects: 3.351500 ms  DeleteObjects: 0.975900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -191,443 +191,601 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1624.757477 seconds.
-  path: Assets/Resources/Character/Epic/Behemoth_E.prefab
-  artifactKey: Guid(d216391076926d44fa70438ee51766a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Behemoth_E.prefab using Guid(d216391076926d44fa70438ee51766a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a364f5cada405f25e542c4363ebe0e5') in 2.052086 seconds
+  Time since last request: 5803.148379 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_04_Materials/Effect_04_Particle.mat
+  artifactKey: Guid(447cf344572a0244c9f1326fa5be8dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_04_Materials/Effect_04_Particle.mat using Guid(447cf344572a0244c9f1326fa5be8dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6360678be7f75b53e6024fe0fb36fac4') in 1.983036 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 363
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 85.958702 seconds.
-  path: Assets/StreamingAssets/recipe.txt
-  artifactKey: Guid(57612172b3b09144ba0902ea92edaf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/recipe.txt using Guid(57612172b3b09144ba0902ea92edaf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a967fcb9c2e8176140a8d804aea114b') in 0.001504 seconds
+  Time since last request: 48.756304 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_04_Materials/Effect_04_Distortion.mat
+  artifactKey: Guid(b93b4dc7740235f4fbfd49024a7367ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_04_Materials/Effect_04_Distortion.mat using Guid(b93b4dc7740235f4fbfd49024a7367ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367d54c8981d8444633c89d4c4a445d8') in 0.021632 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 3186.734234 seconds.
-  path: Assets/Resources/Character/Epic/Morphe_E
-  artifactKey: Guid(567b5ee9f00fa024cbcf74a43349f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Morphe_E using Guid(567b5ee9f00fa024cbcf74a43349f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fc8e94316c865a7a1a458c7868d18c') in 0.000549 seconds
+  Time since last request: 2.678740 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab
+  artifactKey: Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab using Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 10.433 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.473 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 10.267 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 3.540 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 10.865 ms.
+ -> (artifact id: '60e93fd96e8c7efa21ed601753007688') in 0.163790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.184592 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab
+  artifactKey: Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab using Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.049 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.228 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.010 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.140 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.755 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.032 ms.
+ -> (artifact id: 'a662c00969e3839fcd1cd7a89644748b') in 0.094635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 4.609451 seconds.
+  path: Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat
+  artifactKey: Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/DefaultHDParticleMaterial.mat using Guid(b739a3f02ff77bf48b7636e64c3e3b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b976b5bfb98ccd667dfbd13473ddfa') in 0.062685 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.677575 seconds.
-  path: Assets/Resources/Character/Epic/Lauriel_E
-  artifactKey: Guid(def8f51bd13ced24cbea1cb8c3613acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Lauriel_E using Guid(def8f51bd13ced24cbea1cb8c3613acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36115742aef445babaf032bd234a32ce') in 0.000506 seconds
+  Time since last request: 2.903926 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab
+  artifactKey: Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab using Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.088 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.331 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.728 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.156 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.709 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.222 ms.
+ -> (artifact id: 'b15f50bf18771195a5ea592343928822') in 0.094317 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.809744 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E
-  artifactKey: Guid(4bbeaa573ada977468db2536a53ba90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E using Guid(4bbeaa573ada977468db2536a53ba90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6445dc974115652663b0569fcb1af9e') in 0.000483 seconds
+  Time since last request: 0.867030 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab
+  artifactKey: Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab using Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.051 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.057 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.015 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.221 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.855 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.217 ms.
+ -> (artifact id: '6538efc52c2dc5aa9de0912314c92d6b') in 0.090191 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 0.556213 seconds.
-  path: Assets/Resources/Character/Epic/Ludrick_E
-  artifactKey: Guid(220ecef54f53918458adc1c64f1cfe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Ludrick_E using Guid(220ecef54f53918458adc1c64f1cfe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398d44f2f0f883e0f4af7a0d976a8ea5') in 0.000492 seconds
+  Time since last request: 5.555929 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab
+  artifactKey: Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlash.prefab using Guid(48428d2aaa32d814b81a9a1afa2163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.453 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.338 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.753 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.049 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.779 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.354 ms.
+ -> (artifact id: '746f97a5f771d069c415868eacad42ac') in 0.091795 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 35
 ========================================================================
 Received Import Request.
-  Time since last request: 27.639959 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E
-  artifactKey: Guid(3e0f95fc9418991448c2443befbd5182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E using Guid(3e0f95fc9418991448c2443befbd5182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f5bf5be75ec27a886244511ce259c') in 0.000463 seconds
+  Time since last request: 11.040427 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlashInit.prefab
+  artifactKey: Guid(2fd4a9f57fe914c4d9d2db7352438175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_04/(Opt)Effect_04_CustomParts/(Opt)Effect_04_SwordSlashInit.prefab using Guid(2fd4a9f57fe914c4d9d2db7352438175) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.058 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.107 ms.
+ -> (artifact id: '82e1c0e67f85d746fd7e81cddf626908') in 0.043392 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 1968ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1393ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6321 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (5.3 MB). Loaded Objects now: 7368.
+Memory consumption went from 330.2 MB to 324.9 MB.
+Total: 4.652400 ms (FindLiveObjects: 0.816800 ms CreateObjectMapping: 0.224100 ms MarkObjects: 2.819700 ms  DeleteObjects: 0.790700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.045297 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Idle.dae
-  artifactKey: Guid(98b31b4e967366a47838bc3b0df1ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Idle.dae using Guid(98b31b4e967366a47838bc3b0df1ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f85ea9a2a91bc48e06cd985831518d') in 0.452428 seconds
+  Time since last request: 227.507567 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Smoke.mat
+  artifactKey: Guid(fe455d785304f8241b4a1a9f6f4a0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Smoke.mat using Guid(fe455d785304f8241b4a1a9f6f4a0ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.134 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.203 ms.
+ -> (artifact id: '14b904c36c582d4ebcae9d6548e647fe') in 0.789149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 3.217648 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.254 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.017 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.161 ms.
+ -> (artifact id: 'b5c879781b9df5c93a6acb8cf6308ceb') in 0.102701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.435173 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.273 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.015 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.042 ms.
+ -> (artifact id: '4e7336ed5736925c7646626f13a5add4') in 0.065772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.849988 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.293 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.102 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.063 ms.
+ -> (artifact id: '4e3b867d0ba48769578c7b3bb0a20b2a') in 0.059969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 9.503115 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.618 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 11.003 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 10.394 ms.
+ -> (artifact id: '380ddd600f7f04bb29b015f57039e068') in 0.098858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.890423 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.276 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.602 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.334 ms.
+ -> (artifact id: '2dc3bd2775ede0041f5c4d89cd833a9b') in 0.064632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 14.330934 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab
+  artifactKey: Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneHitEffect.prefab using Guid(9e7cb33ffcb433142b7093dabc141d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.257 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.025 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.229 ms.
+ -> (artifact id: '43922140a13510b0fd7957d3148be656') in 0.061695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 1.819789 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Particle.mat
+  artifactKey: Guid(9da622fb82a480443a0969ca67474cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Particle.mat using Guid(9da622fb82a480443a0969ca67474cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce938d6ace8b88396633f2023909a3') in 0.023357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.410694 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Distortion.mat
+  artifactKey: Guid(c9ea937dcbbbe05449e0d9b9d90c52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_05_Materials/Effect_05_Distortion.mat using Guid(c9ea937dcbbbe05449e0d9b9d90c52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a28d44a3f512eaf2545034573c6d7fd') in 0.016196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.565054 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7850740b4064336c8c832116bc3e61') in 0.057211 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 168
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 22.362497 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Animator.controller
-  artifactKey: Guid(53514987ac6e24f409626f4e7cfe1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Animator.controller using Guid(53514987ac6e24f409626f4e7cfe1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b8052e90f8087a160bd61994764564') in 0.004065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 7.142854 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Idle.dae
-  artifactKey: Guid(98b31b4e967366a47838bc3b0df1ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Idle.dae using Guid(98b31b4e967366a47838bc3b0df1ae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193023eb8fbb745d849ebc8da60a3a89') in 0.355650 seconds
+  Time since last request: 5.954510 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a39350b29663bbcd2b4dd14ed35270') in 0.033039 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 168
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 2.270132 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Walking.dae
-  artifactKey: Guid(50e3adcda3945e84ba115ab0d487caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Walking.dae using Guid(50e3adcda3945e84ba115ab0d487caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f27ed4bcb9e85ac22f70a0d5491a0a0') in 0.005787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 3.421092 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Zombie Scream.dae
-  artifactKey: Guid(c3c8f04637a714a4fbbc0b2411f7ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Zombie Scream.dae using Guid(c3c8f04637a714a4fbbc0b2411f7ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1e72fb7bb0d34399b14e1fbebc1b89') in 0.005371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 128.797403 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Charge.dae
-  artifactKey: Guid(f839e1c68eb3f5c4ea1d94d202119115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Charge.dae using Guid(f839e1c68eb3f5c4ea1d94d202119115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad082bd1fd04d18615c7d703e3f0b6fe') in 0.004706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Walking.dae
-  artifactKey: Guid(1acca83225cc6d6439d333fa79295b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Walking.dae using Guid(1acca83225cc6d6439d333fa79295b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5c2ef5eedf764db4d2e4617a144b43') in 0.004834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 2.234212 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Animator.controller
-  artifactKey: Guid(ce404948323e72b40b44826cebc091e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Animator.controller using Guid(ce404948323e72b40b44826cebc091e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a42966dd089180976a6421fd2543b1') in 0.004130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 27.047652 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Idle.dae
-  artifactKey: Guid(07527bc430aedf946987cab6d25b033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Idle.dae using Guid(07527bc430aedf946987cab6d25b033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736ac6941cf405ac56214997375bf271') in 0.090530 seconds
+  Time since last request: 1.961972 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481e227f2e3940f776fc4df6e4efa14c') in 0.040718 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 2.643084 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Walking.dae
-  artifactKey: Guid(1acca83225cc6d6439d333fa79295b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Walking.dae using Guid(1acca83225cc6d6439d333fa79295b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c4ffcada4c088efd661353d7b51d40') in 0.005311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 3.381898 seconds.
-  path: Assets/Resources/Character/Epic/Urnil_E/Charge.dae
-  artifactKey: Guid(f839e1c68eb3f5c4ea1d94d202119115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Urnil_E/Charge.dae using Guid(f839e1c68eb3f5c4ea1d94d202119115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d852a52d892b3ca6fb69379142e3d0') in 0.004415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 61.271561 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E/Animator.controller
-  artifactKey: Guid(53514987ac6e24f409626f4e7cfe1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E/Animator.controller using Guid(53514987ac6e24f409626f4e7cfe1e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252bae1a53c402b335ac7ced95289fd9') in 0.004101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 37.020372 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Idle.dae
-  artifactKey: Guid(b5c9d15987137ad4e961e665e6638493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Idle.dae using Guid(b5c9d15987137ad4e961e665e6638493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b9b2485903a6936314158681a6cfd5') in 0.078109 seconds
+  Time since last request: 1.141802 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6b883fe7e3d0de5b11c51bf38e61cf') in 0.027309 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 149
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 1.766032 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Animator.controller
-  artifactKey: Guid(2026fa28195dfd7449a8be0614f4027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Animator.controller using Guid(2026fa28195dfd7449a8be0614f4027c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5e441138f1990c8dcc83e897580581') in 0.004236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 50.603593 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E
-  artifactKey: Guid(9518833d32a8d3546b92a38cb387f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E using Guid(9518833d32a8d3546b92a38cb387f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e73de160fcdaf585c20242653e0125') in 0.000590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 167.581072 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Frisbee Throw.dae
-  artifactKey: Guid(d93c542aad02d914eb733b7553e18c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Frisbee Throw.dae using Guid(d93c542aad02d914eb733b7553e18c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b772ab2d923e4b514febe7a066faaea') in 0.005041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae
-  artifactKey: Guid(aa849a5a519d1d94d8369662a9cdbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae using Guid(aa849a5a519d1d94d8369662a9cdbfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2827f6f6de32e80ef3efe3186f615d8') in 0.004859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 305.938722 seconds.
-  path: Assets/Resources/Character/Epic/Osphere_E/Gingerwhale_E
-  artifactKey: Guid(513ff235a34e6e249bf64b79a14c49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Osphere_E/Gingerwhale_E using Guid(513ff235a34e6e249bf64b79a14c49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8141fd53bf432653e0b2ec2440ea10') in 0.000857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.245394 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Casting Spell.dae
-  artifactKey: Guid(baba9dc0b4c5e4944806f6bda3cad57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Casting Spell.dae using Guid(baba9dc0b4c5e4944806f6bda3cad57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5734a973ef98bae66ec4e4dd767ad0ae') in 0.006255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae
-  artifactKey: Guid(b48d5deda54617642bbe4273cf431ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae using Guid(b48d5deda54617642bbe4273cf431ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15e998a4713fdc7047ca38c9864264') in 0.004951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 12.625288 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Animator.controller
-  artifactKey: Guid(f025aac189391184abe88af223b99885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Animator.controller using Guid(f025aac189391184abe88af223b99885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576fb3ed2cc1d8cdd51493226cfb0ad4') in 0.003832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 8.183498 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Idle.dae
-  artifactKey: Guid(2acf7d4789a8ff949beffcdffe671da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Idle.dae using Guid(2acf7d4789a8ff949beffcdffe671da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c908e4914e3bbf5a07ce46660eb2d9f') in 0.120499 seconds
+  Time since last request: 7.611142 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0be8622ee3da316b2829593ea1fea94') in 0.023593 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 2.401964 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae
-  artifactKey: Guid(b48d5deda54617642bbe4273cf431ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Walking.dae using Guid(b48d5deda54617642bbe4273cf431ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6b95a2de49e0367f6e682b6c46a7c8') in 0.005494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 2.638851 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E/Casting Spell.dae
-  artifactKey: Guid(baba9dc0b4c5e4944806f6bda3cad57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E/Casting Spell.dae using Guid(baba9dc0b4c5e4944806f6bda3cad57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481c318ab19201d97b78e2b5a2c7534f') in 0.004827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 103.983473 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E/Idle.dae
-  artifactKey: Guid(a6c4b354f309b514c9fda5eef4e3d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E/Idle.dae using Guid(a6c4b354f309b514c9fda5eef4e3d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9815ee767713d3d919e8ccf6010ca985') in 0.088256 seconds
+  Time since last request: 4.797087 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab
+  artifactKey: Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_05/(Opt)Effect_05_CustomParts/(Opt)Effect_05_StoneObject.prefab using Guid(f8bd7e5e98451564e91faec0966ec91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bd6b86bdbaab0d706578918f8c1581') in 0.029509 seconds
 Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
 To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 1.461393 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E/Animator.controller
-  artifactKey: Guid(67813d2f08f900b4ea0a03ef164e4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E/Animator.controller using Guid(67813d2f08f900b4ea0a03ef164e4389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4584ac6e3b4ab2eca68dd8e6be12efc') in 0.004573 seconds
+  Time since last request: 31.636736 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.116 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 10.614 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 4.534 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 10.592 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 12.181 ms.
+ -> (artifact id: '8afcd3dedf8f4df19d476bda233f77f1') in 0.210464 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 6.451725 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E/Idle.dae
-  artifactKey: Guid(a6c4b354f309b514c9fda5eef4e3d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E/Idle.dae using Guid(a6c4b354f309b514c9fda5eef4e3d0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02e64f1f10bfca59883c50d888b292c') in 0.087228 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab
+  artifactKey: Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab using Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52962f4f9241a1e881317d0635780888') in 0.032061 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
-========================================================================
-Received Import Request.
-  Time since last request: 2.791093 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E/Standing Taunt Battlecry.dae
-  artifactKey: Guid(22482682683237e48b138f1bb13f5e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E/Standing Taunt Battlecry.dae using Guid(22482682683237e48b138f1bb13f5e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82795445e5c92a2bb7e21d50894ed9ad') in 0.005212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 2.723676 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E/Walking.dae
-  artifactKey: Guid(8971479923363644aa9dcc0f3f87f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E/Walking.dae using Guid(8971479923363644aa9dcc0f3f87f5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb4e8cf8be8d97618ef509924992d05') in 0.004400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 139
-========================================================================
-Received Import Request.
-  Time since last request: 92.668800 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Gunplay.dae
-  artifactKey: Guid(09d418f463a3f144ba02c2a6024ffc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Gunplay.dae using Guid(09d418f463a3f144ba02c2a6024ffc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69091af52cc394ca52f144e8691cdb57') in 0.004405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Walking.dae
-  artifactKey: Guid(768c8e41e0b8b474cb8409c83a329af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Walking.dae using Guid(768c8e41e0b8b474cb8409c83a329af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b154c0f7559fbb721803e961edcec09b') in 0.004535 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 1.544891 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Animator.controller
-  artifactKey: Guid(cd090fc8ea7321549984f5723820fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Animator.controller using Guid(cd090fc8ea7321549984f5723820fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5367acce43f343169ab1355f921a27c1') in 0.004809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 8.805637 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Gunplay.dae
-  artifactKey: Guid(09d418f463a3f144ba02c2a6024ffc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Gunplay.dae using Guid(09d418f463a3f144ba02c2a6024ffc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75e11e24d8eeea68856a56378ff12bd') in 0.004253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 2.585220 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Idle.dae
-  artifactKey: Guid(d4b5347a4afe1274dac6325bb0057fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Idle.dae using Guid(d4b5347a4afe1274dac6325bb0057fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d681c75f036b57fed5bd6e13a2b1c3') in 0.057022 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 141
-========================================================================
-Received Import Request.
-  Time since last request: 2.346879 seconds.
-  path: Assets/Resources/Character/Epic/Cardan_E/Walking.dae
-  artifactKey: Guid(768c8e41e0b8b474cb8409c83a329af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Cardan_E/Walking.dae using Guid(768c8e41e0b8b474cb8409c83a329af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5690207fa262eec75a700816ff54f5c6') in 0.005088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 135
-========================================================================
-Received Import Request.
-  Time since last request: 59.058823 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Hands Forward Gesture.dae
-  artifactKey: Guid(1ef0b3d6f8e5b65459dd9bc1a048a86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Hands Forward Gesture.dae using Guid(1ef0b3d6f8e5b65459dd9bc1a048a86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce5d3e7b0ecbee8371326e5e180ca1a') in 0.005239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 171
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Walking.dae
-  artifactKey: Guid(63b2c27729e0cfc4597e15a1c287eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Walking.dae using Guid(63b2c27729e0cfc4597e15a1c287eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c5ddc80113d520103fdb90795fbe6') in 0.004771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 171
-========================================================================
-Received Import Request.
-  Time since last request: 0.890641 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Animator.controller
-  artifactKey: Guid(ca5c0f216bb767747a91ebe411c4010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Animator.controller using Guid(ca5c0f216bb767747a91ebe411c4010d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355467dbf9eabd1547545b004b4e0756') in 0.004208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 6.954483 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Idle.dae
-  artifactKey: Guid(de16d42bc04f4ae4290b0ff55046cacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Idle.dae using Guid(de16d42bc04f4ae4290b0ff55046cacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd54d6c68038096bf2a84ab97341a192') in 0.177057 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 193
-========================================================================
-Received Import Request.
-  Time since last request: 2.344022 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Walking.dae
-  artifactKey: Guid(63b2c27729e0cfc4597e15a1c287eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Walking.dae using Guid(63b2c27729e0cfc4597e15a1c287eb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1273268be54f6a467bb80d22a572e7') in 0.005476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 171
-========================================================================
-Received Import Request.
-  Time since last request: 2.871185 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E/Hands Forward Gesture.dae
-  artifactKey: Guid(1ef0b3d6f8e5b65459dd9bc1a048a86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E/Hands Forward Gesture.dae using Guid(1ef0b3d6f8e5b65459dd9bc1a048a86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99b1cb3a9b1eaa0561d4f3303593886') in 0.004471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 171
-========================================================================
-Received Import Request.
-  Time since last request: 62.419443 seconds.
-  path: Assets/Resources/Character/Epic/Summoner_E.prefab
-  artifactKey: Guid(5e1b97e599f390e4e8702e1ea9f1d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Summoner_E.prefab using Guid(5e1b97e599f390e4e8702e1ea9f1d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b02b33e73a02062e1a08393aeac13b6') in 0.135034 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 425
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/Character/Epic/Kungelanium_E.prefab
-  artifactKey: Guid(133b6c3c9dcf4e341b1802fc54a5b723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Kungelanium_E.prefab using Guid(133b6c3c9dcf4e341b1802fc54a5b723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c8c84047061eac015ceeefe11db423') in 0.063988 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 373
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/Resources/Character/Epic/Holyknight_E.prefab
-  artifactKey: Guid(ab2a4ba2c5ed9dd42895fe43d3ddcbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Holyknight_E.prefab using Guid(ab2a4ba2c5ed9dd42895fe43d3ddcbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138b5353cea9bc069cfaadf40b50b6c4') in 0.062402 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab
+  artifactKey: Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab using Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b4dde82cb705919452d013838a0750') in 0.019163 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 338
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 15.199435 seconds.
-  path: Assets/Resources/Character/Epic/Gingerwhale_E.prefab
-  artifactKey: Guid(e2ff4a9f3375bb746afdc961fe28fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Epic/Gingerwhale_E.prefab using Guid(e2ff4a9f3375bb746afdc961fe28fbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c46a266d0752da74f473a91818e792') in 0.060251 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 169.677677 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.058 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.692 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.166 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.066 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.671 ms.
+ -> (artifact id: '9c19a8459c1fcff7a23a67ffc7ab8a94') in 0.096945 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 338
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 5.074848 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.056 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.717 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.123 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.420 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.375 ms.
+ -> (artifact id: 'ae947c13bbcd8075174cef8e387fafdf') in 0.096660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 3.479918 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.053 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.561 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.466 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.190 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.484 ms.
+ -> (artifact id: '225f98ba29a64994cf562febf7107410') in 0.099774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 22.874807 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.023 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.371 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 0.567 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.317 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 1.325 ms.
+ -> (artifact id: '85860c887915609f3fcf5edc177b0c49') in 0.066293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 10.812135 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.055 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.266 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.531 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.133 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.069 ms.
+ -> (artifact id: 'c9683d65fe3ac9a3f596f2d47c8e85cc') in 0.091941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 5.345140 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Distortion.mat
+  artifactKey: Guid(07f8b9b932059b147801e77547b9fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Distortion.mat using Guid(07f8b9b932059b147801e77547b9fb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea49864c616d6b8402ab79b1a8a80389') in 0.029393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.103217 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.054 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.227 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.241 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.023 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.033 ms.
+ -> (artifact id: 'c5d74d70ccd7a7ad64f29c93910b91f7') in 0.094530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.122659 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Smoke.mat
+  artifactKey: Guid(3d41c6e386bdedf479458df39f375ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Smoke.mat using Guid(3d41c6e386bdedf479458df39f375ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 5.415 ms.
+ -> (artifact id: '49e1823b4df41582a376c8612118cdd1') in 0.045155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.356677 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab
+  artifactKey: Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect.prefab using Guid(e6cbe6d67c63da54095fbb23d8d776d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.058 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.136 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.160 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.022 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.185 ms.
+ -> (artifact id: '496f3cdfa7b6b09d42bc9ba98686bc1e') in 0.092002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 386.282766 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect_2.prefab
+  artifactKey: Guid(d86042f698f5106479fcb319243aac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect_2.prefab using Guid(d86042f698f5106479fcb319243aac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.062 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.407 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.161 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.281 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.028 ms.
+ -> (artifact id: 'f5673fe2bc4075b8738ac8c6578216fa') in 0.100395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 5.661288 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect_2.prefab
+  artifactKey: Guid(d86042f698f5106479fcb319243aac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalEffect_2.prefab using Guid(d86042f698f5106479fcb319243aac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d12: upload buffer was full! Waited for COPY queue for 0.061 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.284 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 2.268 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.030 ms.
+d3d12: upload buffer was full! Waited for COPY queue for 5.307 ms.
+ -> (artifact id: '19d11ca9f7da7770effbd76ffb318b31') in 0.090268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.826342 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Particle.mat
+  artifactKey: Guid(46a36f7438e12094d939f24c979cc42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/Materials/Effect_06_Materials/Effect_06_Particle.mat using Guid(46a36f7438e12094d939f24c979cc42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac096702f76a72f8c60ed3ceea6cc207') in 0.021260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.377509 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab
+  artifactKey: Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab using Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686e601faea09bfde96731f2df37f7ee') in 0.024348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 4.572439 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab
+  artifactKey: Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle.prefab using Guid(5acf644a62aee5b40bee53af2e74f0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42737382e70bdac8964f9d8fb1eb55c5') in 0.029701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 14.941618 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab
+  artifactKey: Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab using Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c93105f066ef95eb2a4b7aa4a75fabc') in 0.022637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.510960 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab
+  artifactKey: Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab using Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7556992e30e1f01c8695f56f3b6051ce') in 0.016590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1.157831 seconds.
+  path: Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab
+  artifactKey: Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Effect/FantasySpellsEffectsPack/AllEffects/Optimized/(Opt)Effect_06/(Opt)Effect_06_CustomParts/(Opt)Effect_06_PortalParticle_2.prefab using Guid(ca112bf29bc861147929825a31bfb4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac210f7f98f8653e2f7d0f37ad9a6d8b') in 0.018321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.571 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.457 seconds
+Domain Reload Profiling: 2027ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1457ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (348ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6326 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (3.0 MB). Loaded Objects now: 7510.
+Memory consumption went from 335.9 MB to 332.9 MB.
+Total: 4.339200 ms (FindLiveObjects: 0.812900 ms CreateObjectMapping: 0.232500 ms MarkObjects: 2.787400 ms  DeleteObjects: 0.505500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

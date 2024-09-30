@@ -34,7 +34,6 @@ public class MultiCircleObjectMake : _ObjectMakeBase {
             { 
                 GameObject m_obj = Instantiate(m_makeObjs[i], transform.position + new Vector3(pos_X,0,pos_Z), Quaternion.LookRotation(new Vector3(pos_X,0,pos_Z)) * m_makeObjs[i].transform.rotation);
                 m_obj.transform.parent =this.transform;
-
                 if (m_movePos)
                 {
                     if (m_obj.GetComponent<MoveToObject>())

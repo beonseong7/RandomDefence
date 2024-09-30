@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\multiRun.cs" />
     <Compile Include="Assets\Editor\DuplicateComponentsEditor.cs" />
+    <Compile Include="Assets\Editor\NewBehaviourScript.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
     <Compile Include="Assets\Editor\ShaderAnimator.cs" />
   </ItemGroup>

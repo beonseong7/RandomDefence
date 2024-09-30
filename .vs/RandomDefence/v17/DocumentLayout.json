@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\bsroom\\Unity_Project\\RandomDefence\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\streamingassets\\recipe.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\streamingassets\\recipe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|d:\\bsroom\\unity_project\\randomdefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\multiobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\multiobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\multicircleobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\multicircleobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\fowardobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\fowardobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\simpleobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +23,32 @@
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\effectsscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\material_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\material_change.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\scalechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\scalechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\delayobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\delayobjectmake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\_objectmakebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\effect\\fantasyspellseffectspack\\scripts\\object\\_objectmakebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\streamingassets\\recipe.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\streamingassets\\recipe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\ingamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAAF57D9-F4A8-336D-1B77-7EE7A4B21675}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescript\\character_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320B8905-9176-3A9B-853A-A3A512B94744}|PhotonUnityNetworking.csproj|D:\\bsroom\\Unity_Project\\RandomDefence\\assets\\photon\\photonunitynetworking\\code\\photonnetwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -166,8 +190,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaleChange.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\ScaleChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\ScaleChange.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\ScaleChange.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\ScaleChange.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA5wBEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:32:06.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MultiObjectMake.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiObjectMake.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiObjectMake.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiObjectMake.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiObjectMake.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvx0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:31:46.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiCircleObjectMake.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiCircleObjectMake.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiCircleObjectMake.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiCircleObjectMake.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\MultiCircleObjectMake.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:31:28.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Material_Change.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\Material_Change.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\Material_Change.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\Material_Change.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\Material_Change.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:31:22.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FowardObjectMake.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\FowardObjectMake.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\FowardObjectMake.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\FowardObjectMake.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\FowardObjectMake.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwCUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:30:35.497Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -176,21 +261,9 @@
               "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\EffectsScene.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\EffectsScene.cs",
               "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\EffectsScene.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAABCwDcAAAAWAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwDcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T10:07:44.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DelayObjectMake.cs",
-              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
-              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
-              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
-              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA5wBUAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T10:05:54.512Z"
             },
             {
               "$type": "Document",
@@ -200,13 +273,37 @@
               "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\SimpleObjectMake.cs",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\SimpleObjectMake.cs",
               "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\SimpleObjectMake.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T10:00:45.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "_ObjectMakeBase.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\_ObjectMakeBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\_ObjectMakeBase.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\_ObjectMakeBase.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\_ObjectMakeBase.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:30:16.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DelayObjectMake.cs",
+              "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
+              "RelativeDocumentMoniker": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
+              "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
+              "RelativeToolTip": "Assets\\Resources\\Effect\\FantasySpellsEffectsPack\\Scripts\\Object\\DelayObjectMake.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T10:05:54.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "InGameManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\InGameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\InGameManager.cs",
@@ -218,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "ChatChannel.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Code\\ChatChannel.cs",
@@ -230,20 +327,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "recipe.txt",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
               "RelativeDocumentMoniker": "Assets\\StreamingAssets\\recipe.txt",
               "ToolTip": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\StreamingAssets\\recipe.txt",
               "RelativeToolTip": "Assets\\StreamingAssets\\recipe.txt",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAFYAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA4wFYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-06T06:00:56.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T06:00:56.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "multiRun.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\multiRun.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\multiRun.cs",
@@ -255,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "GameRoom.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameRoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameRoom.cs",
@@ -267,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Character_.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Character_.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Character_.cs",
@@ -279,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Charac_Data.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Charac_Data.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Charac_Data.cs",
@@ -291,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "PhotonManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\PhotonManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PhotonManager.cs",
@@ -303,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "EffectsScene.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\FantasySpellsEffectsPack\\Scripts\\EffectsScene.cs",
               "RelativeDocumentMoniker": "Assets\\FantasySpellsEffectsPack\\Scripts\\EffectsScene.cs",
@@ -315,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Login.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Login.cs",
@@ -327,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Data_Struct.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Data_Struct.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Data_Struct.cs",
@@ -339,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "DuplicateComponentsEditor.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\DuplicateComponentsEditor.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\DuplicateComponentsEditor.cs",
@@ -351,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "PhotonNetwork.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetwork.cs",
@@ -363,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Register.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Register.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Register.cs",
@@ -375,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "Lobby.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\Lobby.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Lobby.cs",
@@ -387,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "GameManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -399,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "MobScript.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\MobScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\MobScript.cs",
@@ -411,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Button.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Button.cs",
@@ -423,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AssetStoreTools.dll",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\AssetStoreTools\\Editor\\AssetStoreTools.dll",
               "RelativeDocumentMoniker": "Assets\\AssetStoreTools\\Editor\\AssetStoreTools.dll",
@@ -434,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ShaderAnimator.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Editor\\ShaderAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\ShaderAnimator.cs",
@@ -446,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Effect_Script.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\Effect_Script.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\Effect_Script.cs",
@@ -458,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "RecipeButton.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\RecipeButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\RecipeButton.cs",
@@ -470,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "mouseinter.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\mouseinter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\mouseinter.cs",
@@ -482,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "PunClasses.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PunClasses.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PunClasses.cs",
@@ -494,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "CamMove.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\GameScript\\CamMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScript\\CamMove.cs",
@@ -506,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "PhotonTransformView.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\Views\\PhotonTransformView.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\Views\\PhotonTransformView.cs",
@@ -518,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "SGBlackboardCategory.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.shadergraph@14.0.10\\Editor\\Drawing\\Blackboard\\SGBlackboardCategory.cs",
@@ -530,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "VFXGraphCompiledData.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.10\\Editor\\Compiler\\VFXGraphCompiledData.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.10\\Editor\\Compiler\\VFXGraphCompiledData.cs",
@@ -542,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "VFXShaderGraphParticleOutput.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.visualeffectgraph@14.0.10\\Editor\\ShaderGraph\\VFXShaderGraphParticleOutput.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualeffectgraph@14.0.10\\Editor\\ShaderGraph\\VFXShaderGraphParticleOutput.cs",
@@ -554,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "NewSurfaceShader.shader",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Resources\\Character\\Common\\NewSurfaceShader.shader",
               "RelativeDocumentMoniker": "Assets\\Resources\\Character\\Common\\NewSurfaceShader.shader",
@@ -566,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "HDRenderPipelineGlobalSettings.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.10\\Runtime\\RenderPipeline\\HDRenderPipelineGlobalSettings.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.10\\Runtime\\RenderPipeline\\HDRenderPipelineGlobalSettings.cs",
@@ -578,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "SkyManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.10\\Runtime\\Sky\\SkyManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.10\\Runtime\\Sky\\SkyManager.cs",
@@ -590,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "PhotonNetworkPart.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonNetworkPart.cs",
@@ -602,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "PhotonView.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonView.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Code\\PhotonView.cs",
@@ -614,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "LoadingSceneManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Scripts\\LoadingSceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingSceneManager.cs",
@@ -626,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "DemoHubManager.cs",
               "DocumentMoniker": "D:\\bsroom\\Unity_Project\\RandomDefence\\Assets\\Photon\\PhotonUnityNetworking\\Demos\\DemoHub\\Scripts\\DemoHubManager.cs",
               "RelativeDocumentMoniker": "Assets\\Photon\\PhotonUnityNetworking\\Demos\\DemoHub\\Scripts\\DemoHubManager.cs",

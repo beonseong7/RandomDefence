@@ -36,7 +36,6 @@ public class FowardObjectMake : _ObjectMakeBase {
             { 
                 GameObject m_obj = Instantiate(m_makeObjs[i], pos, rot);
                 m_obj.transform.parent = this.transform;
-
                 if (m_movePos)
                 {
                     if (m_obj.GetComponent<MoveToObject>())

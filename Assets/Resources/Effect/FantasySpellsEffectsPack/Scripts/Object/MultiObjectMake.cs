@@ -28,7 +28,6 @@ public class MultiObjectMake : _ObjectMakeBase {
                 { 
                     GameObject m_obj = Instantiate(m_makeObjs[i], m_pos, m_rot);
                     m_obj.transform.parent = this.transform;
-
                     if (m_movePos)
                     {
                         if (m_obj.GetComponent<MoveToObject>())
