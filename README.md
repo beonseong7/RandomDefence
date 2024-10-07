@@ -98,3 +98,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.04 RandomDefence 파티클 스크립트 작성  
 2024.10.05 RandomDefence 맵 테라리안 추가  
 2024.10.06 RandomDefence 맵 테라리안 추가  
+2024.10.07 무피 행사진행  
