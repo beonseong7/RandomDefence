@@ -101,3 +101,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.07 무피 행사진행  
 2024.10.08 RandomDefence 팀 미션 추가  
 2024.10.09 RandomDefence 팀 미션 추가  
+2024.10.15 RandomDefence Epic등급 캐릭터 스크립트 수정 및 팀 미션용 타워 스크립트 수정  
