@@ -102,4 +102,5 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.08 RandomDefence 팀 미션 추가  
 2024.10.09 RandomDefence 팀 미션 추가  
 2024.10.15 RandomDefence Epic등급 캐릭터 스크립트 수정 및 팀 미션용 타워 스크립트 수정  
-2024.10.15 RandomDefence Epic등급 캐릭터 이펙트 사운드 추가 및 클릭 사운드 추가  
+2024.10.16 RandomDefence Epic등급 캐릭터 이펙트 사운드 추가 및 클릭 사운드 추가  
+2024.10.17 RandomDefence Epic등급 캐릭터 이펙트 사운드 설정  
