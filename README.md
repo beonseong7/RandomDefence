@@ -107,3 +107,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.18 RandomDefence Epic등급 캐릭터 이펙트 사운드 설정  
 2024.10.19 RandomDefence Epic등급 캐릭터 이펙트 사운드 설정  
 2024.10.20 RandomDefence Epic등급 캐릭터 이펙트 스폰 및 사운드 조절  
+2024.10.22 RandomDefence 캐릭터 데미지 표시 UI 제작  
