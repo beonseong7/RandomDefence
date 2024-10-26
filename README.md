@@ -110,3 +110,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.22 RandomDefence 캐릭터 데미지 표시 UI 제작  
 2024.10.23 RandomDefence 성벽 오브젝트 추가  
 2024.10.25 Epic캐릭터 전용 이펙트 로드 방식 수정  
+2024.10.26 발표자료 작성  
