@@ -112,3 +112,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.25 Epic캐릭터 전용 이펙트 로드 방식 수정  
 2024.10.26 발표자료 작성  
 2024.10.27 발표자료 작성  
+2024.10.28 발표자료 작성  
