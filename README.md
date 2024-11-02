@@ -116,3 +116,4 @@ RandomDefence 웹페이지 링크 : http://beonseong7.dothome.co.kr/View/Main.ht
 2024.10.29 발표자료 작성  
 2024.10.30 발표자료 작성  
 2024.10.31 발표  
+2024.11.02 발표  
